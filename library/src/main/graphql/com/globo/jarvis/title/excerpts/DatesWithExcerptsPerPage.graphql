@@ -1,0 +1,18 @@
+query DatesWithExcerpts(
+    $titleId: String!,
+    $page: Int!,
+    $perPage: Int!,
+    $startDate: Date,
+    $endDate: Date
+) {
+    title(titleId: $titleId) {
+        structure {
+            ...ExcerptsDateList
+        }
+    }
+}
+fragment ExcerptsDateList on EpisodeListStructure {
+    datesWithExcerpts(page: $page, perPage: $perPage, dateRange: { gte: $startDate, lte: $endDate }) {
+        resources
+    }
+}

@@ -1,0 +1,9 @@
+{
+  "data": {
+    "titles": {
+      "__typename": "TitleCollection",
+      "resources": [
+      ]
+    }
+  }
+}

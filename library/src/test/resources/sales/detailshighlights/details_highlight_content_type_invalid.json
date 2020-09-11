@@ -1,0 +1,18 @@
+{
+  "data": {
+    "highlight": {
+      "__typename": "Highlight",
+      "contentType": "TITLE",
+      "logo": {
+        "__typename": "HighlightLogo",
+        "mobile": null,
+        "tablet": null
+      },
+      "offerImage": {
+        "__typename": "HighlightOfferImage",
+        "mobile": "https://s2.glbimg.com/nGgMBhMDqrEpkOUQDzvCvuy1fQ4=/359x202/https://s2.glbimg.com/DPkehA70aHR_Ut7WN44Yag0DplI=/https://i.s3.glbimg.com/v1/AUTH_c3c606ff68e7478091d1ca496f9c5625/internal_photos/bs/2019/p/A/u7pyRUSAK0n09pE5Dm9g/2018-225-midia-kit-series-multishow-lady-night-destaque-foco-centro.jpg",
+        "tablet": "https://s2.glbimg.com/84-E9iIX6FiRJkbQCCqKaPeOetI=/764x430/https://s2.glbimg.com/3aXvY-aTRzqAwEEnUFjQ5W2pOlk=/https://i.s3.glbimg.com/v1/AUTH_c3c606ff68e7478091d1ca496f9c5625/internal_photos/bs/2019/B/B/aCXf3kQvi7UkTz6Ic7oA/2018-225-midia-kit-series-multishow-lady-night-destaque-foco-direita.jpg"
+      }
+    }
+  }
+}

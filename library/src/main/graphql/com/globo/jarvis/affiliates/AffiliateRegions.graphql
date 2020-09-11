@@ -1,0 +1,12 @@
+query AffiliateRegions {
+  affiliate {
+    affiliateStates {
+      acronym
+      regions {
+        name
+        slug
+        affiliateName
+      }
+    }
+  }
+}

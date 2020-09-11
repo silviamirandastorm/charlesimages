@@ -1,0 +1,144 @@
+{
+  "data": {
+    "user": {
+      "__typename": "User",
+      "myListTitles": {
+        "__typename": "TitleCollection",
+        "hasNextPage": false,
+        "nextPage": null,
+        "resources": [
+          {
+            "__typename": "Title",
+            "originProgramId": "11227",
+            "titleId": "jxbWwPsRvj",
+            "headline": "Supernatural",
+            "type": "SERIE",
+            "poster": {
+              "__typename": "Poster",
+              "mobile": "https://s2.glbimg.com/uBj20fuigtG6fuPBjWMcvQclRTE=/100x152/https://s2.glbimg.com/AqeMj7-8MpTLopGvPzwqYghKalE=/i.s3.glbimg.com/v1/AUTH_c3c606ff68e7478091d1ca496f9c5625/internal_photos/bs/2019/h/F/A8ypw5Qqyluy5DR4NX0Q/2019-278-series-warner1-supernatural-poster.jpg",
+              "tablet": "https://s2.glbimg.com/9nOjEZ53wpNtdE3i9NkOkEFfO8s=/144x212/https://s2.glbimg.com/AqeMj7-8MpTLopGvPzwqYghKalE=/i.s3.glbimg.com/v1/AUTH_c3c606ff68e7478091d1ca496f9c5625/internal_photos/bs/2019/h/F/A8ypw5Qqyluy5DR4NX0Q/2019-278-series-warner1-supernatural-poster.jpg",
+              "tv": "https://s2.glbimg.com/ZAjP6FKPNptqqWwZ6xMySSOASeU=/146x216/https://s2.glbimg.com/AqeMj7-8MpTLopGvPzwqYghKalE=/i.s3.glbimg.com/v1/AUTH_c3c606ff68e7478091d1ca496f9c5625/internal_photos/bs/2019/h/F/A8ypw5Qqyluy5DR4NX0Q/2019-278-series-warner1-supernatural-poster.jpg"
+            }
+          },
+          {
+            "__typename": "Title",
+            "originProgramId": "11925",
+            "titleId": "VTBdTB5hP1",
+            "headline": "Doctor Who",
+            "type": "SERIE",
+            "poster": {
+              "__typename": "Poster",
+              "mobile": "https://s2.glbimg.com/saHt6zmesW62tnQD9Cb8tG4YRBY=/100x152/https://s2.glbimg.com/4ZoyHqO0DAqs0KwP8IDKKA8lcHM=/i.s3.glbimg.com/v1/AUTH_c3c606ff68e7478091d1ca496f9c5625/internal_photos/bs/2020/O/B/hKxFP5REuFFEIIGtT4Zw/2020-756-serie-bbc-doctor-who-poster.jpg",
+              "tablet": "https://s2.glbimg.com/B24viz7HBb-6EVg0Y_6mVyEvEjI=/144x212/https://s2.glbimg.com/4ZoyHqO0DAqs0KwP8IDKKA8lcHM=/i.s3.glbimg.com/v1/AUTH_c3c606ff68e7478091d1ca496f9c5625/internal_photos/bs/2020/O/B/hKxFP5REuFFEIIGtT4Zw/2020-756-serie-bbc-doctor-who-poster.jpg",
+              "tv": "https://s2.glbimg.com/0ls1U2QgBfPN9eu8hHV2eLUB7Tk=/146x216/https://s2.glbimg.com/4ZoyHqO0DAqs0KwP8IDKKA8lcHM=/i.s3.glbimg.com/v1/AUTH_c3c606ff68e7478091d1ca496f9c5625/internal_photos/bs/2020/O/B/hKxFP5REuFFEIIGtT4Zw/2020-756-serie-bbc-doctor-who-poster.jpg"
+            }
+          },
+          {
+            "__typename": "Title",
+            "originProgramId": "11967",
+            "titleId": "r7BgZjxTgQ",
+            "headline": "Turn: Os Espiões de Washington",
+            "type": "SERIE",
+            "poster": {
+              "__typename": "Poster",
+              "mobile": "https://s2.glbimg.com/gbym53rpW6XUEUFZRcf_xqL3-Jw=/100x152/https://s2.glbimg.com/ZPBZba1TLwf-iHo5MU2QI4y3lQ8=/i.s3.glbimg.com/v1/AUTH_c3c606ff68e7478091d1ca496f9c5625/internal_photos/bs/2020/m/P/ZamiryQa2xhhHgY9AFYw/2019-650-series-e-one-turn-poster.jpg",
+              "tablet": "https://s2.glbimg.com/Tk_FAkXB9K1h_pkNnyDEC0TA9Ec=/144x212/https://s2.glbimg.com/ZPBZba1TLwf-iHo5MU2QI4y3lQ8=/i.s3.glbimg.com/v1/AUTH_c3c606ff68e7478091d1ca496f9c5625/internal_photos/bs/2020/m/P/ZamiryQa2xhhHgY9AFYw/2019-650-series-e-one-turn-poster.jpg",
+              "tv": "https://s2.glbimg.com/r4EsZQ7ZHONoiOEoT5pC7tpyhOk=/146x216/https://s2.glbimg.com/ZPBZba1TLwf-iHo5MU2QI4y3lQ8=/i.s3.glbimg.com/v1/AUTH_c3c606ff68e7478091d1ca496f9c5625/internal_photos/bs/2020/m/P/ZamiryQa2xhhHgY9AFYw/2019-650-series-e-one-turn-poster.jpg"
+            }
+          },
+          {
+            "__typename": "Title",
+            "originProgramId": "12121",
+            "titleId": "jqvngb9dQG",
+            "headline": "Arcanjo Renegado",
+            "type": "SERIE",
+            "poster": {
+              "__typename": "Poster",
+              "mobile": "https://s2.glbimg.com/BrEjizKzKB7H3FO2a9gxOIFMckI=/100x152/https://s2.glbimg.com/NKlejFasr4fJvnxoOvhVbOV6Ez0=/i.s3.glbimg.com/v1/AUTH_c3c606ff68e7478091d1ca496f9c5625/internal_photos/bs/2020/a/W/gvAxtcSvWG1Ahjbqo7gQ/2020-782-arcanjo-renegado-poster.jpg",
+              "tablet": "https://s2.glbimg.com/qOZTzNXd0JyeOmJYEIiX61klDTA=/144x212/https://s2.glbimg.com/NKlejFasr4fJvnxoOvhVbOV6Ez0=/i.s3.glbimg.com/v1/AUTH_c3c606ff68e7478091d1ca496f9c5625/internal_photos/bs/2020/a/W/gvAxtcSvWG1Ahjbqo7gQ/2020-782-arcanjo-renegado-poster.jpg",
+              "tv": "https://s2.glbimg.com/HPDyrLx9by10O1r0kAvuTLvhp2E=/146x216/https://s2.glbimg.com/NKlejFasr4fJvnxoOvhVbOV6Ez0=/i.s3.glbimg.com/v1/AUTH_c3c606ff68e7478091d1ca496f9c5625/internal_photos/bs/2020/a/W/gvAxtcSvWG1Ahjbqo7gQ/2020-782-arcanjo-renegado-poster.jpg"
+            }
+          },
+          {
+            "__typename": "Title",
+            "originProgramId": "4595",
+            "titleId": "8m8QPSRNfN",
+            "headline": "Caminho das Índias",
+            "type": "TV_PROGRAM",
+            "poster": {
+              "__typename": "Poster",
+              "mobile": "https://s2.glbimg.com/ad8_UzzTTI0v18VY2f88GyvvrI0=/100x152/https://s2.glbimg.com/h2s8vuLCEEVMqyxaZK0Xb8c7uBM=/i.s3.glbimg.com/v1/AUTH_c3c606ff68e7478091d1ca496f9c5625/internal_photos/bs/2019/a/V/JQvvyBQSCVIqeuZoSXCQ/2019-356-midia-kit-alteracao-simbolo-posteres-remover-simbolo-emmy-caminho-das-indias-poster.jpg",
+              "tablet": "https://s2.glbimg.com/kVDdCAQP9enSqapy0NqiSti3BMI=/144x212/https://s2.glbimg.com/h2s8vuLCEEVMqyxaZK0Xb8c7uBM=/i.s3.glbimg.com/v1/AUTH_c3c606ff68e7478091d1ca496f9c5625/internal_photos/bs/2019/a/V/JQvvyBQSCVIqeuZoSXCQ/2019-356-midia-kit-alteracao-simbolo-posteres-remover-simbolo-emmy-caminho-das-indias-poster.jpg",
+              "tv": "https://s2.glbimg.com/f_ns_XdfDCQBKdC4EBPuSyuqOH8=/146x216/https://s2.glbimg.com/h2s8vuLCEEVMqyxaZK0Xb8c7uBM=/i.s3.glbimg.com/v1/AUTH_c3c606ff68e7478091d1ca496f9c5625/internal_photos/bs/2019/a/V/JQvvyBQSCVIqeuZoSXCQ/2019-356-midia-kit-alteracao-simbolo-posteres-remover-simbolo-emmy-caminho-das-indias-poster.jpg"
+            }
+          },
+          {
+            "__typename": "Title",
+            "originProgramId": "12040",
+            "titleId": "1GGhy7Dz5j",
+            "headline": "Sra. Wilson",
+            "type": "SERIE",
+            "poster": {
+              "__typename": "Poster",
+              "mobile": "https://s2.glbimg.com/02ufwVTunmJiCn_p1uY_dIhwGIA=/100x152/https://s2.glbimg.com/PNu-8fp6AD9yF6mHVTbf8DorAVs=/i.s3.glbimg.com/v1/AUTH_c3c606ff68e7478091d1ca496f9c5625/internal_photos/bs/2020/4/C/limQXpRnmxZtywdPMTAQ/2020-711-series-all3media-sra-wilson-poster.jpg",
+              "tablet": "https://s2.glbimg.com/266OV6hCsC4fwbw-plTA7AD3fbo=/144x212/https://s2.glbimg.com/PNu-8fp6AD9yF6mHVTbf8DorAVs=/i.s3.glbimg.com/v1/AUTH_c3c606ff68e7478091d1ca496f9c5625/internal_photos/bs/2020/4/C/limQXpRnmxZtywdPMTAQ/2020-711-series-all3media-sra-wilson-poster.jpg",
+              "tv": "https://s2.glbimg.com/0uyWp_V3z97NzDhF7Skoo2nrz9I=/146x216/https://s2.glbimg.com/PNu-8fp6AD9yF6mHVTbf8DorAVs=/i.s3.glbimg.com/v1/AUTH_c3c606ff68e7478091d1ca496f9c5625/internal_photos/bs/2020/4/C/limQXpRnmxZtywdPMTAQ/2020-711-series-all3media-sra-wilson-poster.jpg"
+            }
+          },
+          {
+            "__typename": "Title",
+            "originProgramId": "11540",
+            "titleId": "tm7GgWkVHT",
+            "headline": "Bom Sucesso",
+            "type": "TV_PROGRAM",
+            "poster": {
+              "__typename": "Poster",
+              "mobile": "https://s2.glbimg.com/08K4ojK891Z3WO0-961WWHJ8cEM=/100x152/https://s2.glbimg.com/H3E8w5OnoXJUNiIDqnZPH_efOCY=/i.s3.glbimg.com/v1/AUTH_c3c606ff68e7478091d1ca496f9c5625/internal_photos/bs/2019/u/m/suF9CISDiILozAvBGpDA/2019-485-midia-kit-bom-sucesso-poster.jpg",
+              "tablet": "https://s2.glbimg.com/I8hkaILXGWoo79283-Plqf7z9tU=/144x212/https://s2.glbimg.com/H3E8w5OnoXJUNiIDqnZPH_efOCY=/i.s3.glbimg.com/v1/AUTH_c3c606ff68e7478091d1ca496f9c5625/internal_photos/bs/2019/u/m/suF9CISDiILozAvBGpDA/2019-485-midia-kit-bom-sucesso-poster.jpg",
+              "tv": "https://s2.glbimg.com/_CCijuHXOMKsnWcbWl2RR2zZiDI=/146x216/https://s2.glbimg.com/H3E8w5OnoXJUNiIDqnZPH_efOCY=/i.s3.glbimg.com/v1/AUTH_c3c606ff68e7478091d1ca496f9c5625/internal_photos/bs/2019/u/m/suF9CISDiILozAvBGpDA/2019-485-midia-kit-bom-sucesso-poster.jpg"
+            }
+          },
+          {
+            "__typename": "Title",
+            "originProgramId": "10122",
+            "titleId": "pp1KwWdHtm",
+            "headline": "Gabriel Medina",
+            "type": "MOVIE",
+            "poster": {
+              "__typename": "Poster",
+              "mobile": "https://s2.glbimg.com/uZXAb7YKOpPSJlfiI_CeD9nEqQ4=/100x152/https://s2.glbimg.com/NwiqQ6XUT0P7Wp0cnCy2q-FRrCs=/i.s3.glbimg.com/v1/AUTH_c3c606ff68e7478091d1ca496f9c5625/internal_photos/bs/2020/I/z/GUuw5ER267FsSMGmdAbQ/gabriel-medina-poster.jpg",
+              "tablet": "https://s2.glbimg.com/rt4iiXKb0wHGAxuPPVVomIWeQM4=/144x212/https://s2.glbimg.com/NwiqQ6XUT0P7Wp0cnCy2q-FRrCs=/i.s3.glbimg.com/v1/AUTH_c3c606ff68e7478091d1ca496f9c5625/internal_photos/bs/2020/I/z/GUuw5ER267FsSMGmdAbQ/gabriel-medina-poster.jpg",
+              "tv": "https://s2.glbimg.com/LY3ZAffFzeORvG8BW7T3A_1QPCM=/146x216/https://s2.glbimg.com/NwiqQ6XUT0P7Wp0cnCy2q-FRrCs=/i.s3.glbimg.com/v1/AUTH_c3c606ff68e7478091d1ca496f9c5625/internal_photos/bs/2020/I/z/GUuw5ER267FsSMGmdAbQ/gabriel-medina-poster.jpg"
+            }
+          },
+          {
+            "__typename": "Title",
+            "originProgramId": "5727",
+            "titleId": "C6VSHpmYWC",
+            "headline": "Avenida Brasil",
+            "type": "TV_PROGRAM",
+            "poster": {
+              "__typename": "Poster",
+              "mobile": "https://s2.glbimg.com/ONcYPVyAoME4fkKMMWe2Q0tUTdU=/100x152/https://s2.glbimg.com/TFen1BRBVh9-QFyhA0JdQ6SSeg4=/s3.glbimg.com/v1/AUTH_180b9dd048d9434295d27c4b6dadc248/media_kit/64/7b/fddd8697abc59156861f12ee891b.jpg",
+              "tablet": "https://s2.glbimg.com/8kK8AGlm6FEq5UT_GQkPU7qVobQ=/144x212/https://s2.glbimg.com/TFen1BRBVh9-QFyhA0JdQ6SSeg4=/s3.glbimg.com/v1/AUTH_180b9dd048d9434295d27c4b6dadc248/media_kit/64/7b/fddd8697abc59156861f12ee891b.jpg",
+              "tv": "https://s2.glbimg.com/oaTx8GZJIEKXBQ6__VvKbAVnQLA=/146x216/https://s2.glbimg.com/TFen1BRBVh9-QFyhA0JdQ6SSeg4=/s3.glbimg.com/v1/AUTH_180b9dd048d9434295d27c4b6dadc248/media_kit/64/7b/fddd8697abc59156861f12ee891b.jpg"
+            }
+          },
+          {
+            "__typename": "Title",
+            "originProgramId": "11822",
+            "titleId": "Z85JdrL1ws",
+            "headline": "Pensamentos Impuros",
+            "type": "SERIE",
+            "poster": {
+              "__typename": "Poster",
+              "mobile": "https://s2.glbimg.com/9k_LfZg4f93JRau1nf6ZhSGeN4w=/100x152/https://s2.glbimg.com/YTSsSwFur3XC_RWcWVbxtyOEin0=/i.s3.glbimg.com/v1/AUTH_c3c606ff68e7478091d1ca496f9c5625/internal_photos/bs/2019/d/c/ZhuAjSSsAK4oXBDSzRFQ/2019-647-series-bbc-pensamentos-impuros-poster.jpg",
+              "tablet": "https://s2.glbimg.com/eyt1W9edepGhGRoM1kwP16z5i1o=/144x212/https://s2.glbimg.com/YTSsSwFur3XC_RWcWVbxtyOEin0=/i.s3.glbimg.com/v1/AUTH_c3c606ff68e7478091d1ca496f9c5625/internal_photos/bs/2019/d/c/ZhuAjSSsAK4oXBDSzRFQ/2019-647-series-bbc-pensamentos-impuros-poster.jpg",
+              "tv": "https://s2.glbimg.com/GNbOHfMtUUoRq8lmNwlvTn9PNvo=/146x216/https://s2.glbimg.com/YTSsSwFur3XC_RWcWVbxtyOEin0=/i.s3.glbimg.com/v1/AUTH_c3c606ff68e7478091d1ca496f9c5625/internal_photos/bs/2019/d/c/ZhuAjSSsAK4oXBDSzRFQ/2019-647-series-bbc-pensamentos-impuros-poster.jpg"
+            }
+          }
+        ]
+      }
+    }
+  }
+}

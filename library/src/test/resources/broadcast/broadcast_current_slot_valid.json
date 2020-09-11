@@ -1,0 +1,28 @@
+{
+  "data": {
+    "epgCurrentSlots": [
+      {
+        "__typename": "EPGSlot",
+        "programId": null,
+        "name": "Vale a Pena Ver de Novo - Êta Mundo Bom!",
+        "metadata": null,
+        "startTime": 1593027300,
+        "endTime": 1593032160,
+        "durationInMinutes": 81,
+        "liveBroadcast": false,
+        "tags": null
+      },
+      {
+        "__typename": "EPGSlot",
+        "programId": "10003",
+        "name": "Malhação - Viva a Diferença",
+        "metadata": null,
+        "startTime": 1593032160,
+        "endTime": 1593033720,
+        "durationInMinutes": 26,
+        "liveBroadcast": false,
+        "tags": null
+      }
+    ]
+  }
+}

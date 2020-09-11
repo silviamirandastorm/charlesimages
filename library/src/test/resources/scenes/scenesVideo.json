@@ -1,0 +1,34 @@
+{
+  "data":{
+    "title":{
+      "__typename":"Title",
+      "structure":{
+        "__typename":"SeasonedStructure",
+        "seasonById":{
+          "__typename":"Season",
+          "getEpisodesWithExcerpts":{
+            "__typename":"EpisodeCollection",
+            "hasNextPage":false,
+            "nextPage":null,
+            "resources":[
+              {
+                "__typename":"Episode",
+                "number":1,
+                "excerpts":{
+                  "__typename":"VideoCollection",
+                  "total":1
+                },
+                "video":{
+                  "__typename":"Video",
+                  "id":"8382555",
+                  "headline":"Maré 27 de julho de 1979 - Lapa 14 de março de 2018",
+                  "thumb":"https://s04.video.glbimg.com/x216/8382555.jpg"
+                }
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+}

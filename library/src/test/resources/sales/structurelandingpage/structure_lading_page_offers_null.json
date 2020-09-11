@@ -1,0 +1,30 @@
+{
+  "data": {
+    "page": {
+      "__typename": "Page",
+      "subscriptionServiceId": "6807",
+      "premiumHighlight": {
+        "__typename": "PageHighlight",
+        "callText": "7 dias grátis para você maratonar The Big Bang Theory e Young Sheldon",
+        "componentType": "PREMIUMHIGHLIGHT",
+        "buttonText": "COMECE AGORA",
+        "highlight": {
+          "__typename": "Highlight",
+          "contentType": "PROMOTIONAL",
+          "headlineText": "Globoplay",
+          "highlightImage": {
+            "__typename": "HighlightImage",
+            "mobile": "https://s2.glbimg.com/MeFmAl4_Mphac0IrY2sivDk9L1I=/1080x1560/https://s2.glbimg.com/baCkHXun0hd3axQUBneS4twiE4I=/https://i.s3.glbimg.com/v1/AUTH_c3c606ff68e7478091d1ca496f9c5625/internal_photos/bs/2019/z/b/9f1RkRQGihONzwo6DOag/tbbt2.jpg",
+            "tablet": "https://s2.glbimg.com/cMfahk7IAyH9H0aG96MD9v3ADr0=/1024x576/https://s2.glbimg.com/_DKQF7ZCw7ACdP9rckGjWkSDtZk=/https://i.s3.glbimg.com/v1/AUTH_c3c606ff68e7478091d1ca496f9c5625/internal_photos/bs/2019/4/Z/32jIlkSmeb5YQ7k3ADPw/tbbt1.jpg"
+          },
+          "logo": {
+            "__typename": "HighlightLogo",
+            "mobile": "https://s2.glbimg.com/oxMiQveAGWoKEVwhZrZlns2EBIQ=/840x0/https://s2.glbimg.com/cXAxLN-bOd19qNOSTaezWjkgtEc=/fit-in/1208x364/filters:fill(transparent)/https://i.s3.glbimg.com/v1/AUTH_c3c606ff68e7478091d1ca496f9c5625/internal_photos/bs/2019/X/Q/bffaueS7OktAjq3xNv3w/destaque-tbbt-logo.png",
+            "tablet": "https://s2.glbimg.com/btxjk-q5kSQgZhgWq6Ke6x5YUXU=/0x91/https://s2.glbimg.com/Pi-V4b78eBBuGbMguWXm4fqvBi8=/fit-in/0x364/filters:fill(transparent)/https://i.s3.glbimg.com/v1/AUTH_c3c606ff68e7478091d1ca496f9c5625/internal_photos/bs/2019/X/Q/bffaueS7OktAjq3xNv3w/destaque-tbbt-logo.png"
+          }
+        }
+      },
+      "offerItems": null
+    }
+  }
+}

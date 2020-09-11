@@ -1,0 +1,13 @@
+{
+  "data": {
+    "affiliate": {
+      "__typename": "Affiliate",
+      "affiliateRegion": {
+        "__typename": "AffiliateRegion",
+        "titles": {
+          "__typename": "TitleCollection"
+        }
+      }
+    }
+  }
+}

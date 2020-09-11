@@ -1,0 +1,15 @@
+query HomeOfferVideo(
+    $id: ID!
+    $page: Int
+    $perPage: Int
+    $mobileLogoScales: MobileLogoScales
+    $tabletLogoScales: TabletLogoScales
+    $logoTVScales: TVLogoScales
+    $broadcastChannelTrimmedLogoScales: BroadcastChannelTrimmedLogoScales
+    $broadcastImageOnAirScales: BroadcastImageOnAirScales
+) {
+    genericOffer(id: $id) {
+        ...HomeGenericVideoOffers
+        ...HomeRecommendedVideoOffers
+    }
+}

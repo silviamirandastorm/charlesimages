@@ -1,0 +1,18 @@
+{
+  "data": {
+    "remoteConfigs": {
+      "__typename": "RemoteConfigCollection",
+      "resources": [
+        {
+          "__typename": "JSONConfig",
+          "key": "SALES_PAGE_IDENTIFIERS_LOGIN_REQUIRED",
+          "valueJson": {
+            "salesPageIdentifiers": [
+              "mais-canais"
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

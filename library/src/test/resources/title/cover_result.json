@@ -1,0 +1,13 @@
+{
+  "data": {
+    "title": {
+      "__typename": "Title",
+      "cover": {
+        "__typename": "Cover",
+        "mobile": "https://s2.glbimg.com/TPrZ6IIsFU0CNK4xjQj0mNVx2_4=/0x276/https://s2.glbimg.com/RWlWQgterTZFU0mhJxh-jWCl3Fg=/i.s3.glbimg.com/v1/AUTH_c3c606ff68e7478091d1ca496f9c5625/internal_photos/bs/2019/h/Y/1oEq18TIOfLbCO3fPpGQ/2019-561-se-joga-background.jpg",
+        "tabletPortrait": "https://s2.glbimg.com/TPrZ6IIsFU0CNK4xjQj0mNVx2_4=/0x276/https://s2.glbimg.com/RWlWQgterTZFU0mhJxh-jWCl3Fg=/i.s3.glbimg.com/v1/AUTH_c3c606ff68e7478091d1ca496f9c5625/internal_photos/bs/2019/h/Y/1oEq18TIOfLbCO3fPpGQ/2019-561-se-joga-background.jpg",
+        "tabletLandscape": "https://s2.glbimg.com/TPrZ6IIsFU0CNK4xjQj0mNVx2_4=/0x276/https://s2.glbimg.com/RWlWQgterTZFU0mhJxh-jWCl3Fg=/i.s3.glbimg.com/v1/AUTH_c3c606ff68e7478091d1ca496f9c5625/internal_photos/bs/2019/h/Y/1oEq18TIOfLbCO3fPpGQ/2019-561-se-joga-background.jpg"
+      }
+    }
+  }
+}

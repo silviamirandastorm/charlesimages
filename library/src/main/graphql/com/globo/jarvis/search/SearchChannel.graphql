@@ -1,0 +1,12 @@
+query SearchChannel(
+    $query: String!
+    $page: Int
+    $perPage: Int
+    $broadcastChannelTrimmedLogoScales: BroadcastChannelTrimmedLogoScales
+) {
+    search {
+        broadcastChannelSearch(query: $query, page: $page, perPage: $perPage) {
+            ...ChannelSearchResultFragment
+        }
+    }
+}

@@ -1,0 +1,17 @@
+{
+  "data": {
+    "search": {
+      "__typename": "Search",
+      "broadcastChannelSearch": {
+        "__typename": "BroadcastChannelSearchResult",
+        "collection": {
+          "__typename": "BroadcastChannelCollection",
+          "nextPage": null,
+          "hasNextPage": false,
+          "total": 1,
+          "resources": []
+        }
+      }
+    }
+  }
+}

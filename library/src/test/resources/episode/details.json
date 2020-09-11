@@ -1,0 +1,41 @@
+{
+  "data":{
+    "title":{
+      "__typename":"Title",
+      "originProgramId":"11458",
+      "structure":{
+        "__typename":"SeasonedStructure",
+        "seasonById":{
+          "__typename":"Season",
+          "episodes":{
+            "__typename":"EpisodeCollection",
+            "hasNextPage":true,
+            "nextPage":2,
+            "resources":[
+              {
+                "__typename":"Episode",
+                "seasonNumber":1,
+                "number":1,
+                "video":{
+                  "__typename":"Video",
+                  "id":"7634156",
+                  "headline":"Piloto",
+                  "description":"Lidando com a perda dos pais em um acidente, Elena se atrai pelo misterioso Stefan, um vampiro que vai disputar a alma da jovem com seu irmão mais velho, Damon.",
+                  "thumb":"https://s01.video.glbimg.com/x216/7634156.jpg",
+                  "liveThumbnail":null,
+                  "kind":"episode",
+                  "contentRating":"14",
+                  "duration":2536200,
+                  "formattedDuration":"42 min",
+                  "availableFor":"SUBSCRIBER",
+                  "accessibleOffline":true,
+                  "serviceId":151
+                }
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+}

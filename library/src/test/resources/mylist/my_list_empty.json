@@ -1,0 +1,13 @@
+{
+  "data": {
+    "user": {
+      "__typename": "User",
+      "myListTitles": {
+        "__typename": "TitleCollection",
+        "hasNextPage": false,
+        "nextPage": null,
+        "resources": []
+      }
+    }
+  }
+}

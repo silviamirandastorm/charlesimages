@@ -1,0 +1,67 @@
+{
+  "data": {
+    "genericOffer": {
+      "__typename": "Offer",
+      "contentType": "TITLE",
+      "items": {
+        "__typename": "OfferItemsCollection",
+        "resources": [
+          {
+            "__typename": "Title",
+            "headline": "The Good Doctor",
+            "poster": {
+              "__typename": "Poster",
+              "mobile": "https://s2.glbimg.com/CuPZAJOj2UYpgOIQ0I_nDOtkdeE=/100x152/https://s2.glbimg.com/gxtUzhf9c1AL8TRruxhWLyXsQko=/i.s3.glbimg.com/v1/AUTH_c3c606ff68e7478091d1ca496f9c5625/internal_photos/bs/2019/n/L/lsGYkkSqC5M6r1oIBJVg/2018-212-serie-the-good-doctor-s2-poster.jpg",
+              "tablet": "https://s2.glbimg.com/yP1WydAxC-LM_nB4_uIZRFbyUBU=/144x212/https://s2.glbimg.com/gxtUzhf9c1AL8TRruxhWLyXsQko=/i.s3.glbimg.com/v1/AUTH_c3c606ff68e7478091d1ca496f9c5625/internal_photos/bs/2019/n/L/lsGYkkSqC5M6r1oIBJVg/2018-212-serie-the-good-doctor-s2-poster.jpg"
+            }
+          },
+          {
+            "__typename": "Title",
+            "headline": "The Big Bang Theory",
+            "poster": {
+              "__typename": "Poster",
+              "mobile": "https://s2.glbimg.com/Nu9crMI_O1zRHoIywnWONV-osAU=/100x152/https://s2.glbimg.com/aRuGAenCi9cZJGCNwfTnWucVyGU=/i.s3.glbimg.com/v1/AUTH_c3c606ff68e7478091d1ca496f9c5625/internal_photos/bs/2019/g/x/v9MQb2ToyQ4L77w3mJ2A/2018-216-midia-kit-series-the-big-bang-theory-poster.jpg",
+              "tablet": "https://s2.glbimg.com/-hr_MFpNeGKJsW15d3k80zJo7CY=/144x212/https://s2.glbimg.com/aRuGAenCi9cZJGCNwfTnWucVyGU=/i.s3.glbimg.com/v1/AUTH_c3c606ff68e7478091d1ca496f9c5625/internal_photos/bs/2019/g/x/v9MQb2ToyQ4L77w3mJ2A/2018-216-midia-kit-series-the-big-bang-theory-poster.jpg"
+            }
+          },
+          {
+            "__typename": "Title",
+            "headline": "Se Eu Fechar os Olhos Agora",
+            "poster": {
+              "__typename": "Poster",
+              "mobile": "https://s2.glbimg.com/V5-n873y4GKJi0bh2KkLkL4rtFg=/100x152/https://s2.glbimg.com/umSiX5rY_7C0CTpx-4nlFFX56Cw=/i.s3.glbimg.com/v1/AUTH_c3c606ff68e7478091d1ca496f9c5625/internal_photos/bs/2019/9/z/uwbW9FQGaYrvesSFc91A/2019-321-mk-se-eu-fechar-os-olhos-agora-poster.jpg",
+              "tablet": "https://s2.glbimg.com/w-3xjyM9shdq-0JBI0asrcuRBAU=/144x212/https://s2.glbimg.com/umSiX5rY_7C0CTpx-4nlFFX56Cw=/i.s3.glbimg.com/v1/AUTH_c3c606ff68e7478091d1ca496f9c5625/internal_photos/bs/2019/9/z/uwbW9FQGaYrvesSFc91A/2019-321-mk-se-eu-fechar-os-olhos-agora-poster.jpg"
+            }
+          },
+          {
+            "__typename": "Title",
+            "headline": "Supernatural",
+            "poster": {
+              "__typename": "Poster",
+              "mobile": "https://s2.glbimg.com/uBj20fuigtG6fuPBjWMcvQclRTE=/100x152/https://s2.glbimg.com/AqeMj7-8MpTLopGvPzwqYghKalE=/i.s3.glbimg.com/v1/AUTH_c3c606ff68e7478091d1ca496f9c5625/internal_photos/bs/2019/h/F/A8ypw5Qqyluy5DR4NX0Q/2019-278-series-warner1-supernatural-poster.jpg",
+              "tablet": "https://s2.glbimg.com/9nOjEZ53wpNtdE3i9NkOkEFfO8s=/144x212/https://s2.glbimg.com/AqeMj7-8MpTLopGvPzwqYghKalE=/i.s3.glbimg.com/v1/AUTH_c3c606ff68e7478091d1ca496f9c5625/internal_photos/bs/2019/h/F/A8ypw5Qqyluy5DR4NX0Q/2019-278-series-warner1-supernatural-poster.jpg"
+            }
+          },
+          {
+            "__typename": "Title",
+            "headline": "The Handmaid's Tale",
+            "poster": {
+              "__typename": "Poster",
+              "mobile": "https://s2.glbimg.com/CcDZi_3A_hcpRNU5B-Eo8-MKf_U=/100x152/https://s2.glbimg.com/BN7buwKUenvJxlSwHoniyUrY6hI=/i.s3.glbimg.com/v1/AUTH_c3c606ff68e7478091d1ca496f9c5625/internal_photos/bs/2019/B/z/jyjsjrRJKMsOgk2IORjw/handmaids-tale-poster-web.jpg",
+              "tablet": "https://s2.glbimg.com/Hs8kAUnjp5eCSVf5n_ubxMFDff4=/144x212/https://s2.glbimg.com/BN7buwKUenvJxlSwHoniyUrY6hI=/i.s3.glbimg.com/v1/AUTH_c3c606ff68e7478091d1ca496f9c5625/internal_photos/bs/2019/B/z/jyjsjrRJKMsOgk2IORjw/handmaids-tale-poster-web.jpg"
+            }
+          },
+          {
+            "__typename": "Title",
+            "headline": "The Office",
+            "poster": {
+              "__typename": "Poster",
+              "mobile": "https://s2.glbimg.com/UoJmTyeWurHFiF-gpynzL-eiiaQ=/100x152/https://s2.glbimg.com/4SnaNNylKmh0NhZpXYib7cRFjD0=/i.s3.glbimg.com/v1/AUTH_c3c606ff68e7478091d1ca496f9c5625/internal_photos/bs/2019/k/1/zCCGmARcCF5ofpsUXqrg/2019-232-the-office-poster.jpg",
+              "tablet": "https://s2.glbimg.com/_xCxWnW6-O-ewFs9ngBNlAw8NR8=/144x212/https://s2.glbimg.com/4SnaNNylKmh0NhZpXYib7cRFjD0=/i.s3.glbimg.com/v1/AUTH_c3c606ff68e7478091d1ca496f9c5625/internal_photos/bs/2019/k/1/zCCGmARcCF5ofpsUXqrg/2019-232-the-office-poster.jpg"
+            }
+          }
+        ]
+      }
+    }
+  }
+}

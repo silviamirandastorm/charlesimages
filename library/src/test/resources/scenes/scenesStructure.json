@@ -1,0 +1,25 @@
+{
+  "data":{
+    "video":{
+      "__typename":"Video",
+      "relatedExcerpts":{
+        "__typename":"VideoCollection",
+        "resources":[
+          {
+            "__typename":"Video",
+            "id":"8396498",
+            "headline":"Trailer - Marielle: O Documentário - Série Original Globoplay",
+            "title":{
+              "__typename":"Title",
+              "headline":"Marielle, O Documentário"
+            },
+            "formattedDuration":"2 min",
+            "thumbSmall":"https://s03.video.glbimg.com/x216/8396498.jpg",
+            "thumbLarge":"https://s03.video.glbimg.com/x216/8396498.jpg",
+            "kind":"excerpt"
+          }
+        ]
+      }
+    }
+  }
+}

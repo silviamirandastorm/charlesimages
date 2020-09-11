@@ -1,0 +1,56 @@
+{
+  "data": {
+    "video": {
+      "__typename": "Video",
+      "id": "8345894",
+      "headline": "Episódio 1",
+      "description": "Um grupo de mulheres une forças para ajudar umas às outras e enfrentar os vários desafios da vida além de resolver um caso de assassinato.",
+      "formattedDuration": "40 min",
+      "duration": 2427826,
+      "availableFor": "SUBSCRIBER",
+      "accessibleOffline": true,
+      "contentRating": "14",
+      "thumb": "https://s03.video.glbimg.com/x216/8345894.jpg",
+      "liveThumbnail": null,
+      "kind": "episode",
+      "serviceId": 6807,
+      "title": {
+        "__typename": "Title",
+        "originProgramId": "12166",
+        "titleId": "HcnFN8snnj",
+        "type": "SERIE",
+        "url": "url",
+        "headline": "Entre Segredos e Mentiras",
+        "encrypted": true,
+        "poster": {
+          "__typename": "Poster",
+          "mobile": "https://s2.glbimg.com/oMCupkLK3OTSYN-p4Kd-44HUUPg=/100x152/https://s2.glbimg.com/TRx764Jo0JO9r6f5ENc57GwOc9g=/i.s3.glbimg.com/v1/AUTH_c3c606ff68e7478091d1ca496f9c5625/internal_photos/bs/2020/N/N/sf8t89QCGlAzmUdSYUBA/2020-791-series-spiral-entre-segredos-e-mentiras-poster.jpg",
+          "tablet": "https://s2.glbimg.com/VZP6BwQHtT-yKzgvV1G4qQcfSf4=/144x212/https://s2.glbimg.com/TRx764Jo0JO9r6f5ENc57GwOc9g=/i.s3.glbimg.com/v1/AUTH_c3c606ff68e7478091d1ca496f9c5625/internal_photos/bs/2020/N/N/sf8t89QCGlAzmUdSYUBA/2020-791-series-spiral-entre-segredos-e-mentiras-poster.jpg",
+          "tv": "https://s2.glbimg.com/Oi4nsO4NfXXkCYSvWm870SWjR3g=/146x216/https://s2.glbimg.com/TRx764Jo0JO9r6f5ENc57GwOc9g=/i.s3.glbimg.com/v1/AUTH_c3c606ff68e7478091d1ca496f9c5625/internal_photos/bs/2020/N/N/sf8t89QCGlAzmUdSYUBA/2020-791-series-spiral-entre-segredos-e-mentiras-poster.jpg"
+        }
+      },
+      "subscriptionService": {
+        "__typename": "SubscriptionService",
+        "name": "subscriptionName",
+        "salesPage": {
+          "__typename": "SubscriptionServiceSalesPage",
+          "identifier": {
+            "__typename": "SubscriptionServiceSalesPageIdentifier",
+            "mobile": "urlMobile"
+          }
+        },
+        "faq": {
+          "__typename": "SubscriptionServiceFAQ",
+          "qrCode": {
+            "__typename": "SubscriptionServiceFAQQRCodeURLs",
+            "mobile": "https://s3.glbimg.com/v1/AUTH_2caf29d99e86401197555831070efae8/secure/qrCode-premiere-mobile.png"
+          },
+          "url": {
+            "__typename": "SubscriptionServiceFAQPageURLs",
+            "mobile": "https://ajuda.globo/globoplay/faq"
+          }
+        }
+      }
+    }
+  }
+}

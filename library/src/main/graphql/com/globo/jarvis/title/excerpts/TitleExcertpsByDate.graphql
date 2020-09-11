@@ -1,0 +1,41 @@
+query TitleExcerptsByDate(
+    $titleId: String!
+    $page: Int!
+    $perPage: Int
+    $thumbSmall: Int!
+    $thumbLarge: Int!
+    $startDate: Date!
+    $endDate: Date!
+) {
+    title(titleId: $titleId) {
+        structure {
+            ...TitleExcerptsListByDate
+        }
+    }
+}
+
+fragment TitleExcerptsListByDate on EpisodeListStructure {
+    excerpts(
+        page: $page
+        perPage: $perPage
+        dateRange: { gte: $startDate, lte: $endDate }
+    ) {
+        resources {
+            id
+            headline
+            description
+            duration
+            formattedDuration
+            availableFor
+            accessibleOffline
+            thumbSmall: thumb(size: $thumbSmall)
+            thumbLarge: thumb(size: $thumbLarge)
+            formattedRemainingTime
+            watchedProgress
+            exhibitedAt
+            title {
+                headline
+            }
+        }
+    }
+}

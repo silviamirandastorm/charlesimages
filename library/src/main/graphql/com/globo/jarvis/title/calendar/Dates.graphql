@@ -1,0 +1,15 @@
+query Dates(
+    $titleId: String!
+) {
+    title(titleId: $titleId) {
+        structure {
+            ... EpisodeList
+        }
+    }
+}
+
+fragment EpisodeList on EpisodeListStructure {
+    datesWithVideos {
+        resources
+    }
+}

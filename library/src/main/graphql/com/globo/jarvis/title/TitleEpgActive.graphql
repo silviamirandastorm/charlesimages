@@ -1,0 +1,5 @@
+query TitleEpgActive($titleId: String!) {
+    title(titleId: $titleId) {
+        epgActive
+    }
+}

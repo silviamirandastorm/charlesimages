@@ -1,0 +1,33 @@
+query MyList(
+    $perPage: Int
+    $page: Int
+    $mobilePosterScales: MobilePosterScales
+    $tabletPosterScales: TabletPosterScales
+    $tvPosterScales: TVPosterScales
+) {
+    user {
+        myListTitles(perPage: $perPage, page: $page) {
+            hasNextPage
+            nextPage
+            resources {
+                originProgramId
+                titleId
+                headline
+                type
+                poster {
+                    mobile(scale: $mobilePosterScales)
+                    tablet(scale: $tabletPosterScales)
+                    tv(scale: $tvPosterScales)
+                }
+            }
+        }
+    }
+}
+
+mutation AddMyList($input: MyListInput!) {
+    addTitleToMyList(input: $input)
+}
+
+mutation DeleteMyList($input: MyListInput!) {
+    deleteTitleFromMyList(input: $input)
+}

@@ -1,0 +1,38 @@
+query LastWatchedVideos(
+    $page: Int
+    $perPage: Int
+    $mobileLogoScales: MobileLogoScales
+    $tabletLogoScales: TabletLogoScales
+    $logoTVScales: TVLogoScales
+) {
+    user {
+        myLastWatchedVideos(page: $page, perPage: $perPage) {
+            hasNextPage
+            nextPage
+            resources {
+                id
+                availableFor
+                headline
+                duration
+                contentRating
+                watchedProgress
+                formattedDuration
+                kind
+                thumb
+                liveThumbnail
+                title {
+                    originProgramId
+                    titleId
+                    headline
+                    type
+                    url
+                    logo {
+                        mobile(scale: $mobileLogoScales)
+                        tablet(scale: $tabletLogoScales)
+                        tv(scale: $logoTVScales)
+                    }
+                }
+            }
+        }
+    }
+}

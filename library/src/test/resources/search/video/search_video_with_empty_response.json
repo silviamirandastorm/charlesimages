@@ -1,0 +1,14 @@
+{
+  "data": {
+    "search": {
+      "__typename": "Search",
+      "videos": {
+        "__typename": "VideoCollection",
+        "hasNextPage": false,
+        "nextPage": null,
+        "total": 0,
+        "resources": []
+      }
+    }
+  }
+}

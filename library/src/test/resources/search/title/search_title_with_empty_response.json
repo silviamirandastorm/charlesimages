@@ -1,0 +1,14 @@
+{
+  "data": {
+    "search": {
+      "__typename": "Search",
+      "titles": {
+        "__typename": "TitleCollection",
+        "hasNextPage": false,
+        "nextPage": null,
+        "total": 0,
+        "resources": []
+      }
+    }
+  }
+}

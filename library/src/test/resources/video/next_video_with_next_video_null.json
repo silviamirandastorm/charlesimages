@@ -1,0 +1,7 @@
+{
+  "data": {
+    "video": {
+      "__typename": "Video"
+    }
+  }
+}

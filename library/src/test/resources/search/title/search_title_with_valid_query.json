@@ -1,0 +1,77 @@
+{
+  "data": {
+    "search": {
+      "__typename": "Search",
+      "titleSearch": {
+        "__typename": "TitleSearchResult",
+        "abExperiment": null,
+        "collection": {
+          "__typename": "TitleCollection",
+          "nextPage": null,
+          "hasNextPage": false,
+          "page": 1,
+          "perPage": 10,
+          "total": 4,
+          "resources": [
+            {
+              "__typename": "Title",
+              "format": "LONG",
+              "originProgramId": "10122",
+              "titleId": "wYZ8FnNH8V",
+              "headline": "A Batalha De Riddick",
+              "type": "MOVIE",
+              "poster": {
+                "__typename": "Poster",
+                "mobile": "https://s2.glbimg.com/ZJ0Mhj5O1a2ynRah4-vGKN07FKY=/100x152/https://s2.glbimg.com/7LWlL2QIioFjaquXYdX8IibvCmc=/i.s3.glbimg.com/v1/AUTH_c3c606ff68e7478091d1ca496f9c5625/internal_photos/bs/2019/9/d/Gw17xBR3WDWCOSK23tvQ/2019-390-midia-kit-filmes-universal-maio-a-batalha-de-riddick-poster.jpg",
+                "tablet": "https://s2.glbimg.com/nTSWdzYrPz1VSCv6DjY719XEesk=/144x212/https://s2.glbimg.com/7LWlL2QIioFjaquXYdX8IibvCmc=/i.s3.glbimg.com/v1/AUTH_c3c606ff68e7478091d1ca496f9c5625/internal_photos/bs/2019/9/d/Gw17xBR3WDWCOSK23tvQ/2019-390-midia-kit-filmes-universal-maio-a-batalha-de-riddick-poster.jpg",
+                "tv": "https://s2.glbimg.com/fs1qDen_F4qMdSBQCSWusLduUwM=/146x216/https://s2.glbimg.com/7LWlL2QIioFjaquXYdX8IibvCmc=/i.s3.glbimg.com/v1/AUTH_c3c606ff68e7478091d1ca496f9c5625/internal_photos/bs/2019/9/d/Gw17xBR3WDWCOSK23tvQ/2019-390-midia-kit-filmes-universal-maio-a-batalha-de-riddick-poster.jpg"
+              }
+            },
+            {
+              "__typename": "Title",
+              "format": "SERIES",
+              "originProgramId": "5218",
+              "titleId": "Yrk91RKX98",
+              "headline": "Batendo Ponto",
+              "type": "SERIE",
+              "poster": {
+                "__typename": "Poster",
+                "mobile": "https://s2.glbimg.com/W1Fe6qzaHnWENk0B2uAc7NGVbKo=/100x152/https://s2.glbimg.com/0_zEbkvAZTYkqeILTAvs-tUZr7k=/s3.glbimg.com/v1/AUTH_180b9dd048d9434295d27c4b6dadc248/media_kit/72/bf/5c91f6aa00560df5cc02d92c133d.jpg",
+                "tablet": "https://s2.glbimg.com/gLoc-4j39MmmRWYybiOK10Z4T1k=/144x212/https://s2.glbimg.com/0_zEbkvAZTYkqeILTAvs-tUZr7k=/s3.glbimg.com/v1/AUTH_180b9dd048d9434295d27c4b6dadc248/media_kit/72/bf/5c91f6aa00560df5cc02d92c133d.jpg",
+                "tv": "https://s2.glbimg.com/Z_dgoNRNSMqD4_mJ-donyG2_l-0=/146x216/https://s2.glbimg.com/0_zEbkvAZTYkqeILTAvs-tUZr7k=/s3.glbimg.com/v1/AUTH_180b9dd048d9434295d27c4b6dadc248/media_kit/72/bf/5c91f6aa00560df5cc02d92c133d.jpg"
+              }
+            },
+            {
+              "__typename": "Title",
+              "format": "VARIETIES",
+              "originProgramId": "5186",
+              "titleId": "k2DPcNpLX2",
+              "headline": "Mosaico Baiano",
+              "type": "TV_PROGRAM",
+              "poster": {
+                "__typename": "Poster",
+                "mobile": "https://s2.glbimg.com/S3I4KIWjA1zvrfUUPkVhtOlFuVA=/100x152/https://s2.glbimg.com/-kuVtyLIne-F5UwT-DWK0GCouf8=/s3.glbimg.com/v1/AUTH_180b9dd048d9434295d27c4b6dadc248/media_kit/b0/50/ade12bd8391080f452a0ab9e428c.jpg",
+                "tablet": "https://s2.glbimg.com/1tOOz2X25F4Mvl6CDP8I-lXfQck=/144x212/https://s2.glbimg.com/-kuVtyLIne-F5UwT-DWK0GCouf8=/s3.glbimg.com/v1/AUTH_180b9dd048d9434295d27c4b6dadc248/media_kit/b0/50/ade12bd8391080f452a0ab9e428c.jpg",
+                "tv": "https://s2.glbimg.com/yRlsV5wWQew8bxQkpWB-2V5dBsI=/146x216/https://s2.glbimg.com/-kuVtyLIne-F5UwT-DWK0GCouf8=/s3.glbimg.com/v1/AUTH_180b9dd048d9434295d27c4b6dadc248/media_kit/b0/50/ade12bd8391080f452a0ab9e428c.jpg"
+              }
+            },
+            {
+              "__typename": "Title",
+              "format": "LONG",
+              "originProgramId": "10122",
+              "titleId": "PBdnFNBtpw",
+              "headline": "120 Batimentos Por Minuto",
+              "type": "MOVIE",
+              "poster": {
+                "__typename": "Poster",
+                "mobile": "https://s2.glbimg.com/Dt_DfOtNOc18jKHmLdN9KvhD0uM=/100x152/https://s2.glbimg.com/JKPLlGxbzPUn9LDDZq_JPMFOpgI=/i.s3.glbimg.com/v1/AUTH_c3c606ff68e7478091d1ca496f9c5625/internal_photos/bs/2019/b/B/V7nstSTpadw7CE5d6AjA/2019-579-filmes-imovision-120-batimentos-por-minuto-poster.jpg",
+                "tablet": "https://s2.glbimg.com/JgGsHur3GZuhHeG0WoPMF7kF7K4=/144x212/https://s2.glbimg.com/JKPLlGxbzPUn9LDDZq_JPMFOpgI=/i.s3.glbimg.com/v1/AUTH_c3c606ff68e7478091d1ca496f9c5625/internal_photos/bs/2019/b/B/V7nstSTpadw7CE5d6AjA/2019-579-filmes-imovision-120-batimentos-por-minuto-poster.jpg",
+                "tv": "https://s2.glbimg.com/mreOq8Q6Sg-obTPSgO49jcPYOQM=/146x216/https://s2.glbimg.com/JKPLlGxbzPUn9LDDZq_JPMFOpgI=/i.s3.glbimg.com/v1/AUTH_c3c606ff68e7478091d1ca496f9c5625/internal_photos/bs/2019/b/B/V7nstSTpadw7CE5d6AjA/2019-579-filmes-imovision-120-batimentos-por-minuto-poster.jpg"
+              }
+            }
+          ]
+        }
+      }
+    }
+  }
+}

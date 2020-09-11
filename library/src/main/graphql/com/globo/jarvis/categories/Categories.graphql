@@ -1,0 +1,28 @@
+query Categories($page: Int, $perPage: Int) {
+    categories(page: $page, perPage: $perPage) {
+        perPage
+        page
+        nextPage
+        hasNextPage
+        resources {
+            ...CategoriesFragment
+        }
+    }
+}
+
+fragment CategoriesFragment on Category {
+    background
+    name
+    navigation {
+        ...CategoriesPage
+        ...CategoriesSlug
+    }
+}
+
+fragment CategoriesPage on MenuPageNavigation {
+    identifier
+}
+
+fragment CategoriesSlug on MenuSlugNavigation {
+    slug
+}

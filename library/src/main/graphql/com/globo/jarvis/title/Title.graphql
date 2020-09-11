@@ -1,0 +1,125 @@
+query Title(
+    $titleId: String
+    $originProgramId: ID
+    $coverMobile: CoverPortraitScales
+    $coverTablet: CoverLandscapeScales
+    $coverTv: CoverWideScales
+) {
+    title(titleId: $titleId, originProgramId: $originProgramId) {
+        titleId
+        headline
+        originalHeadline
+        description
+        contentRating
+        contentRatingCriteria
+        releaseYear
+        type
+        format
+        epgActive
+        url
+        countries
+        directorsNames
+        castNames
+        genresNames
+        authorsNames
+        screenwritersNames
+        artDirectorsNames
+        subset {
+            id
+        }
+        cover {
+            mobile: portrait(scale: $coverMobile)
+            tablet: landscape(scale: $coverTablet)
+            tv: wide(scale: $coverTv)
+        }
+        extras {
+            editorialOffers {
+                ...TitleEditorialOffer
+            }
+        }
+        structure {
+            ...VideoPlayback
+        }
+        structure {
+            ...Seasoned
+        }
+        structure {
+            ...HasEpisodes
+        }
+        structure {
+            ...Episode
+        }
+    }
+}
+
+fragment VideoPlayback on FilmPlaybackStructure {
+    videoPlayback {
+        id
+        formattedDuration
+        availableFor
+        accessibleOffline
+        headline
+        description
+        thumb
+        duration
+    }
+}
+
+fragment Episode on EpisodeListStructure {
+    defaultEpisode {
+        video {
+            id
+            availableFor
+            headline
+            description
+            thumb
+            duration
+        }
+    }
+    defaultExcerpt {
+        id
+        availableFor
+        headline
+        description
+        thumb
+        duration
+    }
+}
+
+fragment Seasoned on SeasonedStructure {
+    seasons {
+        resources {
+            totalEpisodes
+        }
+    }
+    seasonsWithExcerpts {
+        id
+    }
+    defaultEpisode {
+        video {
+            id
+            availableFor
+            headline
+            description
+            thumb
+            duration
+        }
+    }
+}
+
+fragment HasEpisodes on EpisodeListStructure {
+    excerpts {
+        resources {
+            id
+        }
+    }
+    episodes {
+        resources {
+            id
+        }
+    }
+}
+
+fragment TitleEditorialOffer on PageOffer {
+    offerId
+}

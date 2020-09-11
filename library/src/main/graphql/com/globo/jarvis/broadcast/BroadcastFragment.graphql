@@ -1,0 +1,83 @@
+fragment BroadcastFragment on Broadcast {
+    mediaId
+    transmissionId
+    withoutDVRMediaId
+    promotionalMediaId
+    geoblocked
+    geofencing
+    salesPageCallToAction
+    logo(scale: $broadcastChannelLogoScales)
+    promotionalText
+    ignoreAdvertisements
+    imageOnAir: imageOnAir(scale: $broadcastImageOnAirScales)
+    channel {
+        id
+        name
+        logo(format: PNG, scale: $broadcastChannelLogoScales)
+        trimmedLogo(scale: $broadcastChannelTrimmedLogoScales)
+        requireUserTeam
+        payTvServiceId
+        payTvUsersMessage
+        payTvExternalLink
+        payTvExternalLinkLabel
+        payTvInfoLink
+    }
+    media {
+        serviceId
+        availableFor
+        headline
+        subscriptionService {
+            salesPage {
+                identifier {
+                    mobile
+                }
+            }
+            faq {
+                qrCode {
+                    mobile
+                }
+                url {
+                    mobile
+                }
+            }
+        }
+    }
+    affiliateSignal {
+        id
+        dtvChannel
+        dtvHDID
+        dtvID
+    }
+    epgCurrentSlots(limit: $limit) {
+        programId
+        name
+        metadata
+        startTime
+        endTime
+        durationInMinutes
+        liveBroadcast
+        tags
+        title {
+            cover {
+                tv: wide(scale: $coverWideScales)
+                mobile: portrait(scale: $coverPortraitScales)
+                tabletPortrait: landscape(scale: $coverLandscapeScales)
+                tabletLandscape: landscape(scale: $coverLandscapeScales)
+            }
+        }
+    }
+    salesPageIdentifiers {
+        mobile
+    }
+}
+
+fragment EPGSlotCoreFragment on EPGSlot {
+    programId
+    name
+    metadata
+    startTime
+    endTime
+    durationInMinutes
+    liveBroadcast
+    tags
+}

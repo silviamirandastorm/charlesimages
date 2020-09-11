@@ -1,0 +1,111 @@
+query SalesRecommendation(
+    $serviceId: ID,
+    $platform: SalesPlatform!,
+    $trimmedLogoScale: BroadcastChannelTrimmedLogoScales!
+) {
+    salesRecommendation(serviceId: $serviceId, platform: $platform) {
+        salesUserError: error {
+            ...SalesUserError
+        }
+        recommendedProducts {
+            productError: error {
+                ...SalesProductError
+            }
+            userConditions {
+                ...SalesUserCondition
+            }
+            product {
+                ...SalesProduct
+            }
+        }
+    }
+}
+
+fragment SalesUserCondition on SalesUserConditions {
+    action
+    eligibleTrialPeriod
+}
+
+fragment SalesUserError on SalesUserError {
+    type
+    message
+    faq {
+        ... SalesFaq
+    }
+}
+
+fragment SalesProductError on SalesProductError {
+    type
+    message
+    metadata {
+        ... ChangeChannelError
+    }
+    faq {
+        ... SalesFaq
+    }
+}
+
+fragment ChangeChannelError on ChangeChannelError {
+    sourceChannel
+}
+
+fragment SalesFaq on SalesFaq {
+    links {
+        mobile
+    }
+    text
+}
+
+fragment SalesPaymentInfo on SalesPaymentInfo {
+    callText
+    currency
+    price
+    frequency {
+        ...SalesPaymentFrequency
+    }
+    installmentInfo {
+        ...SalesInstallmentInfo
+    }
+}
+
+fragment SalesPaymentFrequency on SalesFrequency {
+    id
+    periodicityLabel
+    timeUnitLabel
+}
+
+fragment SalesInstallmentInfo on SalesInstallmentInfo {
+    installmentValue
+    numberOfInstallments
+}
+
+fragment SalesProductLegalText on SalesLegalText {
+    legalContent
+    contractUrl
+    contractsUrlText
+}
+
+fragment SalesChannels on BroadcastChannel {
+    name
+    trimmedLogo(scale: $trimmedLogoScale)
+}
+
+fragment SalesProduct on SalesProduct {
+    productId
+    name
+    offerText
+    benefits
+    androidSku
+    paymentInfo {
+        ...SalesPaymentInfo
+    }
+    faq {
+        ...SalesFaq
+    }
+    channels {
+        ...SalesChannels
+    }
+    legalText {
+        ... SalesProductLegalText
+    }
+}

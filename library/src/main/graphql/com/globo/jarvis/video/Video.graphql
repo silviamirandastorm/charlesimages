@@ -1,0 +1,51 @@
+query Video(
+    $videoId: ID!
+    $mobilePosterScales: MobilePosterScales
+    $tabletPosterScales: TabletPosterScales
+) {
+    video(id: $videoId) {
+        id
+        headline
+        description
+        formattedDuration
+        duration
+        fullyWatchedThreshold
+        availableFor
+        accessibleOffline
+        contentRating
+        contentRatingCriteria
+        thumb
+        liveThumbnail
+        kind
+        serviceId
+        title {
+            originProgramId
+            titleId
+            url
+            type
+            genresNames
+            headline
+            format
+            poster {
+                mobile(scale: $mobilePosterScales)
+                tablet(scale: $tabletPosterScales)
+            }
+        }
+        subscriptionService {
+            name
+            salesPage {
+                identifier {
+                    mobile
+                }
+            }
+            faq {
+                qrCode {
+                    mobile
+                }
+                url {
+                    mobile
+                }
+            }
+        }
+    }
+}

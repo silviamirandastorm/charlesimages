@@ -1,0 +1,6 @@
+query Locale {
+    locale {
+        tenant
+        countryCode
+    }
+}

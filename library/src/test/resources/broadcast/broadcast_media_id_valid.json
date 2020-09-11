@@ -1,0 +1,86 @@
+{
+  "data": {
+    "broadcasts": [
+      {
+        "__typename": "Broadcast",
+        "mediaId": "6120663"
+      },
+      {
+        "__typename": "Broadcast",
+        "mediaId": "7339078"
+      },
+      {
+        "__typename": "Broadcast",
+        "mediaId": "7339123"
+      },
+      {
+        "__typename": "Broadcast",
+        "mediaId": "7339117"
+      },
+      {
+        "__typename": "Broadcast",
+        "mediaId": "7339108"
+      },
+      {
+        "__typename": "Broadcast",
+        "mediaId": "7339101"
+      },
+      {
+        "__typename": "Broadcast",
+        "mediaId": "7339128"
+      },
+      {
+        "__typename": "Broadcast",
+        "mediaId": "7339131"
+      },
+      {
+        "__typename": "Broadcast",
+        "mediaId": "7339091"
+      },
+      {
+        "__typename": "Broadcast",
+        "mediaId": "7339135"
+      },
+      {
+        "__typename": "Broadcast",
+        "mediaId": "7339146"
+      },
+      {
+        "__typename": "Broadcast",
+        "mediaId": "7339323"
+      },
+      {
+        "__typename": "Broadcast",
+        "mediaId": "7339140"
+      },
+      {
+        "__typename": "Broadcast",
+        "mediaId": "7339060"
+      },
+      {
+        "__typename": "Broadcast",
+        "mediaId": "7339279"
+      },
+      {
+        "__typename": "Broadcast",
+        "mediaId": "7339326"
+      },
+      {
+        "__typename": "Broadcast",
+        "mediaId": "7339152"
+      },
+      {
+        "__typename": "Broadcast",
+        "mediaId": "7339224"
+      },
+      {
+        "__typename": "Broadcast",
+        "mediaId": "8223631"
+      },
+      {
+        "__typename": "Broadcast",
+        "mediaId": "8310612"
+      }
+    ]
+  }
+}

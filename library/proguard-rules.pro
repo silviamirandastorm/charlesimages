@@ -1,0 +1,2 @@
+-keep class com.apollographql.apollo.** { *; }
+-keep class com.globo.jarvis.** { *; }

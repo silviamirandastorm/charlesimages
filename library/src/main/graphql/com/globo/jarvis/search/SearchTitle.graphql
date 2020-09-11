@@ -1,0 +1,14 @@
+query SearchTitle(
+    $query: String!
+    $perPage: Int
+    $page: Int
+    $mobilePosterScales: MobilePosterScales
+    $tabletPosterScales: TabletPosterScales
+    $tvPosterScales: TVPosterScales
+) {
+    search {
+        titleSearch(query: $query, perPage: $perPage, page: $page) {
+            ...TitleSearchResultFragment
+        }
+    }
+}

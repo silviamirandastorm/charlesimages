@@ -1,0 +1,53 @@
+query NextVideo(
+    $videoId: ID!,
+    $mobilePosterScales: MobilePosterScales,
+    $tabletPosterScales: TabletPosterScales
+) {
+    video(id: $videoId) {
+        nextVideo {
+            id
+            headline
+            description
+            formattedDuration
+            duration
+            fullyWatchedThreshold
+            availableFor
+            accessibleOffline
+            contentRating
+            thumb
+            liveThumbnail
+            kind
+            serviceId
+            title {
+                originProgramId
+                titleId
+                format
+                type
+                url
+                genresNames
+                headline
+                poster {
+                    mobile(scale: $mobilePosterScales)
+                    tablet(scale: $tabletPosterScales)
+                }
+            }
+            subscriptionService {
+                name
+                salesPage {
+                    identifier {
+                        mobile
+                    }
+                }
+                faq {
+                    qrCode {
+                        mobile
+                    }
+                    url {
+                        mobile
+                    }
+                }
+            }
+        }
+    }
+}
+

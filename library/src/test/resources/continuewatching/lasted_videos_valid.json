@@ -1,0 +1,284 @@
+{
+  "data": {
+    "user": {
+      "__typename": "User",
+      "myLastWatchedVideos": {
+        "hasNextPage": true,
+        "nextPage": 2,
+        "__typename": "VideoCollection",
+        "resources": [
+          {
+            "__typename": "Video",
+            "id": "8104868",
+            "availableFor": "SUBSCRIBER",
+            "headline": "A Casa de Cera",
+            "description": "Um grupo de adolescentes fica preso perto de um museu de cera estranho e logo deve lutar para sobreviver e não se tornar a próxima exposição.",
+            "duration": 6763256,
+            "contentRating": "14",
+            "watchedProgress": 1563005,
+            "formattedDuration": "1h 52min",
+            "kind": "episode",
+            "thumb": "https://s01.video.glbimg.com/x216/8104868.jpg",
+            "liveThumbnail": null,
+            "title": {
+              "__typename": "Title",
+              "originProgramId": "10122",
+              "titleId": "QDBKzvPXh6",
+              "headline": "A Casa de Cera",
+              "type": "MOVIE",
+              "logo": {
+                "__typename": "Logo",
+                "mobile": "https://s2.glbimg.com/-utXsUjuUc4v05jskUHvZAmYLMQ=/262x147/https://s2.glbimg.com/-M4rkxyk4ar1IyCq3ThoPq_u5iQ=/i.s3.glbimg.com/v1/AUTH_c3c606ff68e7478091d1ca496f9c5625/internal_photos/bs/2019/A/I/xoUB2zR2ujHwcCZwolEQ/2019-562-filmes-warner-out-a-casa-de-cera-logo.png",
+                "tablet": "https://s2.glbimg.com/xwsswliPq3bz6RmppzgQmz0GtaQ=/304x171/https://s2.glbimg.com/-M4rkxyk4ar1IyCq3ThoPq_u5iQ=/i.s3.glbimg.com/v1/AUTH_c3c606ff68e7478091d1ca496f9c5625/internal_photos/bs/2019/A/I/xoUB2zR2ujHwcCZwolEQ/2019-562-filmes-warner-out-a-casa-de-cera-logo.png",
+                "tv": "https://s2.glbimg.com/4tJmsUMCCHOfZdSQDtlf3JofAms=/292x165/https://s2.glbimg.com/-M4rkxyk4ar1IyCq3ThoPq_u5iQ=/i.s3.glbimg.com/v1/AUTH_c3c606ff68e7478091d1ca496f9c5625/internal_photos/bs/2019/A/I/xoUB2zR2ujHwcCZwolEQ/2019-562-filmes-warner-out-a-casa-de-cera-logo.png"
+              }
+            }
+          },
+          {
+            "__typename": "Video",
+            "id": "7849355",
+            "availableFor": "SUBSCRIBER",
+            "headline": "Nando - Sessão 1",
+            "description": "Nando é jovem executivo bem-sucedido que está com problemas no casamento e procura a ajuda de Caio.",
+            "duration": 1448781,
+            "contentRating": "12",
+            "watchedProgress": 1658,
+            "formattedDuration": "24 min",
+            "kind": "episode",
+            "thumb": "https://s04.video.glbimg.com/x216/7849355.jpg",
+            "liveThumbnail": null,
+            "title": {
+              "__typename": "Title",
+              "originProgramId": "11680",
+              "titleId": "tKTBtfZdtv",
+              "headline": "Sessão de Terapia",
+              "type": "SERIE",
+              "logo": {
+                "__typename": "Logo",
+                "mobile": "https://s2.glbimg.com/mwGk7v34XB3yHAVOfFWuB4EVe6U=/262x147/https://s2.glbimg.com/y6GNXUmBFl28c2AnKTw8yaBhtp8=/i.s3.glbimg.com/v1/AUTH_c3c606ff68e7478091d1ca496f9c5625/internal_photos/bs/2019/S/E/i7MhQXSbSLvBxF7LtVdw/2019-578-original-globoplay-sessao-de-terapia-logo.png",
+                "tablet": "https://s2.glbimg.com/aQdnuBfNiF0Mq3kDsMWL-L3RQe4=/304x171/https://s2.glbimg.com/y6GNXUmBFl28c2AnKTw8yaBhtp8=/i.s3.glbimg.com/v1/AUTH_c3c606ff68e7478091d1ca496f9c5625/internal_photos/bs/2019/S/E/i7MhQXSbSLvBxF7LtVdw/2019-578-original-globoplay-sessao-de-terapia-logo.png",
+                "tv": "https://s2.glbimg.com/V7CUWbUuglkqN3ADJMrjdQV7mL8=/292x165/https://s2.glbimg.com/y6GNXUmBFl28c2AnKTw8yaBhtp8=/i.s3.glbimg.com/v1/AUTH_c3c606ff68e7478091d1ca496f9c5625/internal_photos/bs/2019/S/E/i7MhQXSbSLvBxF7LtVdw/2019-578-original-globoplay-sessao-de-terapia-logo.png"
+              }
+            }
+          },
+          {
+            "__typename": "Video",
+            "id": "8002850",
+            "availableFor": "SUBSCRIBER",
+            "headline": "Episódio 3",
+            "description": "O sumiço de uma santa provoca conflito religioso entre os alunos. Gislaine, uma aluna que é prostituta, quase perde a bolsa de estudos conquistada em um concurso, mas consegue garantir o prêmio. A aluna também faz o parto de uma colega na escola. Leo, filho de Jaci, flagra o pai beijando Lúcia.",
+            "duration": 2449636,
+            "contentRating": "16",
+            "watchedProgress": 13,
+            "formattedDuration": "40 min",
+            "kind": "episode",
+            "thumb": "https://s03.video.glbimg.com/x216/8002850.jpg",
+            "liveThumbnail": null,
+            "title": {
+              "__typename": "Title",
+              "originProgramId": "11764",
+              "titleId": "DYpvss7pz5",
+              "headline": "Segunda Chamada",
+              "type": "SERIE",
+              "logo": {
+                "__typename": "Logo",
+                "mobile": "https://s2.glbimg.com/u8Viqvuk3apczKt4ira-XG_thes=/262x147/https://s2.glbimg.com/EVtmT5m--gDYUbTCp2wYNK78ulU=/i.s3.glbimg.com/v1/AUTH_c3c606ff68e7478091d1ca496f9c5625/internal_photos/bs/2019/D/k/bnF8B0RsSnjxwT008DVQ/2019-574-segunda-chamada-logo.png",
+                "tablet": "https://s2.glbimg.com/h9zWWlvMCJu7_XZqmuMXr_jIkuk=/304x171/https://s2.glbimg.com/EVtmT5m--gDYUbTCp2wYNK78ulU=/i.s3.glbimg.com/v1/AUTH_c3c606ff68e7478091d1ca496f9c5625/internal_photos/bs/2019/D/k/bnF8B0RsSnjxwT008DVQ/2019-574-segunda-chamada-logo.png",
+                "tv": "https://s2.glbimg.com/qhWJ3Ute0MNpJCnoVehnjgK7Vqs=/292x165/https://s2.glbimg.com/EVtmT5m--gDYUbTCp2wYNK78ulU=/i.s3.glbimg.com/v1/AUTH_c3c606ff68e7478091d1ca496f9c5625/internal_photos/bs/2019/D/k/bnF8B0RsSnjxwT008DVQ/2019-574-segunda-chamada-logo.png"
+              }
+            }
+          },
+          {
+            "__typename": "Video",
+            "id": "7146575",
+            "availableFor": "SUBSCRIBER",
+            "headline": "Ninguém é uma Ilha",
+            "description": "Dante provoca um acidente que deixa o irmão em coma após descobrir que ele tem um caso com sua esposa. Na plataforma, conhece Julia, que assume o cargo que ele almejava há anos.",
+            "duration": 3167456,
+            "contentRating": "16",
+            "watchedProgress": 3116568,
+            "formattedDuration": "52 min",
+            "kind": "episode",
+            "thumb": "https://s04.video.glbimg.com/x216/7146575.jpg",
+            "liveThumbnail": null,
+            "title": {
+              "__typename": "Title",
+              "originProgramId": "10874",
+              "titleId": "ZdCNg87C7p",
+              "headline": "Ilha de Ferro",
+              "type": "SERIE",
+              "logo": {
+                "__typename": "Logo",
+                "mobile": "https://s2.glbimg.com/jbxaivgBDVQh5-IYq-qZ3WQPHGw=/262x147/https://s2.glbimg.com/oK3-1oXHUaIOsDjg2PPqa8rjwUc=/i.s3.glbimg.com/v1/AUTH_c3c606ff68e7478091d1ca496f9c5625/internal_photos/bs/2019/D/6/wqpVQ4TOC0QakGwuLBYQ/2019-581-series-adiantas-ilha-de-ferro-t2-logo.png",
+                "tablet": "https://s2.glbimg.com/PtTLGMQbLracuF-Ce1zeuqBO4ew=/304x171/https://s2.glbimg.com/oK3-1oXHUaIOsDjg2PPqa8rjwUc=/i.s3.glbimg.com/v1/AUTH_c3c606ff68e7478091d1ca496f9c5625/internal_photos/bs/2019/D/6/wqpVQ4TOC0QakGwuLBYQ/2019-581-series-adiantas-ilha-de-ferro-t2-logo.png",
+                "tv": "https://s2.glbimg.com/1Gvb1v5ibFPkL4kbBI3LEaKenMs=/292x165/https://s2.glbimg.com/oK3-1oXHUaIOsDjg2PPqa8rjwUc=/i.s3.glbimg.com/v1/AUTH_c3c606ff68e7478091d1ca496f9c5625/internal_photos/bs/2019/D/6/wqpVQ4TOC0QakGwuLBYQ/2019-581-series-adiantas-ilha-de-ferro-t2-logo.png"
+              }
+            }
+          },
+          {
+            "__typename": "Video",
+            "id": "8044716",
+            "availableFor": "SUBSCRIBER",
+            "headline": "Das 2h às 3h da Tarde",
+            "description": "Enquanto planeja um encontro com Grimes, Carter precisa depositar confiança na UCT. Rebecca e Donovan tentam isolar o vazamento. Amira e Harris têm um contratempo.",
+            "duration": 2607472,
+            "contentRating": "14",
+            "watchedProgress": 0,
+            "formattedDuration": "43 min",
+            "kind": "episode",
+            "thumb": "https://s01.video.glbimg.com/x216/8044716.jpg",
+            "liveThumbnail": null,
+            "title": {
+              "__typename": "Title",
+              "originProgramId": "11924",
+              "titleId": "KHL8whqy8s",
+              "headline": "24 Horas - O Legado",
+              "type": "SERIE",
+              "logo": {
+                "__typename": "Logo",
+                "mobile": "https://s2.glbimg.com/Myybn_N06q_XqEBtfTpk-ZY4ZcE=/262x147/https://s2.glbimg.com/Wll3ipgTgbHe0EAYZnSR7xz9IdE=/i.s3.glbimg.com/v1/AUTH_c3c606ff68e7478091d1ca496f9c5625/internal_photos/bs/2019/a/R/B1AtWfRPScLMVU4DZQ2Q/2019-591-mk-24-horas-o-legado-logo.png",
+                "tablet": "https://s2.glbimg.com/QeeVKzcSWtXVJQG2OwApnOPAMeo=/304x171/https://s2.glbimg.com/Wll3ipgTgbHe0EAYZnSR7xz9IdE=/i.s3.glbimg.com/v1/AUTH_c3c606ff68e7478091d1ca496f9c5625/internal_photos/bs/2019/a/R/B1AtWfRPScLMVU4DZQ2Q/2019-591-mk-24-horas-o-legado-logo.png",
+                "tv": "https://s2.glbimg.com/aarJaKiTXT7lqyXuYv6xkUucnJY=/292x165/https://s2.glbimg.com/Wll3ipgTgbHe0EAYZnSR7xz9IdE=/i.s3.glbimg.com/v1/AUTH_c3c606ff68e7478091d1ca496f9c5625/internal_photos/bs/2019/a/R/B1AtWfRPScLMVU4DZQ2Q/2019-591-mk-24-horas-o-legado-logo.png"
+              }
+            }
+          },
+          {
+            "__typename": "Video",
+            "id": "8060591",
+            "availableFor": "SUBSCRIBER",
+            "headline": "Das 11h da Manhã ao Meio-Dia",
+            "description": "Foragido há quatro anos, Jack Bauer é preso em Londres pelos agentes da CIA. Apenas a agente Kate Morgan desconfia que a captura de Jack foi fácil demais.",
+            "duration": 2660324,
+            "contentRating": "16",
+            "watchedProgress": 20590,
+            "formattedDuration": "44 min",
+            "kind": "episode",
+            "thumb": "https://s04.video.glbimg.com/x216/8060591.jpg",
+            "liveThumbnail": null,
+            "title": {
+              "__typename": "Title",
+              "originProgramId": "11909",
+              "titleId": "1pkScwgzLf",
+              "headline": "24 Horas - Viva Um Novo Dia",
+              "type": "SERIE",
+              "logo": {
+                "__typename": "Logo",
+                "mobile": "https://s2.glbimg.com/UFP-BBifR1ejfOpcFRDXxNPAw7U=/262x147/https://s2.glbimg.com/SzXs46YruhviZSAg3zuC3s1LIpU=/i.s3.glbimg.com/v1/AUTH_c3c606ff68e7478091d1ca496f9c5625/internal_photos/bs/2019/W/s/0BwVAzQdOVYutEEcCb7A/2019-591-mk-24-horas-viva-um-novo-dia-logo.png",
+                "tablet": "https://s2.glbimg.com/SbTsiQFeu5RCzZ4p2AZ3O2zxTfk=/304x171/https://s2.glbimg.com/SzXs46YruhviZSAg3zuC3s1LIpU=/i.s3.glbimg.com/v1/AUTH_c3c606ff68e7478091d1ca496f9c5625/internal_photos/bs/2019/W/s/0BwVAzQdOVYutEEcCb7A/2019-591-mk-24-horas-viva-um-novo-dia-logo.png",
+                "tv": "https://s2.glbimg.com/npiL9Moihiv3OY1OUcr4NMbbrMQ=/292x165/https://s2.glbimg.com/SzXs46YruhviZSAg3zuC3s1LIpU=/i.s3.glbimg.com/v1/AUTH_c3c606ff68e7478091d1ca496f9c5625/internal_photos/bs/2019/W/s/0BwVAzQdOVYutEEcCb7A/2019-591-mk-24-horas-viva-um-novo-dia-logo.png"
+              }
+            }
+          },
+          {
+            "__typename": "Video",
+            "id": "8110684",
+            "availableFor": "SUBSCRIBER",
+            "headline": "Capítulo de 22/11/2019",
+            "description": "Maria da Paz se casa com Amadeu. Nasce a filha de Maria da Paz. Chiclete e Camilo se enfrentam corpo a corpo e o ex policial acaba morto. Josiane é liberada da prisão por bom comportamento. Vivi Guedes dá seu último recado em suas redes sociais e foge com Chiclete. Josiane empurra Régis de viaduto após pedido de casamento. Rock se casa com Joana e se torna campeão mundial. Agno e Leandro se casam",
+            "duration": 4520005,
+            "contentRating": "14",
+            "watchedProgress": 4463364,
+            "formattedDuration": "1h 15min",
+            "kind": "episode",
+            "thumb": "https://s01.video.glbimg.com/x216/8110684.jpg",
+            "liveThumbnail": null,
+            "title": {
+              "__typename": "Title",
+              "originProgramId": "11212",
+              "titleId": "c7sbwWz7jf",
+              "headline": "A Dona do Pedaço",
+              "type": "TV_PROGRAM",
+              "logo": {
+                "__typename": "Logo",
+                "mobile": "https://s2.glbimg.com/d1HwWd34ex7cOgQu5vcEbMy9b7o=/262x147/https://s2.glbimg.com/TtjLOum4udZPdKtygwVblgaNY2k=/i.s3.glbimg.com/v1/AUTH_c3c606ff68e7478091d1ca496f9c5625/internal_photos/bs/2019/q/g/JKwCDwTcaBXjYWVkfZiw/2019-373-a-dona-do-pedac-oo-logo.png",
+                "tablet": "https://s2.glbimg.com/aQBiaoKuSkvEMc1lNNcquXtXh9g=/304x171/https://s2.glbimg.com/TtjLOum4udZPdKtygwVblgaNY2k=/i.s3.glbimg.com/v1/AUTH_c3c606ff68e7478091d1ca496f9c5625/internal_photos/bs/2019/q/g/JKwCDwTcaBXjYWVkfZiw/2019-373-a-dona-do-pedac-oo-logo.png",
+                "tv": "https://s2.glbimg.com/dx9pyVz1m1WBzMqOZEBMDoDwl-U=/292x165/https://s2.glbimg.com/TtjLOum4udZPdKtygwVblgaNY2k=/i.s3.glbimg.com/v1/AUTH_c3c606ff68e7478091d1ca496f9c5625/internal_photos/bs/2019/q/g/JKwCDwTcaBXjYWVkfZiw/2019-373-a-dona-do-pedac-oo-logo.png"
+              }
+            }
+          },
+          {
+            "__typename": "Video",
+            "id": "7302183",
+            "availableFor": "SUBSCRIBER",
+            "headline": "A Hipótese Das Fibras",
+            "description": "Penny fica furiosa com Leonard e Sheldon quando eles invadem e limpam o apartamento enquanto ela dorme.",
+            "duration": 1262261,
+            "contentRating": "12",
+            "watchedProgress": 1056000,
+            "formattedDuration": "21 min",
+            "kind": "episode",
+            "thumb": "https://s04.video.glbimg.com/x216/7302183.jpg",
+            "liveThumbnail": null,
+            "title": {
+              "__typename": "Title",
+              "originProgramId": "11093",
+              "titleId": "fhmwKtSNxG",
+              "headline": "The Big Bang Theory",
+              "type": "SERIE",
+              "logo": {
+                "__typename": "Logo",
+                "mobile": "https://s2.glbimg.com/azd4C0HW8x6sshJBJIe8pPaNlXA=/262x147/https://s2.glbimg.com/pUtsEbGHhN2m9S8p7UOFrSCz038=/i.s3.glbimg.com/v1/AUTH_c3c606ff68e7478091d1ca496f9c5625/internal_photos/bs/2019/E/H/AS0tXzRqSGpopJLbKrXQ/2018-216-midia-kit-series-the-big-bang-theory-logo.png",
+                "tablet": "https://s2.glbimg.com/drVucySG6Pn9Ow1Wd3efcXQWmc4=/304x171/https://s2.glbimg.com/pUtsEbGHhN2m9S8p7UOFrSCz038=/i.s3.glbimg.com/v1/AUTH_c3c606ff68e7478091d1ca496f9c5625/internal_photos/bs/2019/E/H/AS0tXzRqSGpopJLbKrXQ/2018-216-midia-kit-series-the-big-bang-theory-logo.png",
+                "tv": "https://s2.glbimg.com/yCibGDwgWM47kMGGVQFkN92nnh0=/292x165/https://s2.glbimg.com/pUtsEbGHhN2m9S8p7UOFrSCz038=/i.s3.glbimg.com/v1/AUTH_c3c606ff68e7478091d1ca496f9c5625/internal_photos/bs/2019/E/H/AS0tXzRqSGpopJLbKrXQ/2018-216-midia-kit-series-the-big-bang-theory-logo.png"
+              }
+            }
+          },
+          {
+            "__typename": "Video",
+            "id": "8015296",
+            "availableFor": "SUBSCRIBER",
+            "headline": "Episódio 1",
+            "description": "Raquel decide trabalhar como prostituta em um clube particular. À medida que os clientes passam a gostar mais dela, a inveja começa a surgir entre suas colegas de trabalho.",
+            "duration": 2694492,
+            "contentRating": "18",
+            "watchedProgress": 193118,
+            "formattedDuration": "44 min",
+            "kind": "episode",
+            "thumb": "https://s01.video.glbimg.com/x216/8015296.jpg",
+            "liveThumbnail": null,
+            "title": {
+              "__typename": "Title",
+              "originProgramId": "11831",
+              "titleId": "kdvz2T79pc",
+              "headline": "Me Chama de Bruna",
+              "type": "SERIE",
+              "logo": {
+                "__typename": "Logo",
+                "mobile": "https://s2.glbimg.com/v3guAXxZxpajuNsbVwMgD_JCtXw=/262x147/https://s2.glbimg.com/k78zkG7wuKKz8kfLRYL8f7LkzB8=/i.s3.glbimg.com/v1/AUTH_c3c606ff68e7478091d1ca496f9c5625/internal_photos/bs/2019/U/2/4oAnSKRfeJFea4dj7dYg/2019-546-series-fox-outubro-me-chama-de-bruna-logo.png",
+                "tablet": "https://s2.glbimg.com/iWBu8KDzaOP7lRaUMCuZfFFzN48=/304x171/https://s2.glbimg.com/k78zkG7wuKKz8kfLRYL8f7LkzB8=/i.s3.glbimg.com/v1/AUTH_c3c606ff68e7478091d1ca496f9c5625/internal_photos/bs/2019/U/2/4oAnSKRfeJFea4dj7dYg/2019-546-series-fox-outubro-me-chama-de-bruna-logo.png",
+                "tv": "https://s2.glbimg.com/ThXU-cZ509naxA9EqemvHtga69g=/292x165/https://s2.glbimg.com/k78zkG7wuKKz8kfLRYL8f7LkzB8=/i.s3.glbimg.com/v1/AUTH_c3c606ff68e7478091d1ca496f9c5625/internal_photos/bs/2019/U/2/4oAnSKRfeJFea4dj7dYg/2019-546-series-fox-outubro-me-chama-de-bruna-logo.png"
+              }
+            }
+          },
+          {
+            "__typename": "Video",
+            "id": "8105455",
+            "availableFor": "SUBSCRIBER",
+            "headline": "Capítulo de 22/11/2019",
+            "description": "Lola e Júlio disfarçam sua situação perante Emília. Julinho repreende o comportamento de Soraia, que é elogiada por Karine. Lola tem uma conversa franca com Emília. Julinho pede a mão de Lili em namoro para Virgulino. Júlio se empolga com o chamado de Emília para uma visita e Lola se preocupa com o excesso de confiança do marido.",
+            "duration": 2101102,
+            "contentRating": "12",
+            "watchedProgress": 338000,
+            "formattedDuration": "35 min",
+            "kind": "episode",
+            "thumb": "https://s04.video.glbimg.com/x216/8105455.jpg",
+            "liveThumbnail": null,
+            "title": {
+              "__typename": "Title",
+              "originProgramId": "11765",
+              "titleId": "FDMcMpvPhM",
+              "headline": "Éramos Seis",
+              "type": "TV_PROGRAM",
+              "logo": {
+                "__typename": "Logo",
+                "mobile": "https://s2.glbimg.com/c57Lp58RG0i1OiAQ9WNn5PA6eXg=/262x147/https://s2.glbimg.com/43jRM9X_BpxyM8i0ArTrtXubeXk=/i.s3.glbimg.com/v1/AUTH_c3c606ff68e7478091d1ca496f9c5625/internal_photos/bs/2019/e/I/pAaXu0SNSMVOZ6MfkB0Q/2019-549-eramos-seis-logo.png",
+                "tablet": "https://s2.glbimg.com/5XWIDOiqk_BSMJyhh2PP9YasZVA=/304x171/https://s2.glbimg.com/43jRM9X_BpxyM8i0ArTrtXubeXk=/i.s3.glbimg.com/v1/AUTH_c3c606ff68e7478091d1ca496f9c5625/internal_photos/bs/2019/e/I/pAaXu0SNSMVOZ6MfkB0Q/2019-549-eramos-seis-logo.png",
+                "tv": "https://s2.glbimg.com/kkh2ec9rS2nsOSfrd9TLhJxi8jY=/292x165/https://s2.glbimg.com/43jRM9X_BpxyM8i0ArTrtXubeXk=/i.s3.glbimg.com/v1/AUTH_c3c606ff68e7478091d1ca496f9c5625/internal_photos/bs/2019/e/I/pAaXu0SNSMVOZ6MfkB0Q/2019-549-eramos-seis-logo.png"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

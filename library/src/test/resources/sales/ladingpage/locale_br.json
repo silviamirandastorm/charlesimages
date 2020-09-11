@@ -1,0 +1,9 @@
+{
+  "data": {
+    "locale": {
+      "__typename": "Locale",
+      "countryCode": "BR",
+      "tenant": "globo-play"
+    }
+  }
+}

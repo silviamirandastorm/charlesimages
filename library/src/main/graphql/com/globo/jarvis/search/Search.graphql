@@ -1,0 +1,24 @@
+query Search(
+    $query: String!
+    $perPage: Int
+    $page: Int
+    $broadcastChannelTrimmedLogoScales: BroadcastChannelTrimmedLogoScales
+    $broadcastImageOnAirScales: BroadcastImageOnAirScales
+    $mobilePosterScales: MobilePosterScales
+    $tabletPosterScales: TabletPosterScales
+    $tvPosterScales: TVPosterScales
+) {
+    search {
+        videoSearch(query: $query, page: $page, perPage: $perPage) {
+            ...VideoSearchResultFragment
+        }
+
+        titleSearch(query: $query, page: $page, perPage: $perPage) {
+            ...TitleSearchResultFragment
+        }
+
+        broadcastChannelSearch(query: $query, page: $page, perPage: $perPage) {
+            ...ChannelSearchResultFragment
+        }
+    }
+}

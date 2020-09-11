@@ -1,0 +1,126 @@
+"data": {
+"affiliate": {
+"__typename": "Affiliate",
+"affiliateRegion": {
+"__typename": "AffiliateRegion",
+"titles": {
+"__typename": "TitleCollection",
+"resources": [
+{
+"__typename": "Title",
+"titleId": "9QtyG5nMX8",
+"headline": "Bom Dia Rio",
+"description": "Telejornal matutino focado na prestação de serviços. Oferece informações sobre o tempo e o trânsito nas principais vias da cidade.",
+"cover": {
+"__typename": "Cover",
+"landscape": "https://s2.glbimg.com/t9hhLI-yP_pQ3oEdbWBk8RUv7fA=/0x720/https://s2.glbimg.com/0QsyJsDZwRaMObZzltIv0tfKq6w=/i.s3.glbimg.com/v1/AUTH_c3c606ff68e7478091d1ca496f9c5625/internal_photos/bs/2018/U/j/3VleIuTRedPxIAlW7B7g/811-bom-dia-rio-background.jpg"
+},
+"poster": {
+"__typename": "Poster",
+"mobile": "https://s2.glbimg.com/BcEdGYu3cQxDWzzd1vp4cgvS0PU=/100x152/https://s2.glbimg.com/4y2H1uDPenMBxTdJycYzD1hNBKc=/s3.glbimg.com/v1/AUTH_180b9dd048d9434295d27c4b6dadc248/media_kit/6f/77/2a6ef96ea9e7a8da4a81304b31d1.jpg",
+"tablet": "https://s2.glbimg.com/4NYF3cBcmPjaYMUpycFZgCckPvE=/144x212/https://s2.glbimg.com/4y2H1uDPenMBxTdJycYzD1hNBKc=/s3.glbimg.com/v1/AUTH_180b9dd048d9434295d27c4b6dadc248/media_kit/6f/77/2a6ef96ea9e7a8da4a81304b31d1.jpg",
+"tv": "https://s2.glbimg.com/YprRXhzLPaNfZGFc0qZ8LxESLXk=/146x216/https://s2.glbimg.com/4y2H1uDPenMBxTdJycYzD1hNBKc=/s3.glbimg.com/v1/AUTH_180b9dd048d9434295d27c4b6dadc248/media_kit/6f/77/2a6ef96ea9e7a8da4a81304b31d1.jpg"
+}
+},
+{
+"__typename": "Title",
+"titleId": "hcSthQ56JW",
+"headline": "RJ1",
+"description": "Telejornal local com foco na prestação de serviço. Conta com a participação de comentaristas especializados em segurança, saúde e administração pública.",
+"cover": {
+"__typename": "Cover",
+"landscape": "https://s2.glbimg.com/voS4pYkOgRxtIZqu6g952mj3QG0=/0x720/https://s2.glbimg.com/sQluixTzdSuMrjwm-bjU0rRmr10=/i.s3.glbimg.com/v1/AUTH_c3c606ff68e7478091d1ca496f9c5625/internal_photos/bs/2018/m/G/GLDwqURX6YUsDpIVuO1Q/820-rj1-background.jpg"
+},
+"poster": {
+"__typename": "Poster",
+"mobile": "https://s2.glbimg.com/80DKCZhgy0nTmXsRAz9TGncC3iw=/100x152/https://s2.glbimg.com/kML7z0UiCTDbubwzvLDFSCDft3Q=/s3.glbimg.com/v1/AUTH_180b9dd048d9434295d27c4b6dadc248/media_kit/3e/13/ed3437eed4d68708dc1228c0f77d.jpg",
+"tablet": "https://s2.glbimg.com/LCgBzWiYWsZgnRvw_1SEIzmyTBI=/144x212/https://s2.glbimg.com/kML7z0UiCTDbubwzvLDFSCDft3Q=/s3.glbimg.com/v1/AUTH_180b9dd048d9434295d27c4b6dadc248/media_kit/3e/13/ed3437eed4d68708dc1228c0f77d.jpg",
+"tv": "https://s2.glbimg.com/BZt2chKY61Mah52HHB01Pw2yXeM=/146x216/https://s2.glbimg.com/kML7z0UiCTDbubwzvLDFSCDft3Q=/s3.glbimg.com/v1/AUTH_180b9dd048d9434295d27c4b6dadc248/media_kit/3e/13/ed3437eed4d68708dc1228c0f77d.jpg"
+}
+},
+{
+"__typename": "Title",
+"titleId": "x5SwXtgSZn",
+"headline": "RJ2",
+"description": "Telejornal local voltado para as notícias que movimentam o Rio de Janeiro, com a cobertura dos principais acontecimentos do dia. Conta com uma equipe de jornalismo investigativo.",
+"cover": {
+"__typename": "Cover",
+"landscape": "https://s2.glbimg.com/APqtLatFASiLcT8c-sSWGmH-DOY=/0x720/https://s2.glbimg.com/LepSq2ETJcAVXXaqosVO9fBHZMo=/i.s3.glbimg.com/v1/AUTH_c3c606ff68e7478091d1ca496f9c5625/internal_photos/bs/2018/0/3/4r42T3SjmNu58qUFvkxQ/4388-rj2-background.jpg"
+},
+"poster": {
+"__typename": "Poster",
+"mobile": "https://s2.glbimg.com/fFXXnSa8k6Ntbh_mrMCpFIbfGog=/100x152/https://s2.glbimg.com/NBfjtl92FkDj38LuAJiydYvrm4o=/s3.glbimg.com/v1/AUTH_180b9dd048d9434295d27c4b6dadc248/media_kit/ec/96/a2e093bcf021297a9d5d17969686.jpg",
+"tablet": "https://s2.glbimg.com/KAr2nTqsC-ghSxwZJmtx179fido=/144x212/https://s2.glbimg.com/NBfjtl92FkDj38LuAJiydYvrm4o=/s3.glbimg.com/v1/AUTH_180b9dd048d9434295d27c4b6dadc248/media_kit/ec/96/a2e093bcf021297a9d5d17969686.jpg",
+"tv": "https://s2.glbimg.com/sqvDsIHvYQeIoY7-g2or1rri-dg=/146x216/https://s2.glbimg.com/NBfjtl92FkDj38LuAJiydYvrm4o=/s3.glbimg.com/v1/AUTH_180b9dd048d9434295d27c4b6dadc248/media_kit/ec/96/a2e093bcf021297a9d5d17969686.jpg"
+}
+},
+{
+"__typename": "Title",
+"titleId": "7L8FQZxGDQ",
+"headline": "Globo Esporte RJ",
+"description": "O programa traz os principais acontecimentos do mundo do esporte. E a cobertura completa dos campeonatos, resumo dos jogos com foco nos clubes cariocas.",
+"cover": {
+"__typename": "Cover",
+"landscape": "https://s2.glbimg.com/Q2XDabTHnU6uWjauEhFs-EyDUlY=/0x720/https://s2.glbimg.com/QDUVD5h9ebAdMR8m5UsnqhSZQQI=/i.s3.glbimg.com/v1/AUTH_c3c606ff68e7478091d1ca496f9c5625/internal_photos/bs/2019/g/5/yOjezpTRA90dxBLPZ6Ow/2019-480-midia-kit-ge-rj-background.jpg"
+},
+"poster": {
+"__typename": "Poster",
+"mobile": "https://s2.glbimg.com/s9ybNM5LhI_I7FlR8UtANrqaegs=/100x152/https://s2.glbimg.com/KRTIF9BHEBxdnmeXx4CiZS5-RvY=/i.s3.glbimg.com/v1/AUTH_c3c606ff68e7478091d1ca496f9c5625/internal_photos/bs/2019/h/W/V04Wd4TNeD7S3ZA88w2A/2019-480-midia-kit-ge-rj-poster.jpg",
+"tablet": "https://s2.glbimg.com/Ta_A6s1KIjCGkWy4GdqnCdqTgHY=/144x212/https://s2.glbimg.com/KRTIF9BHEBxdnmeXx4CiZS5-RvY=/i.s3.glbimg.com/v1/AUTH_c3c606ff68e7478091d1ca496f9c5625/internal_photos/bs/2019/h/W/V04Wd4TNeD7S3ZA88w2A/2019-480-midia-kit-ge-rj-poster.jpg",
+"tv": "https://s2.glbimg.com/PQ4afgrlC0X6-X_PJuLKPAnidrs=/146x216/https://s2.glbimg.com/KRTIF9BHEBxdnmeXx4CiZS5-RvY=/i.s3.glbimg.com/v1/AUTH_c3c606ff68e7478091d1ca496f9c5625/internal_photos/bs/2019/h/W/V04Wd4TNeD7S3ZA88w2A/2019-480-midia-kit-ge-rj-poster.jpg"
+}
+},
+{
+"__typename": "Title",
+"titleId": "2WYksfffHp",
+"headline": "Globo Comunidade",
+"description": "",
+"cover": {
+"__typename": "Cover",
+"landscape": "https://s2.glbimg.com/_AWZC-2LiO2a3FfBaFNZxr1C3sM=/0x720/https://s2.glbimg.com/NR2YXaFn1Mmsu686miog9HIWQDo=/i.s3.glbimg.com/v1/AUTH_c3c606ff68e7478091d1ca496f9c5625/internal_photos/bs/2018/C/M/vLqBIDS8WgZMxCaWY3wA/2529-globo-comunidade-background.jpg"
+},
+"poster": {
+"__typename": "Poster",
+"mobile": "https://s2.glbimg.com/W8aReXst7W7E3v1HO5Fxr8IA5IQ=/100x152/https://s2.glbimg.com/2ogdU07tXcogPKXB-iPd67osTCc=/s3.glbimg.com/v1/AUTH_180b9dd048d9434295d27c4b6dadc248/media_kit/dc/58/1a4c368ee779384af4e3e096d02e.jpg",
+"tablet": "https://s2.glbimg.com/YOpd_CFbczDyG7-8a299h9GVvaY=/144x212/https://s2.glbimg.com/2ogdU07tXcogPKXB-iPd67osTCc=/s3.glbimg.com/v1/AUTH_180b9dd048d9434295d27c4b6dadc248/media_kit/dc/58/1a4c368ee779384af4e3e096d02e.jpg",
+"tv": "https://s2.glbimg.com/B61GZRV1xyEHNTm-01G5-tZReIo=/146x216/https://s2.glbimg.com/2ogdU07tXcogPKXB-iPd67osTCc=/s3.glbimg.com/v1/AUTH_180b9dd048d9434295d27c4b6dadc248/media_kit/dc/58/1a4c368ee779384af4e3e096d02e.jpg"
+}
+},
+{
+"__typename": "Title",
+"titleId": "NfjTx6wnn1",
+"headline": "Cariocão 2020",
+"description": "Assista a todos os gols e melhores momentos dos jogos do Campeonato Carioca exibidos pela TV Globo.",
+"cover": {
+"__typename": "Cover",
+"landscape": "https://s2.glbimg.com/lEN_r8pQTNPirOBYiRD2WhWenAg=/0x720/https://s2.glbimg.com/TplYCwXfd0fG4FqnHyJR_-MvJVs=/i.s3.glbimg.com/v1/AUTH_c3c606ff68e7478091d1ca496f9c5625/internal_photos/bs/2020/W/S/49AeoXQSOLIHBqLnjdOw/2020-751-cariocao-2020-tv-globo-background.jpg"
+},
+"poster": {
+"__typename": "Poster",
+"mobile": "https://s2.glbimg.com/MAtD5whceQUEzC9MbzR35ajsfFs=/100x152/https://s2.glbimg.com/W5YlKwL5UoT1BE2Xl1xUJmfB0VE=/i.s3.glbimg.com/v1/AUTH_c3c606ff68e7478091d1ca496f9c5625/internal_photos/bs/2020/8/1/cJ4xr3Qxa6E2rMzPgRMA/2020-751-cariocao-2020-tv-globo-poster.jpg",
+"tablet": "https://s2.glbimg.com/igHU2MjfJUCMyksfBnznVE2wnXc=/144x212/https://s2.glbimg.com/W5YlKwL5UoT1BE2Xl1xUJmfB0VE=/i.s3.glbimg.com/v1/AUTH_c3c606ff68e7478091d1ca496f9c5625/internal_photos/bs/2020/8/1/cJ4xr3Qxa6E2rMzPgRMA/2020-751-cariocao-2020-tv-globo-poster.jpg",
+"tv": "https://s2.glbimg.com/kX-Xaz45VrEc6qRLQ4FIgm7HtH0=/146x216/https://s2.glbimg.com/W5YlKwL5UoT1BE2Xl1xUJmfB0VE=/i.s3.glbimg.com/v1/AUTH_c3c606ff68e7478091d1ca496f9c5625/internal_photos/bs/2020/8/1/cJ4xr3Qxa6E2rMzPgRMA/2020-751-cariocao-2020-tv-globo-poster.jpg"
+}
+},
+{
+"__typename": "Title",
+"titleId": "NNW9cm6Z2Y",
+"headline": "A Roda",
+"description": "\"A Roda\" reúne dez jovens de vários locais da Região Metropolitana para conversar sobre os principais desafios de se viver no Rio.",
+"cover": {
+"__typename": "Cover",
+"landscape": "https://s2.glbimg.com/2F-uYzJ9V8fFWsWwI5oxBts9vsk=/0x720/https://s2.glbimg.com/Oqo-LOxPBh_81cMiu30TLaqyHxY=/i.s3.glbimg.com/v1/AUTH_c3c606ff68e7478091d1ca496f9c5625/internal_photos/bs/2018/O/f/HAyOpUSDqt1QBzpluyZg/10860-a-roda-background.jpg"
+},
+"poster": {
+"__typename": "Poster",
+"mobile": "https://s2.glbimg.com/xOaDM4oS7MSdrNiZhNmLjmZVZaY=/100x152/https://s2.glbimg.com/IpTV0-YTlGDNgqEl8Z831hzgzgg=/i.s3.glbimg.com/v1/AUTH_c3c606ff68e7478091d1ca496f9c5625/internal_photos/bs/2018/w/7/HAloKWR1qyRBJhVlAOJg/2018-069-media-kit-novo-pgm-a-roda-media-kit-poster-web.jpg",
+"tablet": "https://s2.glbimg.com/DmoJ07_re12cFdjQXhsVkpJEpnA=/144x212/https://s2.glbimg.com/IpTV0-YTlGDNgqEl8Z831hzgzgg=/i.s3.glbimg.com/v1/AUTH_c3c606ff68e7478091d1ca496f9c5625/internal_photos/bs/2018/w/7/HAloKWR1qyRBJhVlAOJg/2018-069-media-kit-novo-pgm-a-roda-media-kit-poster-web.jpg",
+"tv": "https://s2.glbimg.com/ozlgls6S2ChoYm8_5WzttXUIVCg=/146x216/https://s2.glbimg.com/IpTV0-YTlGDNgqEl8Z831hzgzgg=/i.s3.glbimg.com/v1/AUTH_c3c606ff68e7478091d1ca496f9c5625/internal_photos/bs/2018/w/7/HAloKWR1qyRBJhVlAOJg/2018-069-media-kit-novo-pgm-a-roda-media-kit-poster-web.jpg"
+}
+}
+]
+}
+}
+}
+}
+}

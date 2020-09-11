@@ -1,0 +1,64 @@
+query Epgs(
+    $date: Date!
+    $broadcastChannelLogoScales: BroadcastChannelLogoScales
+    $broadcastImageOnAirScales: BroadcastImageOnAirScales
+    $coverLandscapeScales: CoverLandscapeScales
+) {
+    broadcasts {
+        ...EpgFragment
+    }
+}
+
+query Epg(
+    $mediaId: ID!
+    $coordinates: CoordinatesData
+    $date: Date!
+    $broadcastChannelLogoScales: BroadcastChannelLogoScales
+    $broadcastImageOnAirScales: BroadcastImageOnAirScales
+    $coverLandscapeScales: CoverLandscapeScales
+) {
+    broadcast(mediaId: $mediaId, coordinates: $coordinates) {
+        ...EpgFragment
+    }
+}
+
+fragment EpgFragment on Broadcast {
+    mediaId
+    geofencing
+    imageOnAir: imageOnAir(scale: $broadcastImageOnAirScales)
+    logo(scale: $broadcastChannelLogoScales)
+    channel {
+        id
+        name
+        logo(format: PNG, scale: $broadcastChannelLogoScales)
+    }
+    media {
+        title {
+            titleId
+        }
+        availableFor
+        headline
+    }
+    epgByDate(date: $date) {
+        entries {
+            titleId
+            programId
+            name
+            metadata
+            description
+            startTime
+            endTime
+            durationInMinutes
+            liveBroadcast
+            tags
+            alternativeTime
+            contentRating
+            contentRatingCriteria
+            title {
+                cover {
+                    tv: landscape(scale: $coverLandscapeScales)
+                }
+            }
+        }
+    }
+}

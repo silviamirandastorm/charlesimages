@@ -1,0 +1,67 @@
+{
+  "data": {
+    "title": {
+      "__typename": "Title",
+      "titleId": "mVZ9nJz5CW",
+      "headline": "Cinquenta Tons De Cinza",
+      "originalHeadline": "Fifty Shades Of Grey",
+      "description": "A vida da estudante Anastasia Steele muda para sempre quando ela começa a se relacionar com Christian Grey, um bilionário sadomasoquista, e se torna objeto de submissão dele.",
+      "contentRating": "16",
+      "contentRatingCriteria": [
+        "nudez",
+        "sexo"
+      ],
+      "releaseYear": 2015,
+      "type": "MOVIE",
+      "format": "LONG",
+      "epgActive": true,
+      "url": "/cinquenta-tons-de-cinza/t/mVZ9nJz5CW",
+      "countries": [
+        "Estados Unidos"
+      ],
+      "directorsNames": [
+        "Sam Taylor-Johnson"
+      ],
+      "castNames": [
+        "Dakota Johnson",
+        "Jamie Dornan",
+        "Jennifer Ehle"
+      ],
+      "genresNames": [
+        "Romance",
+        "Drama"
+      ],
+      "authorsNames": [],
+      "screenwritersNames": [],
+      "artDirectorsNames": [],
+      "subset": {
+        "__typename": "Subset",
+        "id": "movies"
+      },
+      "cover": {
+        "__typename": "Cover",
+        "mobile": "https://s2.glbimg.com/2pzkLLrc5yd80OmSiZ-15s4UHJk=/270x288/https://s2.glbimg.com/sdLnTjuDKLoMQPstIpn55bJ3gbM=/1815x0:3840x2160/https://s2.glbimg.com/5XPliweavLRI0G-k_TU2Uu3TDk4=/i.s3.glbimg.com/v1/AUTH_c3c606ff68e7478091d1ca496f9c5625/internal_photos/bs/2020/H/8/GigrEXSmKRJFAgHAihjg/2020-831-filmes-universal-50-tons-de-cinza-background.jpg",
+        "tablet": "https://s2.glbimg.com/Ed77zV0rovSQtYr9RTSU7NscvXQ=/0x720/https://s2.glbimg.com/5XPliweavLRI0G-k_TU2Uu3TDk4=/i.s3.glbimg.com/v1/AUTH_c3c606ff68e7478091d1ca496f9c5625/internal_photos/bs/2020/H/8/GigrEXSmKRJFAgHAihjg/2020-831-filmes-universal-50-tons-de-cinza-background.jpg",
+        "tv": "https://s2.glbimg.com/fzzjgZL0JZjC3B6jf47g_Yfii68=/1024x464/https://s2.glbimg.com/i_XIEC9P1lNJNSfJivw5NiE20AA=/0x0:3840x1740/https://s2.glbimg.com/5XPliweavLRI0G-k_TU2Uu3TDk4=/i.s3.glbimg.com/v1/AUTH_c3c606ff68e7478091d1ca496f9c5625/internal_photos/bs/2020/H/8/GigrEXSmKRJFAgHAihjg/2020-831-filmes-universal-50-tons-de-cinza-background.jpg"
+      },
+      "extras": {
+        "__typename": "TitleExtras",
+        "editorialOffers": null
+      },
+      "structure": {
+        "__typename": "FilmPlaybackStructure",
+        "videoPlayback": {
+          "__typename": "Video",
+          "id": "8367312",
+          "formattedDuration": "2h 5min",
+          "availableFor": "SUBSCRIBER",
+          "accessibleOffline": true,
+          "headline": "Cinquenta Tons De Cinza",
+          "description": "A vida da estudante Anastasia Steele muda para sempre quando ela começa a se relacionar com Christian Grey, um bilionário sadomasoquista, e se torna objeto de submissão dele.",
+          "thumb": "https://s01.video.glbimg.com/x216/8367312.jpg",
+          "duration": 7518411
+        }
+      }
+    }
+  }
+}

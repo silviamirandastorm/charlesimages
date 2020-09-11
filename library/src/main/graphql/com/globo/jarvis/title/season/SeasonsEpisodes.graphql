@@ -1,0 +1,20 @@
+query SeasonsEpisodes($titleId: String!) {
+    title(titleId: $titleId) {
+        structure {
+            ...SeasonedEpisodes
+        }
+    }
+}
+
+fragment SeasonedEpisodes on SeasonedStructure {
+    defaultEpisode {
+        seasonId
+    }
+    seasons {
+        resources {
+            id
+            number
+            totalEpisodes
+        }
+    }
+}

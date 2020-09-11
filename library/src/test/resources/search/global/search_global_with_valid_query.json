@@ -1,0 +1,48 @@
+{
+  "data": {
+    "search": {
+      "__typename": "Search",
+      "videos": {
+        "__typename": "VideoCollection",
+        "resources": [
+          {
+            "__typename": "Video",
+            "id": "4452349",
+            "headline": "Agora na Globo",
+            "duration": null,
+            "kind": "live",
+            "thumb": "https://s02.video.glbimg.com/x216/4452349.jpg",
+            "liveThumbnail": null,
+            "exhibitedAt": "2015-09-08T20:15:00Z",
+            "broadcast": {
+              "__typename": "Broadcast",
+              "mediaId": "6120663",
+              "withoutDVRMediaId": "4452349"
+            },
+            "title": {
+              "__typename": "Title",
+              "originProgramId": "9095",
+              "headline": "Globoplay Ao Vivo"
+            }
+          },
+          {
+            "__typename": "Video",
+            "id": "3065536",
+            "headline": "Transmissão ao Vivo",
+            "duration": null,
+            "kind": "live",
+            "thumb": "https://s01.video.glbimg.com/x216/3065536.jpg",
+            "liveThumbnail": "https://live-thumbs.video.globo.com/gemt/snapshot/",
+            "exhibitedAt": "2014-03-19T23:32:00Z",
+            "broadcast": null,
+            "title": {
+              "__typename": "Title",
+              "originProgramId": "5259",
+              "headline": "Globo Esporte MT"
+            }
+          }
+        ]
+      }
+    }
+  }
+}

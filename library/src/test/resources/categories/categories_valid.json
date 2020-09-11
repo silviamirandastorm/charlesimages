@@ -1,0 +1,121 @@
+{
+  "data": {
+    "categories": {
+      "__typename": "CategoryCollection",
+      "perPage": 20,
+      "page": 1,
+      "nextPage": 2,
+      "hasNextPage": true,
+      "resources": [
+        {
+          "__typename": "Category",
+          "name": "Novelas",
+          "background": "https://s2.glbimg.com/m1d32S6v9DMfscRBgL6l8AhyBrU=/0x196/https://s2.glbimg.com/1PRnEoM1Ar4nxXhE_soVm2rsrG0=/https://i.s3.glbimg.com/v1/AUTH_c3c606ff68e7478091d1ca496f9c5625/internal_photos/bs/2019/d/i/ECgFPfTMCmGvR12Obttw/categoria-novela.png",
+          "navigation": {
+            "__typename": "MenuPageNavigation",
+            "identifier": "novelas"
+          }
+        },
+        {
+          "__typename": "Category",
+          "name": "Séries",
+          "background": "https://s2.glbimg.com/dGzmFhz-rgvoLMgEELbuo5yFI2g=/0x196/https://s2.glbimg.com/N5QJvV9W-Wz1Vw5VwCtv0DfqJRc=/https://i.s3.glbimg.com/v1/AUTH_c3c606ff68e7478091d1ca496f9c5625/internal_photos/bs/2019/S/e/L34CVzR82n10pCxK2bkQ/series.png",
+          "navigation": {
+            "__typename": "MenuPageNavigation",
+            "identifier": "series"
+          }
+        },
+        {
+          "__typename": "Category",
+          "name": "Cinema",
+          "background": "https://s2.glbimg.com/wA3tQAimC_NbyRk5t7u4zmWRhu0=/0x196/https://s2.glbimg.com/hrGReYbHwT2mLEhoRbdPVRvizU0=/https://i.s3.glbimg.com/v1/AUTH_c3c606ff68e7478091d1ca496f9c5625/internal_photos/bs/2019/Q/2/Z46s0ERoqCU5NAngapLw/cinema.png",
+          "navigation": {
+            "__typename": "MenuPageNavigation",
+            "identifier": "cinema"
+          }
+        },
+        {
+          "__typename": "Category",
+          "name": "Infantil",
+          "background": "https://s2.glbimg.com/H-djtzd6YEasOxFsqk6OcHOU8wk=/0x196/https://s2.glbimg.com/gGrM2Jq2ZuunPax1cYCQ4WIGKK0=/https://i.s3.glbimg.com/v1/AUTH_c3c606ff68e7478091d1ca496f9c5625/internal_photos/bs/2019/3/p/XUfaZwR0AaGh9h2StIyA/infantil.png",
+          "navigation": {
+            "__typename": "MenuPageNavigation",
+            "identifier": "infantil"
+          }
+        },
+        {
+          "__typename": "Category",
+          "name": "Humor",
+          "background": "https://s2.glbimg.com/G6whjvZKSP5SLeygGG6TSbEIU-c=/0x196/https://s2.glbimg.com/xI5iVPj1cBG1JEDhN7-CcKlfv0g=/https://i.s3.glbimg.com/v1/AUTH_c3c606ff68e7478091d1ca496f9c5625/internal_photos/bs/2019/c/f/t5I7vhQPSRZNMAAyXukQ/humor.png",
+          "navigation": {
+            "__typename": "MenuPageNavigation",
+            "identifier": "humor"
+          }
+        },
+        {
+          "__typename": "Category",
+          "name": "Variedades",
+          "background": "https://s2.glbimg.com/QctCL_MJnd_iWGDghR3sMq4b5tI=/0x196/https://s2.glbimg.com/h6SLPkgVP1yVr594CU47w4ft6ys=/https://i.s3.glbimg.com/v1/AUTH_c3c606ff68e7478091d1ca496f9c5625/internal_photos/bs/2019/B/K/9S8eBERVuuJX79jSfW1Q/variedades.png",
+          "navigation": {
+            "__typename": "MenuPageNavigation",
+            "identifier": "variedades"
+          }
+        },
+        {
+          "__typename": "Category",
+          "name": "Realities",
+          "background": "https://s2.glbimg.com/pjq--WE5nYmbhHDlyTRWoLtDbUw=/0x196/https://s2.glbimg.com/pxKkHG9u8SfMGlvIABS-B-YKglY=/https://i.s3.glbimg.com/v1/AUTH_c3c606ff68e7478091d1ca496f9c5625/internal_photos/bs/2019/c/4/ZnSlh6QE2rgvS0ZtvbGQ/reality-shows.png",
+          "navigation": {
+            "__typename": "MenuPageNavigation",
+            "identifier": "reality-shows"
+          }
+        },
+        {
+          "__typename": "Category",
+          "name": "Música",
+          "background": "https://s2.glbimg.com/0ZD4Ibo6oewU1mHHzJZQmp43aZo=/0x196/https://s2.glbimg.com/P0gDOlmDu4po8w443QW2aMBwhXA=/https://i.s3.glbimg.com/v1/AUTH_c3c606ff68e7478091d1ca496f9c5625/internal_photos/bs/2019/W/S/afOUHiRXStZdI0mhNDlw/musica.png",
+          "navigation": {
+            "__typename": "MenuPageNavigation",
+            "identifier": "especiais"
+          }
+        },
+        {
+          "__typename": "Category",
+          "name": "Documentários",
+          "background": "https://s2.glbimg.com/Uicn9oXoIHviunSvCyyFIHl44u8=/0x196/https://s2.glbimg.com/V6zvSjFz3MBubDEOG_lez2n30eM=/https://i.s3.glbimg.com/v1/AUTH_c3c606ff68e7478091d1ca496f9c5625/internal_photos/bs/2019/j/7/kYacBwTVeanah9kcNAug/thumbnail-categoria-documentario.png",
+          "navigation": {
+            "__typename": "MenuPageNavigation",
+            "identifier": "documentarios"
+          }
+        },
+        {
+          "__typename": "Category",
+          "name": "Jornalismo",
+          "background": "https://s2.glbimg.com/GhT6Th7dCMCcUpE2Kw-owRYP6Tw=/0x196/https://s2.glbimg.com/EaDw369j5sSaV0nfOkxqS_VC8Bw=/https://i.s3.glbimg.com/v1/AUTH_c3c606ff68e7478091d1ca496f9c5625/internal_photos/bs/2019/M/D/mB5K4vRdKwVxJtz8FLUQ/jornalismo.png",
+          "navigation": {
+            "__typename": "MenuPageNavigation",
+            "identifier": "jornalismo"
+          }
+        },
+        {
+          "__typename": "Category",
+          "name": "Esportes",
+          "background": "https://s2.glbimg.com/2GfpxI1so8LbAxCVkDO92jRkwu8=/0x196/https://s2.glbimg.com/KnHgA2VCTwjefJrn5jNggfhv5rQ=/https://i.s3.glbimg.com/v1/AUTH_c3c606ff68e7478091d1ca496f9c5625/internal_photos/bs/2019/m/6/seYL0IRBiSTYt3bRKfeg/esportes-1-.png",
+          "navigation": {
+            "__typename": "MenuPageNavigation",
+            "identifier": "esportes"
+          }
+        },
+        {
+          "__typename": "Category",
+          "name": "Programas Locais",
+          "background": "https://s2.glbimg.com/nOPoij1Bh8iLepVgjK8X-K8nHlA=/0x196/https://s2.glbimg.com/8r7SuHRXVY0ln1x5rHoXI7i9HDg=/https://i.s3.glbimg.com/v1/AUTH_c3c606ff68e7478091d1ca496f9c5625/internal_photos/bs/2019/X/A/W5hSW9Rd202gJRVoBpzg/programas-locais.png",
+          "navigation": {
+            "__typename": "MenuSlugNavigation",
+            "slug": "/programas-locais/"
+          }
+        }
+      ]
+    }
+  }
+}

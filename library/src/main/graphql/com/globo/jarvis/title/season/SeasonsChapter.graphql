@@ -1,0 +1,13 @@
+query SeasonsChapter ($titleId: String!) {
+    title(titleId: $titleId) {
+        structure {
+            ... DateList
+        }
+    }
+}
+
+fragment DateList on EpisodeListStructure {
+    datesWithEpisodes {
+        resources
+    }
+}

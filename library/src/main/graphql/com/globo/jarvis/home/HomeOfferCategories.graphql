@@ -1,0 +1,27 @@
+query HomeOfferCategories($offerId: ID!, $page: Int, $perPage: Int) {
+    genericOffer(id: $offerId) {
+        ... CategoriesOffer
+    }
+}
+
+
+fragment CategoriesOffer on Offer {
+    paginatedItems(page: $page, perPage: $perPage) {
+        hasNextPage
+        nextPage
+        resources {
+            ...HomeCategories
+        }
+    }
+}
+
+
+
+fragment HomeCategories on Category {
+    background
+    name
+    navigation {
+        ...HomePage
+        ...HomeSlug
+    }
+}

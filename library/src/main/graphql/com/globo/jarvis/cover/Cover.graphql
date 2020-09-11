@@ -1,0 +1,14 @@
+query Cover(
+  $titleId: String!
+  $coverMobile: CoverLandscapeScales
+  $coverTabletPortrait: CoverLandscapeScales
+  $coverTabletLandscape: CoverLandscapeScales
+) {
+  title(titleId: $titleId) {
+    cover {
+      mobile: landscape(scale: $coverMobile)
+      tabletPortrait: landscape(scale: $coverTabletPortrait)
+      tabletLandscape: landscape(scale: $coverTabletLandscape)
+    }
+  }
+}

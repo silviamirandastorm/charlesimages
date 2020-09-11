@@ -1,0 +1,19 @@
+query SeasonsScenes($titleId: String!) {
+    title(titleId: $titleId) {
+        structure {
+            ... SeasonedScenes
+        }
+    }
+}
+
+
+fragment SeasonedScenes on SeasonedStructure {
+    defaultEpisode{
+        seasonId
+    }
+    seasonsWithExcerpts {
+        id
+        number
+        totalEpisodes
+    }
+}

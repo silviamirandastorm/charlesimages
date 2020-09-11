@@ -1,0 +1,50 @@
+query SearchGlobal(
+    $query: String!
+    $coverLandscapeScales: CoverLandscapeScales
+) {
+    search {
+        videos(query: $query) {
+            resources {
+                ... VideoGlobalSearch
+            }
+        }
+
+        titles(query: $query) {
+            resources {
+                ... TitleGlobalSearch
+            }
+        }
+    }
+}
+
+fragment VideoGlobalSearch on Video {
+    id
+    headline
+    duration
+    kind
+    thumb
+    liveThumbnail
+    exhibitedAt
+    broadcast {
+        mediaId
+        withoutDVRMediaId
+    }
+    title {
+        originProgramId
+        headline
+    }
+}
+
+
+fragment TitleGlobalSearch on Title {
+    originProgramId
+    titleId
+    headline
+    description
+    releaseYear
+    originVideoId
+    type
+    cover {
+        landscape(scale: $coverLandscapeScales)
+    }
+}

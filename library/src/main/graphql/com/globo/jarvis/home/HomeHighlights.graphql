@@ -1,0 +1,38 @@
+query Highlights(
+    $id: ID!
+    $highlightLogoMobileScales: HighlightLogoMobileScales
+    $highlightImageMobileScales: HighlightImageMobileScales
+    $highlightOfferImageMobileScales: HighlightOfferImageMobileScales
+    $highlightLogoTabletScales: HighlightLogoTabletScales
+    $highlightImageTabletScales: HighlightImageTabletScales
+    $highlightOfferImageTabletScales: HighlightOfferImageTabletScales
+    $highlightLogoTVScales: HighlightLogoTVScales
+    $highlightImageTVScales: HighlightImageTVScales
+    $broadcastChannelTrimmedLogoScales: BroadcastChannelTrimmedLogoScales
+    $broadcastImageOnAirScales: BroadcastImageOnAirScales
+) {
+    highlight(id: $id) {
+        contentId
+        contentType
+        headlineText
+        logo {
+            mobile(scale: $highlightLogoMobileScales)
+            tablet(scale: $highlightLogoTabletScales)
+            tv(scale: $highlightLogoTVScales)
+        }
+        highlightImage {
+            mobile(scale: $highlightImageMobileScales)
+            tablet(scale: $highlightImageTabletScales)
+            tv(scale: $highlightImageTVScales)
+        }
+        offerImage {
+            mobile(scale: $highlightOfferImageMobileScales)
+            tablet(scale: $highlightOfferImageTabletScales)
+        }
+        contentItem {
+            ...HomeTitleHighlight
+            ...HomeVideoHighlight
+        }
+    }
+}
+

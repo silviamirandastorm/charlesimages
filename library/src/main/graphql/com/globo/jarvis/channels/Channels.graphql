@@ -1,0 +1,23 @@
+query BroadcastChannels(
+    $page: Int
+    $perPage: Int
+    $broadcastChannelTrimmedLogoScales: BroadcastChannelTrimmedLogoScales
+    $filtersInput: BroadcastChannelInput
+) {
+    broadcastChannels(
+        page: $page
+        perPage: $perPage
+        filtersInput: $filtersInput
+    ) {
+        page
+        perPage
+        hasNextPage
+        nextPage
+        resources {
+            id
+            name
+            pageIdentifier
+            trimmedLogo(scale: $broadcastChannelTrimmedLogoScales)
+        }
+    }
+}

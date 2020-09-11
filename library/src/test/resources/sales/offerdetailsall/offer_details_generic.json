@@ -1,0 +1,15 @@
+{
+  "data": {
+    "page": {
+      "__typename": "Page",
+      "offerItems": [
+        {
+          "__typename": "PageOffer",
+          "title": "E ainda pode maratonar um montão de séries",
+          "componentType": "POSTER",
+          "offerId": "ee9b9d84-7a66-4b9b-b5ba-3519ba70c95a"
+        }
+      ]
+    }
+  }
+}

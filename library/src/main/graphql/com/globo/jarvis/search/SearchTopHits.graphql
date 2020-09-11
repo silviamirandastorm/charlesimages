@@ -1,0 +1,23 @@
+query searchTopHits(
+    $rule: TitleRules
+    $perPage: Int
+    $mobilePosterScales: MobilePosterScales
+    $tabletPosterScales: TabletPosterScales
+    $tvPosterScales: TVPosterScales
+) {
+    titles(rule: $rule, perPage: $perPage) {
+        resources {
+            originProgramId
+            titleId
+            headline
+            description
+            format
+            type
+            poster{
+                tv(scale: $tvPosterScales)
+                mobile(scale: $mobilePosterScales)
+                tablet(scale: $tabletPosterScales)
+            }
+        }
+    }
+}

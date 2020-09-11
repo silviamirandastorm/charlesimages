@@ -1,0 +1,36 @@
+query Episodes($titleId: String!, $seasonId: ID!, $perPage: Int!, $page: Int!) {
+    title(titleId: $titleId) {
+        originProgramId
+        structure {
+            ... EpisodesList
+        }
+    }
+}
+
+
+fragment EpisodesList on SeasonedStructure {
+    seasonById(id: $seasonId) {
+        episodes(perPage: $perPage, page: $page) {
+            hasNextPage
+            nextPage
+            resources {
+                seasonNumber
+                number
+                video {
+                    id
+                    headline
+                    description
+                    thumb
+                    liveThumbnail
+                    kind
+                    contentRating
+                    duration
+                    formattedDuration
+                    availableFor
+                    accessibleOffline
+                    serviceId
+                }
+            }
+        }
+    }
+}

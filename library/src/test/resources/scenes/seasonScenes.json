@@ -1,0 +1,22 @@
+{
+  "data":{
+    "title":{
+      "__typename":"Title",
+      "structure":{
+        "__typename":"SeasonedStructure",
+        "defaultEpisode":{
+          "__typename":"Episode",
+          "seasonId":"8gDWZfR6MR"
+        },
+        "seasonsWithExcerpts":[
+          {
+            "__typename":"Season",
+            "id":"8gDWZfR6MR",
+            "number":1,
+            "totalEpisodes":1
+          }
+        ]
+      }
+    }
+  }
+}

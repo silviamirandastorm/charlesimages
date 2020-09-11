@@ -1,0 +1,14 @@
+query EditorialOffersTitles($titleId: String!) {
+    title(titleId: $titleId) {
+        extras {
+            editorialOffers {
+                ...EditorialOfferTitle
+            }
+        }
+    }
+}
+
+fragment EditorialOfferTitle on PageOffer {
+    title
+    offerId
+}

@@ -1,0 +1,84 @@
+{
+  "data": {
+    "title": {
+      "__typename": "Title",
+      "structure": {
+        "__typename": "EpisodeListStructure",
+        "episodes": {
+          "__typename": "EpisodeCollection",
+          "resources": [
+            {
+              "__typename": "Episode",
+              "video": {
+                "__typename": "Video",
+                "id": "8060445",
+                "headline": "Capítulo de 04/11/2019",
+                "description": "Jô é levada por Camilo e Yohana, enquanto Wiliam foge. Chiclete avisa a Evelina sobre a prisão de Jô. Amadeu orienta Abdias a iniciar um tratamento e Sílvia afirma que o apoiará. Kim descarta o anel que ganhou de Paixão. Camilo maltrata Vivi e proíbe Berta de ajudá-la. Camilo fala da prisão de Jô para Álvaro, que divulga a notícia na internet.",
+                "duration": 3149890,
+                "formattedDuration": "52 min",
+                "thumb": "https://s02.video.glbimg.com/x216/8060445.jpg",
+                "accessibleOffline": true,
+                "availableFor": "SUBSCRIBER",
+                "title": {
+                  "__typename": "Title",
+                  "titleId": "c7sbwWz7jf",
+                  "originProgramId": "11212"
+                }
+              }
+            }
+          ]
+        },
+        "videos": {
+          "__typename": "VideoCollection",
+          "resources": [
+            {
+              "__typename": "Video",
+              "headline": "Yohana e Camilo prendem Jô",
+              "duration": 244414,
+              "formattedDuration": "4 min",
+              "kind": "excerpt",
+              "id": "8060407",
+              "thumb": "https://s04.video.glbimg.com/x216/8060407.jpg",
+              "availableFor": "ANONYMOUS",
+              "title": {
+                "__typename": "Title",
+                "originProgramId": "11212",
+                "headline": "A Dona do Pedaço"
+              }
+            },
+            {
+              "__typename": "Video",
+              "headline": "Chiclete avisa a Evelina sobre a prisão de Jô",
+              "duration": 97199,
+              "formattedDuration": "1 min",
+              "kind": "excerpt",
+              "id": "8060406",
+              "thumb": "https://s03.video.glbimg.com/x216/8060406.jpg",
+              "availableFor": "ANONYMOUS",
+              "title": {
+                "__typename": "Title",
+                "originProgramId": "11212",
+                "headline": "A Dona do Pedaço"
+              }
+            },
+            {
+              "__typename": "Video",
+              "headline": "Amadeu orienta Abdias a iniciar tratamento",
+              "duration": 120373,
+              "formattedDuration": "2 min",
+              "kind": "excerpt",
+              "id": "8060409",
+              "thumb": "https://s02.video.glbimg.com/x216/8060409.jpg",
+              "availableFor": "ANONYMOUS",
+              "title": {
+                "__typename": "Title",
+                "originProgramId": "11212",
+                "headline": "A Dona do Pedaço"
+              }
+            }
+          ]
+        }
+      }
+    }
+  }
+}

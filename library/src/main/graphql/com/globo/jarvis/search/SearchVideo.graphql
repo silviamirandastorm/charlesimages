@@ -1,0 +1,13 @@
+query SearchVideo(
+    $query: String!
+    $perPage: Int
+    $page: Int
+    $broadcastChannelTrimmedLogoScales: BroadcastChannelTrimmedLogoScales
+    $broadcastImageOnAirScales: BroadcastImageOnAirScales
+) {
+    search {
+        videoSearch(query: $query, perPage: $perPage, page: $page) {
+            ...VideoSearchResultFragment
+        }
+    }
+}

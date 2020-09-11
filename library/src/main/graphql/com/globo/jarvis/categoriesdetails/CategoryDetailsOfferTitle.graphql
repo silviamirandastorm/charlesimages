@@ -1,0 +1,65 @@
+query CategoryDetailsOfferTitle(
+    $id: ID!
+    $page: Int
+    $perPage: Int
+    $mobilePosterScales: MobilePosterScales
+    $tabletPosterScales: TabletPosterScales
+    $tvPosterScales: TVPosterScales
+    $tvCoverLandscapeScales: CoverLandscapeScales
+) {
+    genericOffer(id: $id) {
+        ...CategoryDetailsGenericTitleOffers
+        ...CategoryDetailsRecommendedTitleOffers
+    }
+}
+
+
+fragment CategoryDetailsGenericTitleOffers on Offer {
+    id
+    contentType
+    items: paginatedItems(page: $page, perPage: $perPage) {
+        hasNextPage
+        nextPage
+        resources {
+            ...CategoryDetailsTitleOffer
+        }
+    }
+}
+
+fragment CategoryDetailsRecommendedTitleOffers on RecommendedOffer {
+    id
+    contentType
+    items(page: $page, perPage: $perPage) {
+        hasNextPage
+        nextPage
+        customTitle
+        abExperiment {
+            experiment
+            alternative
+            trackId
+        }
+        resources {
+            ...CategoryDetailsTitleOffer
+        }
+    }
+}
+
+fragment CategoryDetailsTitleOffer on Title {
+    format
+    originProgramId
+    titleId
+    url
+    headline
+    description
+    contentRating
+    contentRatingCriteria
+    type
+    cover {
+        landscape(scale: $tvCoverLandscapeScales)
+    }
+    poster {
+        mobile(scale: $mobilePosterScales)
+        tablet(scale: $tabletPosterScales)
+        tv(scale: $tvPosterScales)
+    }
+}

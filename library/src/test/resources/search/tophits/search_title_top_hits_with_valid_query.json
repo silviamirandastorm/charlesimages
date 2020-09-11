@@ -1,0 +1,21 @@
+{
+  "data": {
+    "titles": {
+      "__typename": "TitleCollection",
+      "resources": [
+        {
+          "__typename": "Title",
+          "headline": "A Dona do Pedaço"
+        },
+        {
+          "__typename": "Title",
+          "headline": "Bom Sucesso"
+        },
+        {
+          "__typename": "Title",
+          "headline": "Jornal Nacional"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,24 @@
+query RecommendationTitles(
+    $rule: TitleRules
+    $perPage: Int,
+    $tvLogoScales: TVLogoScales
+    $tvCoverLandscapeScales: CoverLandscapeScales
+) {
+    titles(rule: $rule, perPage: $perPage) {
+        resources {
+            originProgramId
+            titleId
+            headline
+            description
+            format
+            type
+            url
+            logo {
+                tv(scale: $tvLogoScales)
+            }
+            cover {
+                landscape(scale: $tvCoverLandscapeScales)
+            }
+        }
+    }
+}

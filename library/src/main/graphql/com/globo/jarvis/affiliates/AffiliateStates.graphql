@@ -1,0 +1,8 @@
+query AffiliateStates {
+  affiliate {
+    affiliateStates {
+      acronym
+      name
+    }
+  }
+}

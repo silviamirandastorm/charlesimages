@@ -1,0 +1,28 @@
+{
+  "data": {
+    "user": {
+      "__typename": "User",
+      "myListTitles": {
+        "__typename": "TitleCollection"
+        "hasNextPage": false,
+        "nextPage": null,
+        "resources": [
+          },
+{
+  "__typename": "Title",
+  "originProgramId": "11822",
+  "titleId": "Z85JdrL1ws",
+  "headline": "Pensamentos Impuros",
+  "type": "SERIE",
+  "poster": {
+    "__typename": "Poster",
+    "mobile": "https://s2.glbimg.com/9k_LfZg4f93JRau1nf6ZhSGeN4w=/100x152/https://s2.glbimg.com/YTSsSwFur3XC_RWcWVbxtyOEin0=/i.s3.glbimg.com/v1/AUTH_c3c606ff68e7478091d1ca496f9c5625/internal_photos/bs/2019/d/c/ZhuAjSSsAK4oXBDSzRFQ/2019-647-series-bbc-pensamentos-impuros-poster.jpg",
+    "tablet": "https://s2.glbimg.com/eyt1W9edepGhGRoM1kwP16z5i1o=/144x212/https://s2.glbimg.com/YTSsSwFur3XC_RWcWVbxtyOEin0=/i.s3.glbimg.com/v1/AUTH_c3c606ff68e7478091d1ca496f9c5625/internal_photos/bs/2019/d/c/ZhuAjSSsAK4oXBDSzRFQ/2019-647-series-bbc-pensamentos-impuros-poster.jpg",
+    "tv": "https://s2.glbimg.com/GNbOHfMtUUoRq8lmNwlvTn9PNvo=/146x216/https://s2.glbimg.com/YTSsSwFur3XC_RWcWVbxtyOEin0=/i.s3.glbimg.com/v1/AUTH_c3c606ff68e7478091d1ca496f9c5625/internal_photos/bs/2019/d/c/ZhuAjSSsAK4oXBDSzRFQ/2019-647-series-bbc-pensamentos-impuros-poster.jpg"
+  }
+}
+]
+}
+}
+}
+}

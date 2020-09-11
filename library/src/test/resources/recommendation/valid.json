@@ -1,0 +1,333 @@
+{
+  "data": {
+    "titles": {
+      "__typename": "TitleCollection",
+      "resources": [
+        {
+          "__typename": "Title",
+          "originProgramId": "12082",
+          "titleId": "mh6BzqCQVy",
+          "headline": "Big Brother Brasil",
+          "description": "A casa mais vigiada do Brasil recebe participantes que topam ficar confinados por três meses em busca de um prêmio milionário.",
+          "format": "REALITIES",
+          "url": "url",
+          "type": "TV_PROGRAM",
+          "logo": {
+            "__typename": "Logo",
+            "tv": "https://s2.glbimg.com/wmrRkwQeTT4rOHoyD5jY0EVdEe8=/876x496/https://s2.glbimg.com/4cT-bngRiyq-6V6eOcvlTlbC64s=/i.s3.glbimg.com/v1/AUTH_c3c606ff68e7478091d1ca496f9c5625/internal_photos/bs/2020/1/Z/508ghhQqypiIUOBZpp5w/2020-748-realities-big-brother-brasil-20-tv-globo-logo.png"
+          },
+          "cover": {
+            "__typename": "Cover",
+            "landscape": "https://s2.glbimg.com/GsCZTGF1KLiYs-6bvhYdK944gq4=/0x2160/https://s2.glbimg.com/T7K_c4W_to0gJiNRgJIBpJVBf2I=/i.s3.glbimg.com/v1/AUTH_c3c606ff68e7478091d1ca496f9c5625/internal_photos/bs/2020/u/a/WCTZoCS3ulpaPbztyTlw/2020-748-realities-big-brother-brasil-20-tv-globo-background.jpg"
+          }
+        },
+        {
+          "__typename": "Title",
+          "originProgramId": "11851",
+          "titleId": "HFbkdv5bs2",
+          "headline": "Amor de Mãe",
+          "url": "url",
+          "description": "As histórias de três mulheres, com diferentes trajetórias que se reconhecem no amor pelos filhos: Lurdes, Thelma e Vitória.",
+          "format": "SOAP_OPERA",
+          "type": "TV_PROGRAM",
+          "logo": {
+            "__typename": "Logo",
+            "tv": "https://s2.glbimg.com/WEg0dZHnQ_lLgQoE-aUVtCOHRpI=/876x496/https://s2.glbimg.com/B_pUVyjNAJyjQIGdsOos5_T1_FQ=/i.s3.glbimg.com/v1/AUTH_c3c606ff68e7478091d1ca496f9c5625/internal_photos/bs/2019/z/B/Z1Y1BdRoSSNXr8Q4tFIw/2019-641-amor-de-mae-tv-globo-logo.png"
+          },
+          "cover": {
+            "__typename": "Cover",
+            "landscape": "https://s2.glbimg.com/De7cfY3NmTu0X40AJ7WRyTbJVsc=/0x2160/https://s2.glbimg.com/XnsIzrwmS09okOKB8ylNVKdLkTA=/i.s3.glbimg.com/v1/AUTH_c3c606ff68e7478091d1ca496f9c5625/internal_photos/bs/2019/P/I/cBh4YIQAADRdMPAnV5mw/2019-641-amor-de-mae-tv-globo-background.jpg"
+          }
+        },
+        {
+          "__typename": "Title",
+          "originProgramId": "11765",
+          "titleId": "FDMcMpvPhM",
+          "headline": "Éramos Seis",
+          "url": "url",
+          "description": "‘Éramos Seis’ apresenta a história de uma grande família cuja matriarca luta para que se mantenha unida frente às dificuldades sociais e econômicas do início do século XX.",
+          "format": "SOAP_OPERA",
+          "type": "TV_PROGRAM",
+          "logo": {
+            "__typename": "Logo",
+            "tv": "https://s2.glbimg.com/NbG-XbqaopH22Af1gKJDkg0X1IM=/876x496/https://s2.glbimg.com/43jRM9X_BpxyM8i0ArTrtXubeXk=/i.s3.glbimg.com/v1/AUTH_c3c606ff68e7478091d1ca496f9c5625/internal_photos/bs/2019/e/I/pAaXu0SNSMVOZ6MfkB0Q/2019-549-eramos-seis-logo.png"
+          },
+          "cover": {
+            "__typename": "Cover",
+            "landscape": "https://s2.glbimg.com/Gx9Qlv_4bUC9Z08dYtrFbV86zfk=/0x2160/https://s2.glbimg.com/qKFsz8upJK2LI1Pzksp8TdEA9qo=/i.s3.glbimg.com/v1/AUTH_c3c606ff68e7478091d1ca496f9c5625/internal_photos/bs/2019/y/J/96YJUnSf2fASyPoYjPig/2019-549-eramos-seis-background.jpg"
+          }
+        },
+        {
+          "__typename": "Title",
+          "originProgramId": "11974",
+          "titleId": "FYST6Zg8kb",
+          "url": "url",
+          "headline": "Salve-se Quem Puder",
+          "description": "Condenadas a viver sob a custódia do Programa de Proteção à Testemunha e à sombra de novas identidades, Alexia, Luna e Kyra iniciam uma outra vida e terão seus sonhos adiados.",
+          "format": "SOAP_OPERA",
+          "type": "TV_PROGRAM",
+          "logo": {
+            "__typename": "Logo",
+            "tv": "https://s2.glbimg.com/XoJZYFlKwPmbVrS1IMninAfdSas=/876x496/https://s2.glbimg.com/mXkvMMEc9JlyIirDy9NkayboRRg=/i.s3.glbimg.com/v1/AUTH_c3c606ff68e7478091d1ca496f9c5625/internal_photos/bs/2020/4/O/sW30o2RLSxKCUfNKWY2w/2020-745-novelas-salve-se-quem-puder-tv-globo-logo.png"
+          },
+          "cover": {
+            "__typename": "Cover",
+            "landscape": "https://s2.glbimg.com/YLUmUz9O-zw8KCkMvn6YTVD8o7k=/0x2160/https://s2.glbimg.com/PHFOQMDF_zvpa9hy1-cAIRoAu-I=/i.s3.glbimg.com/v1/AUTH_c3c606ff68e7478091d1ca496f9c5625/internal_photos/bs/2020/t/M/Ez20CmQuKkAx5yHbtTrA/2020-745-novelas-salve-se-quem-puder-tv-globo-background.jpg"
+          }
+        },
+        {
+          "__typename": "Title",
+          "originProgramId": "12121",
+          "titleId": "jqvngb9dQG",
+          "url": "url",
+          "headline": "Arcanjo Renegado",
+          "description": "Mikhael é o líder da principal equipe do BOPE. Quando um dos seus amigos é ferido em uma operação, ele busca vingança e acaba em conflito com a alta cúpula política do estado.",
+          "format": "SERIES",
+          "type": "SERIE",
+          "logo": {
+            "__typename": "Logo",
+            "tv": "https://s2.glbimg.com/osjg_uvq1tsk2XNvsMDjpaq2fTc=/876x496/https://s2.glbimg.com/TgMllVs6L1A0zKAI0CuQp2Fdkqw=/i.s3.glbimg.com/v1/AUTH_c3c606ff68e7478091d1ca496f9c5625/internal_photos/bs/2020/c/H/YTV5RvSqauCWCHqAgXxg/2020-782-arcanjo-renegado-logo.png"
+          },
+          "cover": {
+            "__typename": "Cover",
+            "landscape": "https://s2.glbimg.com/5VE_JkAtSqeTApJIsY0Lk2QBA0M=/0x2160/https://s2.glbimg.com/Eu1IG40GWvFVJ5dSUJQkbzOHlnY=/i.s3.glbimg.com/v1/AUTH_c3c606ff68e7478091d1ca496f9c5625/internal_photos/bs/2020/K/n/KkMZ7rQ1m1D4IP4dMGIA/2020-782-arcanjo-renegado-background.jpg"
+          }
+        },
+        {
+          "__typename": "Title",
+          "originProgramId": "5727",
+          "titleId": "C6VSHpmYWC",
+          "headline": "Avenida Brasil",
+          "url": "url",
+          "description": "Rita é abandonada no lixão pela madrasta após seu pai morrer. Anos depois a menina se infiltra na mansão da nova família de Carminha para se vingar. Versão original exibida em 2012.",
+          "format": "SOAP_OPERA",
+          "type": "TV_PROGRAM",
+          "logo": {
+            "__typename": "Logo",
+            "tv": "https://s2.glbimg.com/GGjlutfYQjvmxT0wY9kxIeVavI4=/876x496/https://s2.glbimg.com/QB1Smqup-q7pquyb5EDmJ0xT594=/s3.glbimg.com/v1/AUTH_180b9dd048d9434295d27c4b6dadc248/media_kit/99/c6/431762ae31d875ae2b7a404e69ba.png"
+          },
+          "cover": {
+            "__typename": "Cover",
+            "landscape": "https://s2.glbimg.com/yFbwt1232-80xwgSdsyupP8XUyw=/0x2160/https://s2.glbimg.com/W5ukF95hRMwgKe-eHtTiLqFEc4Y=/i.s3.glbimg.com/v1/AUTH_c3c606ff68e7478091d1ca496f9c5625/internal_photos/bs/2018/l/T/XTakYiRUGJAE8BhBZBfQ/5727-avenida-brasil-background.jpg"
+          }
+        },
+        {
+          "__typename": "Title",
+          "originProgramId": "11885",
+          "titleId": "nVQqn1QvCw",
+          "url": "url",
+          "headline": "Avenida Brasil - Vale a Pena Ver de Novo",
+          "description": "Acompanhe a saga de vingança, amor e traição que parou o Brasil em 2012, e acabe com as saudades das tramas de Carminha, Nina, Tufão, Max e tantos outros personagens inesquecíveis.",
+          "format": "SOAP_OPERA",
+          "type": "TV_PROGRAM",
+          "logo": {
+            "__typename": "Logo",
+            "tv": "https://s2.glbimg.com/9wN5Ls84l3zc9-7dAYQRD0iNaP8=/876x496/https://s2.glbimg.com/5wRIOBnQFLsiR4EHWKqrR-Sldz4=/i.s3.glbimg.com/v1/AUTH_c3c606ff68e7478091d1ca496f9c5625/internal_photos/bs/2019/u/k/uiSniQT4yA2PJzwOLSBw/2019-592-avenida-brasil-vpvn-tv-globo-logo.png"
+          },
+          "cover": {
+            "__typename": "Cover",
+            "landscape": "https://s2.glbimg.com/urCOEmZ_ZwkrqwHprUfadkkPjhM=/0x2160/https://s2.glbimg.com/eB_WE3fSE9hxWYGQid24KrpPl60=/i.s3.glbimg.com/v1/AUTH_c3c606ff68e7478091d1ca496f9c5625/internal_photos/bs/2019/G/N/qlyEBCQXujybFuiZh0Hw/2019-592-avenida-brasil-vpvn-tv-globo-background.jpg"
+          }
+        },
+        {
+          "__typename": "Title",
+          "originProgramId": "10777",
+          "titleId": "kmF21xZbHk",
+          "url": "url",
+          "headline": "The Good Doctor - O Bom Doutor",
+          "description": "Um jovem médico com autismo começa a trabalhar em um famoso hospital. Além dos desafios da profissão, ele terá também que provar sua capacidade a seus colegas e superiores.",
+          "format": "SERIES",
+          "type": "SERIE",
+          "logo": {
+            "__typename": "Logo",
+            "tv": "https://s2.glbimg.com/PQIgcsRmXmSJimpnPmDGyXEAq1k=/876x496/https://s2.glbimg.com/hSe_BO1H1wwvVF6QDTS1X71Vi4Q=/i.s3.glbimg.com/v1/AUTH_c3c606ff68e7478091d1ca496f9c5625/internal_photos/bs/2020/U/y/hWP1PYTwiuWgO7EMnsqQ/2019-688-the-good-doctor-o-bom-doutor-logo.png"
+          },
+          "cover": {
+            "__typename": "Cover",
+            "landscape": "https://s2.glbimg.com/dOAyqSZGLNizbmFL0Jk-PkEcIkc=/0x2160/https://s2.glbimg.com/lZlpMP2IzPaalBNXVc5RyQIFunI=/i.s3.glbimg.com/v1/AUTH_c3c606ff68e7478091d1ca496f9c5625/internal_photos/bs/2020/u/G/dbcgNoThOF9JPuFZs2vg/2019-688-the-good-doctor-o-bom-doutor-background.jpg"
+          }
+        },
+        {
+          "__typename": "Title",
+          "originProgramId": "810",
+          "titleId": "HMmTps9vSY",
+          "url": "url",
+          "headline": "Bom Dia Brasil",
+          "description": "Telejornal focado em política e economia, entrevistas e análises de comentaristas nacionais e internacionais. O formato próximo ao de uma revista garante o tom informal.",
+          "format": "NEWS",
+          "type": "TV_PROGRAM",
+          "logo": {
+            "__typename": "Logo",
+            "tv": "https://s2.glbimg.com/2NVfO6Cw0ILcLS4rOy517OoF31s=/876x496/https://s2.glbimg.com/ikI7mrrI_fdr698NH9Bv5Hosguc=/i.s3.glbimg.com/v1/AUTH_c3c606ff68e7478091d1ca496f9c5625/internal_photos/bs/2019/e/W/fKHziQRBq2g4TUQ0ZDBg/2019-499-midia-kit-bom-dia-brasil-logo.png"
+          },
+          "cover": {
+            "__typename": "Cover",
+            "landscape": "https://s2.glbimg.com/XGIHlSpXfArA8CrmP8gog68KHts=/0x2160/https://s2.glbimg.com/k-AixYkNeveUn2BpYGFfWOAUCvE=/i.s3.glbimg.com/v1/AUTH_c3c606ff68e7478091d1ca496f9c5625/internal_photos/bs/2019/p/o/V7YRUQR2Ar9GseaD3sow/2019-499-midia-kit-bom-dia-brasil-background-4k.jpg"
+          }
+        },
+        {
+          "__typename": "Title",
+          "originProgramId": "8601",
+          "titleId": "MXTbgsChYm",
+          "url": "url",
+          "headline": "The Voice Kids",
+          "description": "No The Voice Kids, a música é o elemento condutor da voz e da pureza dos participantes. Eles são comandados pelos técnicos Carlinhos Brown, Claudia Leitte e Simone & Simaria.",
+          "format": "REALITIES",
+          "type": "TV_PROGRAM",
+          "logo": {
+            "__typename": "Logo",
+            "tv": "https://s2.glbimg.com/ljN1GqEVJRuxphx_QVdvPO8Dp98=/876x496/https://s2.glbimg.com/WmJ1TkOr8ElAxVqpEaYOY813vr0=/i.s3.glbimg.com/v1/AUTH_c3c606ff68e7478091d1ca496f9c5625/internal_photos/bs/2020/Z/4/dpuzVtR7aag73ufj9Ptw/2020-739-midia-kit-series-the-voice-kids-logo.png"
+          },
+          "cover": {
+            "__typename": "Cover",
+            "landscape": "https://s2.glbimg.com/dK0yHR9DRnEkJM_VyGHU1QuDSuw=/0x2160/https://s2.glbimg.com/hlQ-ndWuwAwvRW9J30eea-rI2-A=/i.s3.glbimg.com/v1/AUTH_c3c606ff68e7478091d1ca496f9c5625/internal_photos/bs/2020/n/m/ViMBdURF2PeMMt1IBYaQ/2020-739-midia-kit-series-the-voice-kids-background.jpg"
+          }
+        },
+        {
+          "__typename": "Title",
+          "originProgramId": "11093",
+          "titleId": "fhmwKtSNxG",
+          "url": "url",
+          "headline": "The Big Bang Theory",
+          "description": "Leonard e Sheldon são físicos brilhantes capazes de explicar o funcionamento do universo. O que nenhum gênio ensina a eles é como lidar com as pessoas.",
+          "format": "SERIES",
+          "type": "SERIE",
+          "logo": {
+            "__typename": "Logo",
+            "tv": "https://s2.glbimg.com/AMOzIshycY7Zskv25AV2MCzoDe8=/876x496/https://s2.glbimg.com/fv5JMyr6hExpjbeoe25tGjxkZCA=/i.s3.glbimg.com/v1/AUTH_c3c606ff68e7478091d1ca496f9c5625/internal_photos/bs/2020/a/F/6Po4UDSxKnb8n4cHcgpw/2020-726-series-warner-the-big-bang-theory-logo.png"
+          },
+          "cover": {
+            "__typename": "Cover",
+            "landscape": "https://s2.glbimg.com/K4apl_1g5HlTGTbSBx9TIUbjphw=/0x2160/https://s2.glbimg.com/KMqG1Kihuqk378uRQq1RUVhV2n0=/i.s3.glbimg.com/v1/AUTH_c3c606ff68e7478091d1ca496f9c5625/internal_photos/bs/2020/R/8/m4wFHFSra0ysqOisc30A/2020-726-series-warner-the-big-bang-theory-background.jpg"
+          }
+        },
+        {
+          "__typename": "Title",
+          "originProgramId": "11458",
+          "titleId": "1b7jV1jcLh",
+          "url": "url",
+          "headline": "The Vampire Diaries",
+          "description": "Elena tenta sobreviver entre os seres sobrenaturais que vivem em segredo. Ela se apaixona pelo misterioso Stefan, mas o retorno do seu irmão, Damon, ameaça essa paixão.",
+          "format": "SERIES",
+          "type": "SERIE",
+          "logo": {
+            "__typename": "Logo",
+            "tv": "https://s2.glbimg.com/NqPisXgXKWesxMMq0Belm_QxTdk=/876x496/https://s2.glbimg.com/ONgk_Z0G8aZe0FFxAH93xGxudK4=/i.s3.glbimg.com/v1/AUTH_c3c606ff68e7478091d1ca496f9c5625/internal_photos/bs/2019/u/A/OQBk8DRgATLUgZF9PqQA/2019-368-midia-kit-series-warner-maio-the-vampire-diaries-logo.png"
+          },
+          "cover": {
+            "__typename": "Cover",
+            "landscape": "https://s2.glbimg.com/B8DtXjYgNoPMkp9u6WmWBkIijjI=/0x2160/https://s2.glbimg.com/3dEORiFBwz49zR2xqgfh19q1l18=/i.s3.glbimg.com/v1/AUTH_c3c606ff68e7478091d1ca496f9c5625/internal_photos/bs/2019/x/B/7d9xaoQ4A8F1vUAD3o7w/2019-368-midia-kit-series-warner-maio-the-vampire-diaries-background.jpg"
+          }
+        },
+        {
+          "__typename": "Title",
+          "originProgramId": "11225",
+          "titleId": "6M9SmwNsGm",
+          "url": "url",
+          "headline": "Malhação - Toda Forma de Amar",
+          "description": "Escrita por Emanuel Jacobina, ‘Malhação – Toda Forma de Amar’ conta histórias de amor que se cruzam, sejam elas sobre casais, irmãos, pais e filhos, ou um grupo de amigos.",
+          "format": "SOAP_OPERA",
+          "type": "TV_PROGRAM",
+          "logo": {
+            "__typename": "Logo",
+            "tv": "https://s2.glbimg.com/7F650btJ8YB-Vx6jIcG6VSZUTlo=/876x496/https://s2.glbimg.com/SMhwLt6cdSYvPiTyaPIjPNU3PzU=/i.s3.glbimg.com/v1/AUTH_c3c606ff68e7478091d1ca496f9c5625/internal_photos/bs/2019/V/8/NNkK2HTve0kvkTckuBNQ/2019-341-midia-kit-malhacao-toda-forma-de-amar-logo.png"
+          },
+          "cover": {
+            "__typename": "Cover",
+            "landscape": "https://s2.glbimg.com/xoZpSLSx8-ANhQg2DpnKuLKPr-8=/0x2160/https://s2.glbimg.com/LOxJF4QEtxYfLs_hxOk4HnwtuoA=/i.s3.glbimg.com/v1/AUTH_c3c606ff68e7478091d1ca496f9c5625/internal_photos/bs/2019/7/W/rT3C2ZRs23GCYiz06obA/2019-341-midia-kit-malhacao-toda-forma-de-amar-background.jpg"
+          }
+        },
+        {
+          "__typename": "Title",
+          "originProgramId": "8734",
+          "titleId": "pck9rfsNj5",
+          "url": "url",
+          "headline": "Verdades Secretas",
+          "description": "Um triângulo amoroso envolvendo mãe e filha é o foco incendiário de Verdades Secretas, que traz como pano de fundo o lado obscuro do mundo da moda e explora os limites de cada um.",
+          "format": "SOAP_OPERA",
+          "type": "TV_PROGRAM",
+          "logo": {
+            "__typename": "Logo",
+            "tv": "https://s2.glbimg.com/4JtYStBCm7R5dlFuyqu9lcVISrY=/876x496/https://s2.glbimg.com/wuBB_K2jwLV7QtoOiVBn_5-lCqs=/s3.glbimg.com/v1/AUTH_180b9dd048d9434295d27c4b6dadc248/media_kit/31/b2/11e15d4a8156193a0cc779318010.png"
+          },
+          "cover": {
+            "__typename": "Cover",
+            "landscape": "https://s2.glbimg.com/KFlGdySMwU550X5rAtdu7iQfyDY=/0x2160/https://s2.glbimg.com/LYPwtYYbIJlQNyL6sjs8L2bpqtU=/i.s3.glbimg.com/v1/AUTH_c3c606ff68e7478091d1ca496f9c5625/internal_photos/bs/2018/4/A/FXUA52RQSefC5RDhzWkA/8734-verdades-secretas-background.jpg"
+          }
+        },
+        {
+          "__typename": "Title",
+          "originProgramId": "819",
+          "titleId": "MyCrVrr6gW",
+          "headline": "Jornal Nacional",
+          "url": "url",
+          "description": "William Bonner e Renata Vasconcellos apresentam o principal telejornal da Globo, que traz notícias do Brasil e do mundo, matérias de denúncia e investigação e séries especiais.",
+          "format": "NEWS",
+          "type": "TV_PROGRAM",
+          "logo": {
+            "__typename": "Logo",
+            "tv": "https://s2.glbimg.com/x7AziYa3g02yV7vA7M6Jb8owzkY=/876x496/https://s2.glbimg.com/AtclEGKlYANO0yY1CRGnpJzzsBs=/i.s3.glbimg.com/v1/AUTH_c3c606ff68e7478091d1ca496f9c5625/internal_photos/bs/2019/7/S/YLYlMdSGifWBnn7eaW5w/jornal-nacional-logo-programa.png"
+          },
+          "cover": {
+            "__typename": "Cover",
+            "landscape": "https://s2.glbimg.com/ZbFfE2UueCmnVBJJBZWgDwbFxGk=/0x2160/https://s2.glbimg.com/sK9y1rirJsAcAeWlPmR4v7nP29U=/i.s3.glbimg.com/v1/AUTH_c3c606ff68e7478091d1ca496f9c5625/internal_photos/bs/2019/J/6/9xzAKmRZ21kqeWxIhNzQ/819-jornal-nacional-background.jpg"
+          }
+        },
+        {
+          "__typename": "Title",
+          "originProgramId": "2533",
+          "titleId": "n9Vq6SMvsm",
+          "url": "url",
+          "headline": "Mais Você",
+          "description": "Ana Maria Braga e Louro José recebem convidados e falam sobre comportamento, serviço, moda e, claro, gastronomia, um dos pontos altos do programa.",
+          "format": "VARIETIES",
+          "type": "TV_PROGRAM",
+          "logo": {
+            "__typename": "Logo",
+            "tv": "https://s2.glbimg.com/HIB_r4mR43bYrfImeCoO7HXJ74Q=/876x496/https://s2.glbimg.com/bIFVtO0gDbYq4jDRwWu6sk3Ezl0=/s3.glbimg.com/v1/AUTH_180b9dd048d9434295d27c4b6dadc248/media_kit/49/d8/c24d713f6fe00930fadc9f877ae0.png"
+          },
+          "cover": {
+            "__typename": "Cover",
+            "landscape": "https://s2.glbimg.com/IkQMzC2J_a2wfUKVsob6b9ARzUQ=/0x2160/https://s2.glbimg.com/otPPHkalFIRbGyt0Em6su11v0rs=/i.s3.glbimg.com/v1/AUTH_c3c606ff68e7478091d1ca496f9c5625/internal_photos/bs/2018/b/V/zHGWvZSBS8JZHjLmUzzg/2533-mais-voce-background.jpg"
+          }
+        },
+        {
+          "__typename": "Title",
+          "originProgramId": "7124",
+          "titleId": "PqbGyWsY8F",
+          "headline": "Salve Jorge",
+          "url": "url",
+          "description": "Em busca de uma vida melhor para sua família, Morena aceita um convite para trabalhar no exterior e é enganada por uma quadrilha de tráfico internacional de pessoas.",
+          "format": "SOAP_OPERA",
+          "type": "TV_PROGRAM",
+          "logo": {
+            "__typename": "Logo",
+            "tv": "https://s2.glbimg.com/_itVb9ETEYmt23fCQKAJzOVBeDs=/876x496/https://s2.glbimg.com/oPnBpumax-vq5BSnFyM5F7sTQxU=/s3.glbimg.com/v1/AUTH_180b9dd048d9434295d27c4b6dadc248/media_kit/9b/6b/17475d03fc157f2816a17645a805.png"
+          },
+          "cover": {
+            "__typename": "Cover",
+            "landscape": "https://s2.glbimg.com/RFmg8jTAs_bEkz50wQ2WUjoWqco=/0x2160/https://s2.glbimg.com/SMEPqltro9ZIQYrrh2piquYvVoI=/i.s3.glbimg.com/v1/AUTH_c3c606ff68e7478091d1ca496f9c5625/internal_photos/bs/2018/q/t/tsAAQPQ5aLPgDqanF6Ww/7124-salve-jorge-background.jpg"
+          }
+        },
+        {
+          "__typename": "Title",
+          "originProgramId": "5118",
+          "titleId": "dH8r91fwhC",
+          "url": "url",
+          "headline": "Taça Libertadores da América",
+          "description": "Acompanhe melhores momentos, gols e entrevistas do maior torneio de futebol do continente",
+          "format": "SPORTS",
+          "type": "TV_PROGRAM",
+          "logo": {
+            "__typename": "Logo",
+            "tv": "https://s2.glbimg.com/z0sLm2f3vZLVAE3brZZY21ml8C4=/876x496/https://s2.glbimg.com/TcYcwPtmQWtzP5r7CXnfy-GyxWA=/s3.glbimg.com/v1/AUTH_180b9dd048d9434295d27c4b6dadc248/media_kit/b5/10/eebf7cad2ce8ebdac1a8ba363432.png"
+          },
+          "cover": {
+            "__typename": "Cover",
+            "landscape": "https://s2.glbimg.com/kuHlN_CueWbjJrYcFA_3K51cccs=/0x2160/https://s2.glbimg.com/8nXX5YdIvne4YQc5BeuKy4e6aEA=/i.s3.glbimg.com/v1/AUTH_c3c606ff68e7478091d1ca496f9c5625/internal_photos/bs/2018/R/p/85tt8NT2GYNT8RdCq9uQ/5118-tac-cc-a7a-libertadores-da-ame-cc-81rica-background.jpg"
+          }
+        }
+      ]
+    }
+  }
+}

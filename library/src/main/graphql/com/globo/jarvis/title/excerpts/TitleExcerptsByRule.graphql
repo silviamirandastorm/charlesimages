@@ -1,0 +1,43 @@
+query TitleExcerptsByRule(
+    $titleId: String!
+    $page: Int!
+    $perPage: Int!
+    $rule: TitleRules
+    $thumbSmall: Int!
+    $thumbLarge: Int!
+    $startDate: Date!
+    $endDate: Date!
+) {
+    title(titleId: $titleId) {
+        epgActive
+        structure {
+            ...TitleExcerptsList
+        }
+    }
+}
+fragment TitleExcerptsList on EpisodeListStructure {
+    excerpts(
+        page: $page
+        perPage: $perPage
+        rule: $rule
+        dateRange: { gte: $startDate, lte: $endDate }
+    ) {
+        resources {
+            id
+            headline
+            description
+            duration
+            formattedDuration
+            availableFor
+            accessibleOffline
+            thumbSmall: thumb(size: $thumbSmall)
+            thumbLarge: thumb(size: $thumbLarge)
+            formattedRemainingTime
+            watchedProgress
+            exhibitedAt
+            title {
+                headline
+            }
+        }
+    }
+}

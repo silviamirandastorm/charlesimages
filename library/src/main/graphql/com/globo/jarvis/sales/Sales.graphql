@@ -1,0 +1,59 @@
+query Sales(
+    $id: ID!
+    $filter: PageMetadataFilter
+    $highlightLogoMobileScales: HighlightLogoMobileScales
+    $highlightImageMobileScales: HighlightImageMobileScales
+    $highlightLogoTabletScales: HighlightLogoTabletScales
+    $highlightImageTabletScales: HighlightImageTabletScales
+    $coverPortraitScales: CoverPortraitScales
+    $coverLandscapeScales: CoverLandscapeScales
+    $coverWideScales: CoverWideScales
+    $titleId: String
+) {
+    title(titleId: $titleId) {
+        cover {
+            wide: wide(scale: $coverWideScales)
+            portrait: portrait(scale: $coverPortraitScales)
+            landscape: landscape(scale: $coverLandscapeScales)
+        }
+    }
+    page(id: $id, filter: $filter) {
+        subscriptionServiceId
+        premiumHighlight {
+            callText
+            componentType
+            buttonText
+            highlight {
+                contentType
+                headlineText
+                highlightImage {
+                    mobile(scale: $highlightImageMobileScales)
+                    tablet(scale: $highlightImageTabletScales)
+                }
+                logo {
+                    mobile(scale: $highlightLogoMobileScales)
+                    tablet(scale: $highlightLogoTabletScales)
+                }
+            }
+        }
+        offerItems {
+            ...PageSalesOfferFragment
+            ...PageSalesHighlightFragment
+        }
+    }
+}
+
+
+fragment PageSalesHighlightFragment on PageHighlight {
+    callText
+    headline
+    leftAligned
+    componentType
+    highlightId
+}
+
+fragment PageSalesOfferFragment on PageOffer {
+    title
+    componentType
+    offerId
+}

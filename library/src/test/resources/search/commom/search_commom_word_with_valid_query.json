@@ -1,0 +1,676 @@
+{
+  "data": {
+    "search": {
+      "__typename": "Search",
+      "videoSearch": {
+        "__typename": "VideoSearchResult",
+        "abExperiment": {
+          "__typename": "ABExperiment",
+          "experiment": "GLOBOPLAY-JARVIS-search-videos-sample",
+          "trackId": "d9a7fefa-0fcd-4cb2-9ebf-919dc9e8a979",
+          "convertUrl": null,
+          "alternative": "alt"
+        },
+        "collection": {
+          "__typename": "VideoCollection",
+          "nextPage": 2,
+          "hasNextPage": true,
+          "total": 41522,
+          "resources": [
+            {
+              "__typename": "Video",
+              "id": "4452349",
+              "headline": "Agora na Globo",
+              "duration": null,
+              "formattedDuration": null,
+              "kind": "live",
+              "availableFor": "LOGGED_IN",
+              "thumb": "https://s02.video.glbimg.com/x216/4452349.jpg",
+              "liveThumbnail": null,
+              "exhibitedAt": "2015-09-08T20:15:00Z",
+              "broadcast": {
+                "__typename": "Broadcast",
+                "mediaId": "6120663",
+                "withoutDVRMediaId": "4452349",
+                "imageOnAir": "https://s2.glbimg.com/_Y0FqTiV57jf2Xp_CHron77IcII=/0x216/https://s2.glbimg.com/2JaDCs2FslvxWxR77j2978kuEd8=/https://i.s3.glbimg.com/v1/AUTH_c3c606ff68e7478091d1ca496f9c5625/internal_photos/bs/2019/A/l/J78Zh9SIWTxXVrDBza2A/onairglobo.jpg",
+                "channel": {
+                  "__typename": "BroadcastChannel",
+                  "trimmedLogo": "https://s2.glbimg.com/eDR6TSRvsi8skz4ezGzLA4b48H4=/fit-in/48x24/https://s2.glbimg.com/9Wy1I7Dz4-R6xhNVpPqTLzd0mME=/trim/filters:fill(transparent,false)/https://i.s3.glbimg.com/v1/AUTH_c3c606ff68e7478091d1ca496f9c5625/internal_photos/bs/2020/V/q/33CD65RVK44W5BSLbx1g/rede-globo.png"
+                }
+              },
+              "title": {
+                "__typename": "Title",
+                "url": null,
+                "originProgramId": "9095",
+                "headline": "Globoplay Ao Vivo"
+              }
+            },
+            {
+              "__typename": "Video",
+              "id": "8310612",
+              "headline": "Combate no Globo Play",
+              "duration": null,
+              "formattedDuration": null,
+              "kind": "live",
+              "availableFor": "SUBSCRIBER",
+              "thumb": "https://s01.video.glbimg.com/x216/8310612.jpg",
+              "liveThumbnail": "https://live-thumbs.video.globo.com/cbt24ha/snapshot/",
+              "exhibitedAt": "2020-02-10T20:15:00Z",
+              "broadcast": null,
+              "title": {
+                "__typename": "Title",
+                "url": null,
+                "originProgramId": "12217",
+                "headline": "Combate no Globoplay"
+              }
+            },
+            {
+              "__typename": "Video",
+              "id": "8675516",
+              "headline": "Globo Comunidade: domingo 05/07/2020 - Íntegra",
+              "duration": 1498664,
+              "formattedDuration": "24 min",
+              "kind": "episode",
+              "availableFor": "LOGGED_IN",
+              "thumb": "https://s01.video.glbimg.com/x216/8675516.jpg",
+              "liveThumbnail": null,
+              "exhibitedAt": "2020-07-05T09:30:08Z",
+              "broadcast": null,
+              "title": {
+                "__typename": "Title",
+                "url": "/globo-comunidade-pe/t/LCCHkBkBTN",
+                "originProgramId": "5455",
+                "headline": "Globo Comunidade PE"
+              }
+            },
+            {
+              "__typename": "Video",
+              "id": "8675480",
+              "headline": "Globo Rural – Edição de 05/07/2020",
+              "duration": 2686898,
+              "formattedDuration": "44 min",
+              "kind": "episode",
+              "availableFor": "LOGGED_IN",
+              "thumb": "https://s01.video.glbimg.com/x216/8675480.jpg",
+              "liveThumbnail": null,
+              "exhibitedAt": "2020-07-05T10:41:00Z",
+              "broadcast": null,
+              "title": {
+                "__typename": "Title",
+                "url": "/globo-rural/t/xyFHtZytj2",
+                "originProgramId": "1937",
+                "headline": "Globo Rural"
+              }
+            },
+            {
+              "__typename": "Video",
+              "id": "8675454",
+              "headline": "Globo Comunidade RJ - Íntegra de 05/07/2020",
+              "duration": 1647944,
+              "formattedDuration": "27 min",
+              "kind": "episode",
+              "availableFor": "LOGGED_IN",
+              "thumb": "https://s03.video.glbimg.com/x216/8675454.jpg",
+              "liveThumbnail": null,
+              "exhibitedAt": "2020-07-05T09:35:33Z",
+              "broadcast": null,
+              "title": {
+                "__typename": "Title",
+                "url": "/globo-comunidade/t/2WYksfffHp",
+                "originProgramId": "2529",
+                "headline": "Globo Comunidade"
+              }
+            },
+            {
+              "__typename": "Video",
+              "id": "8674177",
+              "headline": "Veja o bloco do Globo Esporte no SP1 deste sábado, 04/07/2020",
+              "duration": 863643,
+              "formattedDuration": "14 min",
+              "kind": "episode",
+              "availableFor": "LOGGED_IN",
+              "thumb": "https://s02.video.glbimg.com/x216/8674177.jpg",
+              "liveThumbnail": null,
+              "exhibitedAt": "2020-07-04T16:03:37Z",
+              "broadcast": null,
+              "title": {
+                "__typename": "Title",
+                "url": "/globo-esporte-sp/t/1nKKpsbSg9",
+                "originProgramId": "4868",
+                "headline": "Globo Esporte SP"
+              }
+            },
+            {
+              "__typename": "Video",
+              "id": "8673351",
+              "headline": "Globo Repórter - 03/07/2020",
+              "duration": 2212002,
+              "formattedDuration": "36 min",
+              "kind": "episode",
+              "availableFor": "LOGGED_IN",
+              "thumb": "https://s04.video.glbimg.com/x216/8673351.jpg",
+              "liveThumbnail": null,
+              "exhibitedAt": "2020-07-03T03:07:00Z",
+              "broadcast": null,
+              "title": {
+                "__typename": "Title",
+                "url": "/globo-reporter/t/wh8cdfztm7",
+                "originProgramId": "816",
+                "headline": "Globo Repórter"
+              }
+            },
+            {
+              "__typename": "Video",
+              "id": "8673952",
+              "headline": "Veja o bloco do Globo Esporte no RJ1 deste sábado, 04/07/2020",
+              "duration": 531865,
+              "formattedDuration": "8 min",
+              "kind": "excerpt",
+              "availableFor": "ANONYMOUS",
+              "thumb": "https://s01.video.glbimg.com/x216/8673952.jpg",
+              "liveThumbnail": null,
+              "exhibitedAt": "2020-07-04T03:00:00Z",
+              "broadcast": null,
+              "title": {
+                "__typename": "Title",
+                "url": "/globo-esporte-rj/t/7L8FQZxGDQ",
+                "originProgramId": "5229",
+                "headline": "Globo Esporte RJ"
+              }
+            },
+            {
+              "__typename": "Video",
+              "id": "8672062",
+              "headline": "Confira na íntegra o Globo Esporte Amapá desta sexta-feira (3)",
+              "duration": 953219,
+              "formattedDuration": "15 min",
+              "kind": "episode",
+              "availableFor": "ANONYMOUS",
+              "thumb": "https://s03.video.glbimg.com/x216/8672062.jpg",
+              "liveThumbnail": null,
+              "exhibitedAt": "2020-07-03T16:04:00Z",
+              "broadcast": null,
+              "title": {
+                "__typename": "Title",
+                "url": "/globo-esporte-ap/t/cLFgWc2z7k",
+                "originProgramId": "7561",
+                "headline": "Globo Esporte AP"
+              }
+            },
+            {
+              "__typename": "Video",
+              "id": "8671645",
+              "headline": "Veja o bloco do Globo Esporte no SP1 desta sexta-feira, 03/07/2020",
+              "duration": 623224,
+              "formattedDuration": "10 min",
+              "kind": "episode",
+              "availableFor": "LOGGED_IN",
+              "thumb": "https://s02.video.glbimg.com/x216/8671645.jpg",
+              "liveThumbnail": null,
+              "exhibitedAt": "2020-07-03T16:15:22Z",
+              "broadcast": null,
+              "title": {
+                "__typename": "Title",
+                "url": "/globo-esporte-sp/t/1nKKpsbSg9",
+                "originProgramId": "4868",
+                "headline": "Globo Esporte SP"
+              }
+            },
+            {
+              "__typename": "Video",
+              "id": "8669122",
+              "headline": "Confira na íntegra o Globo Esporte Amapá desta quinta-feira (2)",
+              "duration": 904804,
+              "formattedDuration": "15 min",
+              "kind": "episode",
+              "availableFor": "ANONYMOUS",
+              "thumb": "https://s03.video.glbimg.com/x216/8669122.jpg",
+              "liveThumbnail": null,
+              "exhibitedAt": "2020-07-02T15:59:00Z",
+              "broadcast": null,
+              "title": {
+                "__typename": "Title",
+                "url": "/globo-esporte-ap/t/cLFgWc2z7k",
+                "originProgramId": "7561",
+                "headline": "Globo Esporte AP"
+              }
+            },
+            {
+              "__typename": "Video",
+              "id": "8671659",
+              "headline": "Veja o bloco do Globo Esporte no RJ1 desta sexta-feira, 03/07/2020",
+              "duration": 582048,
+              "formattedDuration": "9 min",
+              "kind": "episode",
+              "availableFor": "ANONYMOUS",
+              "thumb": "https://s04.video.glbimg.com/x216/8671659.jpg",
+              "liveThumbnail": null,
+              "exhibitedAt": "2020-07-03T03:00:00Z",
+              "broadcast": null,
+              "title": {
+                "__typename": "Title",
+                "url": "/globo-esporte-rj/t/7L8FQZxGDQ",
+                "originProgramId": "5229",
+                "headline": "Globo Esporte RJ"
+              }
+            },
+            {
+              "__typename": "Video",
+              "id": "8668786",
+              "headline": "Veja o bloco do Globo Esporte no RJ1 de quinta-feira, 02/07/2020",
+              "duration": 616916,
+              "formattedDuration": "10 min",
+              "kind": "episode",
+              "availableFor": "ANONYMOUS",
+              "thumb": "https://s03.video.glbimg.com/x216/8668786.jpg",
+              "liveThumbnail": null,
+              "exhibitedAt": "2020-07-02T03:00:00Z",
+              "broadcast": null,
+              "title": {
+                "__typename": "Title",
+                "url": "/globo-esporte-rj/t/7L8FQZxGDQ",
+                "originProgramId": "5229",
+                "headline": "Globo Esporte RJ"
+              }
+            },
+            {
+              "__typename": "Video",
+              "id": "8665841",
+              "headline": "Veja o bloco do Globo Esporte no SP1 desta quarta-feira, 01/07/2020",
+              "duration": 709509,
+              "formattedDuration": "11 min",
+              "kind": "episode",
+              "availableFor": "LOGGED_IN",
+              "thumb": "https://s02.video.glbimg.com/x216/8665841.jpg",
+              "liveThumbnail": null,
+              "exhibitedAt": "2020-07-01T16:23:53Z",
+              "broadcast": null,
+              "title": {
+                "__typename": "Title",
+                "url": "/globo-esporte-sp/t/1nKKpsbSg9",
+                "originProgramId": "4868",
+                "headline": "Globo Esporte SP"
+              }
+            },
+            {
+              "__typename": "Video",
+              "id": "8659765",
+              "headline": "Bate-Papo Globo Esporte Paraná: capítulo 47",
+              "duration": 2140485,
+              "formattedDuration": "35 min",
+              "kind": "excerpt",
+              "availableFor": "ANONYMOUS",
+              "thumb": "https://s02.video.glbimg.com/x216/8659765.jpg",
+              "liveThumbnail": null,
+              "exhibitedAt": "2020-06-29T15:13:00Z",
+              "broadcast": null,
+              "title": {
+                "__typename": "Title",
+                "url": "/globo-esporte-pr/t/rsfGSb5sxY",
+                "originProgramId": "5148",
+                "headline": "Globo Esporte PR"
+              }
+            },
+            {
+              "__typename": "Video",
+              "id": "8665757",
+              "headline": "Veja o bloco do Globo Esporte no RJ1 de quarta-feira, 01/07/2020",
+              "duration": 725458,
+              "formattedDuration": "12 min",
+              "kind": "episode",
+              "availableFor": "ANONYMOUS",
+              "thumb": "https://s02.video.glbimg.com/x216/8665757.jpg",
+              "liveThumbnail": null,
+              "exhibitedAt": "2020-07-01T03:00:00Z",
+              "broadcast": null,
+              "title": {
+                "__typename": "Title",
+                "url": "/globo-esporte-rj/t/7L8FQZxGDQ",
+                "originProgramId": "5229",
+                "headline": "Globo Esporte RJ"
+              }
+            },
+            {
+              "__typename": "Video",
+              "id": "8662924",
+              "headline": "Veja o bloco do Globo Esporte no SP1 desta terça-feira, 30/06/2020",
+              "duration": 787180,
+              "formattedDuration": "13 min",
+              "kind": "episode",
+              "availableFor": "LOGGED_IN",
+              "thumb": "https://s01.video.glbimg.com/x216/8662924.jpg",
+              "liveThumbnail": null,
+              "exhibitedAt": "2020-06-30T16:22:43Z",
+              "broadcast": null,
+              "title": {
+                "__typename": "Title",
+                "url": "/globo-esporte-sp/t/1nKKpsbSg9",
+                "originProgramId": "4868",
+                "headline": "Globo Esporte SP"
+              }
+            },
+            {
+              "__typename": "Video",
+              "id": "8662969",
+              "headline": "Veja o bloco do Globo Esporte no RJ1 de terça-feira, 30/06/2020",
+              "duration": 514014,
+              "formattedDuration": "8 min",
+              "kind": "episode",
+              "availableFor": "ANONYMOUS",
+              "thumb": "https://s02.video.glbimg.com/x216/8662969.jpg",
+              "liveThumbnail": null,
+              "exhibitedAt": "2020-06-30T03:00:00Z",
+              "broadcast": null,
+              "title": {
+                "__typename": "Title",
+                "url": "/globo-esporte-rj/t/7L8FQZxGDQ",
+                "originProgramId": "5229",
+                "headline": "Globo Esporte RJ"
+              }
+            },
+            {
+              "__typename": "Video",
+              "id": "8658531",
+              "headline": "Globo Comunidade PE: domingo 28/06/2020 - Íntegra",
+              "duration": 1412308,
+              "formattedDuration": "23 min",
+              "kind": "episode",
+              "availableFor": "ANONYMOUS",
+              "thumb": "https://s04.video.glbimg.com/x216/8658531.jpg",
+              "liveThumbnail": null,
+              "exhibitedAt": "2020-06-28T10:24:02Z",
+              "broadcast": null,
+              "title": {
+                "__typename": "Title",
+                "url": "/globo-comunidade-pe/t/LCCHkBkBTN",
+                "originProgramId": "5455",
+                "headline": "Globo Comunidade PE"
+              }
+            },
+            {
+              "__typename": "Video",
+              "id": "8660020",
+              "headline": "Veja o bloco do Globo Esporte no Sp1 desta segunda-feira, 29/06/2020",
+              "duration": 605925,
+              "formattedDuration": "10 min",
+              "kind": "episode",
+              "availableFor": "LOGGED_IN",
+              "thumb": "https://s01.video.glbimg.com/x216/8660020.jpg",
+              "liveThumbnail": null,
+              "exhibitedAt": "2020-06-29T16:17:39Z",
+              "broadcast": null,
+              "title": {
+                "__typename": "Title",
+                "url": "/globo-esporte-sp/t/1nKKpsbSg9",
+                "originProgramId": "4868",
+                "headline": "Globo Esporte SP"
+              }
+            },
+            {
+              "__typename": "Video",
+              "id": "8656412",
+              "headline": "Globo Repórter - 26/06/2020",
+              "duration": 2353668,
+              "formattedDuration": "39 min",
+              "kind": "episode",
+              "availableFor": "LOGGED_IN",
+              "thumb": "https://s01.video.glbimg.com/x216/8656412.jpg",
+              "liveThumbnail": null,
+              "exhibitedAt": "2020-06-26T03:00:00Z",
+              "broadcast": null,
+              "title": {
+                "__typename": "Title",
+                "url": "/globo-reporter/t/wh8cdfztm7",
+                "originProgramId": "816",
+                "headline": "Globo Repórter"
+              }
+            },
+            {
+              "__typename": "Video",
+              "id": "8660093",
+              "headline": "Veja o bloco do Globo Esporte no RJ1 de segunda-feira, 29/06/2020",
+              "duration": 1007273,
+              "formattedDuration": "16 min",
+              "kind": "episode",
+              "availableFor": "ANONYMOUS",
+              "thumb": "https://s02.video.glbimg.com/x216/8660093.jpg",
+              "liveThumbnail": null,
+              "exhibitedAt": "2020-06-29T03:00:00Z",
+              "broadcast": null,
+              "title": {
+                "__typename": "Title",
+                "url": "/globo-esporte-rj/t/7L8FQZxGDQ",
+                "originProgramId": "5229",
+                "headline": "Globo Esporte RJ"
+              }
+            },
+            {
+              "__typename": "Video",
+              "id": "8657121",
+              "headline": "Confira o bloco do Globo Esporte no SP1 deste sábado, 27/06/2020",
+              "duration": 367247,
+              "formattedDuration": "6 min",
+              "kind": "episode",
+              "availableFor": "LOGGED_IN",
+              "thumb": "https://s02.video.glbimg.com/x216/8657121.jpg",
+              "liveThumbnail": null,
+              "exhibitedAt": "2020-06-27T16:28:54Z",
+              "broadcast": null,
+              "title": {
+                "__typename": "Title",
+                "url": "/globo-esporte-sp/t/1nKKpsbSg9",
+                "originProgramId": "4868",
+                "headline": "Globo Esporte SP"
+              }
+            },
+            {
+              "__typename": "Video",
+              "id": "8658498",
+              "headline": "Globo Rural – Edição de 28/06/2020",
+              "duration": 2778198,
+              "formattedDuration": "46 min",
+              "kind": "episode",
+              "availableFor": "LOGGED_IN",
+              "thumb": "https://s03.video.glbimg.com/x216/8658498.jpg",
+              "liveThumbnail": null,
+              "exhibitedAt": "2020-06-28T11:30:00Z",
+              "broadcast": null,
+              "title": {
+                "__typename": "Title",
+                "url": "/globo-rural/t/xyFHtZytj2",
+                "originProgramId": "1937",
+                "headline": "Globo Rural"
+              }
+            }
+          ]
+        }
+      },
+      "titleSearch": {
+        "__typename": "TitleSearchResult",
+        "abExperiment": {
+          "__typename": "ABExperiment",
+          "experiment": "globo-play-search-titles-optmized-query",
+          "trackId": "795d6a95-557e-4123-bd57-b1245570f106",
+          "convertUrl": null,
+          "alternative": "autocomplete-removed"
+        },
+        "collection": {
+          "__typename": "TitleCollection",
+          "nextPage": 2,
+          "hasNextPage": true,
+          "total": 38,
+          "resources": [
+            {
+              "__typename": "Title",
+              "format": "SPORTS",
+              "originProgramId": "10423",
+              "titleId": "SGbhrbc5R7",
+              "headline": "Globo Esporte",
+              "type": "TV_PROGRAM",
+              "url": "/globo-esporte/t/SGbhrbc5R7",
+              "poster": {
+                "__typename": "Poster",
+                "mobile": "https://s2.glbimg.com/YjpHvVtitv_3fbi6AWpu6EZXA9U=/100x152/https://s2.glbimg.com/7nuA5MU8l_V8C1K85vu8OYhLyRI=/i.s3.glbimg.com/v1/AUTH_c3c606ff68e7478091d1ca496f9c5625/internal_photos/bs/2019/s/g/Memh06SFq9DAOTjjAYgQ/2019-466-nsc-globo-esporte-poster.jpg",
+                "tablet": "https://s2.glbimg.com/woRn9OKK5csBFPCcLFGexkl06PE=/144x212/https://s2.glbimg.com/7nuA5MU8l_V8C1K85vu8OYhLyRI=/i.s3.glbimg.com/v1/AUTH_c3c606ff68e7478091d1ca496f9c5625/internal_photos/bs/2019/s/g/Memh06SFq9DAOTjjAYgQ/2019-466-nsc-globo-esporte-poster.jpg",
+                "tv": "https://s2.glbimg.com/e06P5q93t4tVRaAlw3XjEhmhXKk=/146x216/https://s2.glbimg.com/7nuA5MU8l_V8C1K85vu8OYhLyRI=/i.s3.glbimg.com/v1/AUTH_c3c606ff68e7478091d1ca496f9c5625/internal_photos/bs/2019/s/g/Memh06SFq9DAOTjjAYgQ/2019-466-nsc-globo-esporte-poster.jpg"
+              }
+            },
+            {
+              "__typename": "Title",
+              "format": "NEWS",
+              "originProgramId": "4211",
+              "titleId": "mYNCRfSYry",
+              "headline": "Globo Horizonte",
+              "type": "TV_PROGRAM",
+              "url": "/globo-horizonte/t/mYNCRfSYry",
+              "poster": {
+                "__typename": "Poster",
+                "mobile": "https://s2.glbimg.com/0Uzyo6iMuQazHl8TNd9_hcacZOU=/100x152/https://s2.glbimg.com/_NgDXFZCGlQCiMic3WJix6cUDDU=/i.s3.glbimg.com/v1/AUTH_c3c606ff68e7478091d1ca496f9c5625/internal_photos/bs/2019/Z/5/63SMouRPyhGoy7fFokDw/2019-303-globo-horizonte-mg-poster.jpg",
+                "tablet": "https://s2.glbimg.com/0NJjzg_LcVfuMc3wPLncSBYzX_E=/144x212/https://s2.glbimg.com/_NgDXFZCGlQCiMic3WJix6cUDDU=/i.s3.glbimg.com/v1/AUTH_c3c606ff68e7478091d1ca496f9c5625/internal_photos/bs/2019/Z/5/63SMouRPyhGoy7fFokDw/2019-303-globo-horizonte-mg-poster.jpg",
+                "tv": "https://s2.glbimg.com/mib5IxqYSThKI6nG2h-Zc-DFl4E=/146x216/https://s2.glbimg.com/_NgDXFZCGlQCiMic3WJix6cUDDU=/i.s3.glbimg.com/v1/AUTH_c3c606ff68e7478091d1ca496f9c5625/internal_photos/bs/2019/Z/5/63SMouRPyhGoy7fFokDw/2019-303-globo-horizonte-mg-poster.jpg"
+              }
+            },
+            {
+              "__typename": "Title",
+              "format": "NEWS",
+              "originProgramId": "1937",
+              "titleId": "xyFHtZytj2",
+              "headline": "Globo Rural",
+              "type": "TV_PROGRAM",
+              "url": "/globo-rural/t/xyFHtZytj2",
+              "poster": {
+                "__typename": "Poster",
+                "mobile": "https://s2.glbimg.com/hNISVI9e-selpME83ApSQLVX4oQ=/100x152/https://s2.glbimg.com/2KbUJzdHAMOgiLx32HKbcp3vJE0=/i.s3.glbimg.com/v1/AUTH_c3c606ff68e7478091d1ca496f9c5625/internal_photos/bs/2019/k/5/wDS8v3RgaY5tb90qcQAg/2019-282-globo-rural-poster.jpg",
+                "tablet": "https://s2.glbimg.com/sFi00pR2QZ-KRTVMya377uuX_Ws=/144x212/https://s2.glbimg.com/2KbUJzdHAMOgiLx32HKbcp3vJE0=/i.s3.glbimg.com/v1/AUTH_c3c606ff68e7478091d1ca496f9c5625/internal_photos/bs/2019/k/5/wDS8v3RgaY5tb90qcQAg/2019-282-globo-rural-poster.jpg",
+                "tv": "https://s2.glbimg.com/XInoHm_tj6SAVLnJnvhy-PpBdpQ=/146x216/https://s2.glbimg.com/2KbUJzdHAMOgiLx32HKbcp3vJE0=/i.s3.glbimg.com/v1/AUTH_c3c606ff68e7478091d1ca496f9c5625/internal_photos/bs/2019/k/5/wDS8v3RgaY5tb90qcQAg/2019-282-globo-rural-poster.jpg"
+              }
+            },
+            {
+              "__typename": "Title",
+              "format": "SPORTS",
+              "originProgramId": "815",
+              "titleId": "HzHGwGKjvW",
+              "headline": "Globo Esporte",
+              "type": "TV_PROGRAM",
+              "url": "/globo-esporte/t/HzHGwGKjvW",
+              "poster": {
+                "__typename": "Poster",
+                "mobile": "https://s2.glbimg.com/hwDk_irV1xC39wnvANNOKV8-06o=/100x152/https://s2.glbimg.com/iQpk8p5LhFDW1jUFwDDgufUQAj4=/i.s3.glbimg.com/v1/AUTH_c3c606ff68e7478091d1ca496f9c5625/internal_photos/bs/2019/I/f/6kNISKTlOih1n86PuKAg/2019-480-midia-kit-ge-rede-poster.jpg",
+                "tablet": "https://s2.glbimg.com/eUFHXWN8-iyqADJ71aIcrzsOxZg=/144x212/https://s2.glbimg.com/iQpk8p5LhFDW1jUFwDDgufUQAj4=/i.s3.glbimg.com/v1/AUTH_c3c606ff68e7478091d1ca496f9c5625/internal_photos/bs/2019/I/f/6kNISKTlOih1n86PuKAg/2019-480-midia-kit-ge-rede-poster.jpg",
+                "tv": "https://s2.glbimg.com/-oyBxqji2MdTTE_VJsriNex-Jo0=/146x216/https://s2.glbimg.com/iQpk8p5LhFDW1jUFwDDgufUQAj4=/i.s3.glbimg.com/v1/AUTH_c3c606ff68e7478091d1ca496f9c5625/internal_photos/bs/2019/I/f/6kNISKTlOih1n86PuKAg/2019-480-midia-kit-ge-rede-poster.jpg"
+              }
+            },
+            {
+              "__typename": "Title",
+              "format": "NEWS",
+              "originProgramId": "4844",
+              "titleId": "rs6JV8mTm2",
+              "headline": "Globo Mar",
+              "type": "TV_PROGRAM",
+              "url": "/globo-mar/t/rs6JV8mTm2",
+              "poster": {
+                "__typename": "Poster",
+                "mobile": "https://s2.glbimg.com/A5Irdv3QrhGgkFMp_lS-LyYA-tc=/100x152/https://s2.glbimg.com/ityVdOBKBNV5FVLNoo1Hh6bvcw4=/s3.glbimg.com/v1/AUTH_180b9dd048d9434295d27c4b6dadc248/media_kit/27/7f/21a86823dcda65b57009ae6b44e6.jpg",
+                "tablet": "https://s2.glbimg.com/zdZg3biNMQ-Xl2Xl_nZZKBhe2ZA=/144x212/https://s2.glbimg.com/ityVdOBKBNV5FVLNoo1Hh6bvcw4=/s3.glbimg.com/v1/AUTH_180b9dd048d9434295d27c4b6dadc248/media_kit/27/7f/21a86823dcda65b57009ae6b44e6.jpg",
+                "tv": "https://s2.glbimg.com/RK7isYCdgFDktsuletRPAgvWlBA=/146x216/https://s2.glbimg.com/ityVdOBKBNV5FVLNoo1Hh6bvcw4=/s3.glbimg.com/v1/AUTH_180b9dd048d9434295d27c4b6dadc248/media_kit/27/7f/21a86823dcda65b57009ae6b44e6.jpg"
+              }
+            },
+            {
+              "__typename": "Title",
+              "format": "NEWS",
+              "originProgramId": "2529",
+              "titleId": "2WYksfffHp",
+              "headline": "Globo Comunidade",
+              "type": "TV_PROGRAM",
+              "url": "/globo-comunidade/t/2WYksfffHp",
+              "poster": {
+                "__typename": "Poster",
+                "mobile": "https://s2.glbimg.com/W8aReXst7W7E3v1HO5Fxr8IA5IQ=/100x152/https://s2.glbimg.com/2ogdU07tXcogPKXB-iPd67osTCc=/s3.glbimg.com/v1/AUTH_180b9dd048d9434295d27c4b6dadc248/media_kit/dc/58/1a4c368ee779384af4e3e096d02e.jpg",
+                "tablet": "https://s2.glbimg.com/YOpd_CFbczDyG7-8a299h9GVvaY=/144x212/https://s2.glbimg.com/2ogdU07tXcogPKXB-iPd67osTCc=/s3.glbimg.com/v1/AUTH_180b9dd048d9434295d27c4b6dadc248/media_kit/dc/58/1a4c368ee779384af4e3e096d02e.jpg",
+                "tv": "https://s2.glbimg.com/B61GZRV1xyEHNTm-01G5-tZReIo=/146x216/https://s2.glbimg.com/2ogdU07tXcogPKXB-iPd67osTCc=/s3.glbimg.com/v1/AUTH_180b9dd048d9434295d27c4b6dadc248/media_kit/dc/58/1a4c368ee779384af4e3e096d02e.jpg"
+              }
+            },
+            {
+              "__typename": "Title",
+              "format": "NEWS",
+              "originProgramId": "816",
+              "titleId": "wh8cdfztm7",
+              "headline": "Globo Repórter",
+              "type": "TV_PROGRAM",
+              "url": "/globo-reporter/t/wh8cdfztm7",
+              "poster": {
+                "__typename": "Poster",
+                "mobile": "https://s2.glbimg.com/Zv6SHUU9C3ktZcULQpZtIZAQvKQ=/100x152/https://s2.glbimg.com/HwlVc7hfwyt7uieRJ57urNyD-HE=/i.s3.glbimg.com/v1/AUTH_c3c606ff68e7478091d1ca496f9c5625/internal_photos/bs/2019/d/h/d4YsQpT7elLqGb0rscAg/2019-584-globo-reporter-poster.jpg",
+                "tablet": "https://s2.glbimg.com/f_y0FYxfxbFdkDVLSi2kL3XLUJ0=/144x212/https://s2.glbimg.com/HwlVc7hfwyt7uieRJ57urNyD-HE=/i.s3.glbimg.com/v1/AUTH_c3c606ff68e7478091d1ca496f9c5625/internal_photos/bs/2019/d/h/d4YsQpT7elLqGb0rscAg/2019-584-globo-reporter-poster.jpg",
+                "tv": "https://s2.glbimg.com/ydlAKBckt8YoYE7FvWEgvZRg9aI=/146x216/https://s2.glbimg.com/HwlVc7hfwyt7uieRJ57urNyD-HE=/i.s3.glbimg.com/v1/AUTH_c3c606ff68e7478091d1ca496f9c5625/internal_photos/bs/2019/d/h/d4YsQpT7elLqGb0rscAg/2019-584-globo-reporter-poster.jpg"
+              }
+            },
+            {
+              "__typename": "Title",
+              "format": "SPORTS",
+              "originProgramId": "5653",
+              "titleId": "rhBPSCZBMv",
+              "headline": "Globo Esporte SE",
+              "type": "TV_PROGRAM",
+              "url": "/globo-esporte-se/t/rhBPSCZBMv",
+              "poster": {
+                "__typename": "Poster",
+                "mobile": "https://s2.glbimg.com/NhlZFpXnt16ZnvvY3Qp2ip3skgs=/100x152/https://s2.glbimg.com/V-AMIxbsX7PUHAB2yuCmgoZaCCI=/i.s3.glbimg.com/v1/AUTH_c3c606ff68e7478091d1ca496f9c5625/internal_photos/bs/2019/q/f/AX6JzNRZiExCpaly7cow/2019-557-tv-sergipe-globo-esporte-se-poster.jpg",
+                "tablet": "https://s2.glbimg.com/y1pPvT3bZOOZ-eXFroV3r-Q1Y5c=/144x212/https://s2.glbimg.com/V-AMIxbsX7PUHAB2yuCmgoZaCCI=/i.s3.glbimg.com/v1/AUTH_c3c606ff68e7478091d1ca496f9c5625/internal_photos/bs/2019/q/f/AX6JzNRZiExCpaly7cow/2019-557-tv-sergipe-globo-esporte-se-poster.jpg",
+                "tv": "https://s2.glbimg.com/80GMXOFMCOfiUUzi0twQUc5gOzY=/146x216/https://s2.glbimg.com/V-AMIxbsX7PUHAB2yuCmgoZaCCI=/i.s3.glbimg.com/v1/AUTH_c3c606ff68e7478091d1ca496f9c5625/internal_photos/bs/2019/q/f/AX6JzNRZiExCpaly7cow/2019-557-tv-sergipe-globo-esporte-se-poster.jpg"
+              }
+            },
+            {
+              "__typename": "Title",
+              "format": "NEWS",
+              "originProgramId": "817",
+              "titleId": "HxbxWLmmRz",
+              "headline": "Jornal da Globo",
+              "type": "TV_PROGRAM",
+              "url": "/jornal-da-globo/t/HxbxWLmmRz",
+              "poster": {
+                "__typename": "Poster",
+                "mobile": "https://s2.glbimg.com/wdKMAzkuBzBmbbX_0XPAAFXLpCE=/100x152/https://s2.glbimg.com/Cm3RFmt8rpyjOYnzpulgFvX70gw=/s3.glbimg.com/v1/AUTH_180b9dd048d9434295d27c4b6dadc248/media_kit/12/bd/2a8394bd532df296b03a3c4f42d5.jpg",
+                "tablet": "https://s2.glbimg.com/VXNCft4cvjfdpTeMO3df4VK_ni0=/144x212/https://s2.glbimg.com/Cm3RFmt8rpyjOYnzpulgFvX70gw=/s3.glbimg.com/v1/AUTH_180b9dd048d9434295d27c4b6dadc248/media_kit/12/bd/2a8394bd532df296b03a3c4f42d5.jpg",
+                "tv": "https://s2.glbimg.com/66-Am2CPVu5u395V_cS2Mge3XXg=/146x216/https://s2.glbimg.com/Cm3RFmt8rpyjOYnzpulgFvX70gw=/s3.glbimg.com/v1/AUTH_180b9dd048d9434295d27c4b6dadc248/media_kit/12/bd/2a8394bd532df296b03a3c4f42d5.jpg"
+              }
+            },
+            {
+              "__typename": "Title",
+              "format": "SERIES",
+              "originProgramId": "12151",
+              "titleId": "zTzvGhjk8w",
+              "headline": "Isso a Globo Não Mostra",
+              "type": "SERIE",
+              "url": "/isso-a-globo-nao-mostra/t/zTzvGhjk8w",
+              "poster": {
+                "__typename": "Poster",
+                "mobile": "https://s2.glbimg.com/JA7Ek9oS1KYA8voczvmKIE_1qNc=/100x152/https://s2.glbimg.com/tmVaXx7AdBdgXOyZtz8ezj17RQc=/i.s3.glbimg.com/v1/AUTH_c3c606ff68e7478091d1ca496f9c5625/internal_photos/bs/2020/8/v/EDThVBRRyISUlYYxyeJQ/2020-763-humor-isso-a-globo-nao-mostra-tv-globo-poster.jpg",
+                "tablet": "https://s2.glbimg.com/otZs5x0B4FUv_6ixmyK65lGJujk=/144x212/https://s2.glbimg.com/tmVaXx7AdBdgXOyZtz8ezj17RQc=/i.s3.glbimg.com/v1/AUTH_c3c606ff68e7478091d1ca496f9c5625/internal_photos/bs/2020/8/v/EDThVBRRyISUlYYxyeJQ/2020-763-humor-isso-a-globo-nao-mostra-tv-globo-poster.jpg",
+                "tv": "https://s2.glbimg.com/NGMK_6tDChd0CLtX67mgZedxMsI=/146x216/https://s2.glbimg.com/tmVaXx7AdBdgXOyZtz8ezj17RQc=/i.s3.glbimg.com/v1/AUTH_c3c606ff68e7478091d1ca496f9c5625/internal_photos/bs/2020/8/v/EDThVBRRyISUlYYxyeJQ/2020-763-humor-isso-a-globo-nao-mostra-tv-globo-poster.jpg"
+              }
+            }
+          ]
+        }
+      },
+      "broadcastChannelSearch": {
+        "__typename": "BroadcastChannelSearchResult",
+        "collection": {
+          "__typename": "BroadcastChannelCollection",
+          "nextPage": null,
+          "hasNextPage": false,
+          "total": 1,
+          "resources": [
+            {
+              "__typename": "BroadcastChannel",
+              "id": "196",
+              "name": "TV Globo",
+              "pageIdentifier": null,
+              "trimmedLogo": "https://s2.glbimg.com/eDR6TSRvsi8skz4ezGzLA4b48H4=/fit-in/48x24/https://s2.glbimg.com/9Wy1I7Dz4-R6xhNVpPqTLzd0mME=/trim/filters:fill(transparent,false)/https://i.s3.glbimg.com/v1/AUTH_c3c606ff68e7478091d1ca496f9c5625/internal_photos/bs/2020/V/q/33CD65RVK44W5BSLbx1g/rede-globo.png"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

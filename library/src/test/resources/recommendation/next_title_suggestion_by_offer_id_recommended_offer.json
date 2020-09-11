@@ -1,0 +1,46 @@
+{
+  "data": {
+    "genericOffer": {
+      "__typename": "RecommendedOffer",
+      "id": "f600665f-1280-4edf-91f3-eaf16f42b8fa",
+      "contentType": "TITLE",
+      "offerType": "TITLE",
+      "items": {
+        "__typename": "RecommendedOfferItems",
+        "abExperiment": {
+          "__typename": "ABExperiment",
+          "experiment": "experiment",
+          "alternative": "alternative",
+          "trackId": "trackId",
+          "convertUrl": "convertUrl"
+        },
+        "resources": [
+          {
+            "__typename": "Title",
+            "headline": "Totalmente Demais",
+            "originVideoId": null,
+            "description": "Em um conto de fadas moderno, a novela conta a história de Eliza. A vida da vendedora de flores se transforma quando ela conhece Arthur, dono de uma agência de modelos.",
+            "url": "url",
+            "titleId": "HfN7TnrKHV",
+            "format": "SOAP_OPERA",
+            "type": "TV_PROGRAM",
+            "structure": {
+              "__typename": "EpisodeListStructure",
+              "defaultEpisode": {
+                "__typename": "Episode",
+                "video": {
+                  "__typename": "Video",
+                  "id": "4584051"
+                }
+              }
+            },
+            "cover": {
+              "__typename": "Cover",
+              "mobile": "https://s2.glbimg.com/qDXDRiJOulqrxDD--dTp1eeUMpw=/0x1856/https://s2.glbimg.com/5w1UxhTb-Gp2t4fCLZcZfizmzII=/0x0:3840x1740/https://s2.glbimg.com/0afo4p1ejIDGCCpwfv-PJAULVoI=/i.s3.glbimg.com/v1/AUTH_c3c606ff68e7478091d1ca496f9c5625/internal_photos/bs/2018/4/B/AvxE6UTJaCPbfSUGctvg/8943-totalmente-demais-background.jpg"
+            }
+          }
+        ]
+      }
+    }
+  }
+}

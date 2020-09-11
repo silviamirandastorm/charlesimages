@@ -1,0 +1,144 @@
+{
+  "data": {
+    "affiliate": {
+      "__typename": "Affiliate",
+      "affiliateStates": [
+        {
+          "__typename": "AffiliateState",
+          "acronym": "AC",
+          "name": "Acre"
+        },
+        {
+          "__typename": "AffiliateState",
+          "acronym": "AL",
+          "name": "Alagoas"
+        },
+        {
+          "__typename": "AffiliateState",
+          "acronym": "AP",
+          "name": "Amapá"
+        },
+        {
+          "__typename": "AffiliateState",
+          "acronym": "AM",
+          "name": "Amazonas"
+        },
+        {
+          "__typename": "AffiliateState",
+          "acronym": "BA",
+          "name": "Bahia"
+        },
+        {
+          "__typename": "AffiliateState",
+          "acronym": "CE",
+          "name": "Ceará"
+        },
+        {
+          "__typename": "AffiliateState",
+          "acronym": "DF",
+          "name": "Distrito Federal"
+        },
+        {
+          "__typename": "AffiliateState",
+          "acronym": "ES",
+          "name": "Espírito Santo"
+        },
+        {
+          "__typename": "AffiliateState",
+          "acronym": "GO",
+          "name": "Goiás"
+        },
+        {
+          "__typename": "AffiliateState",
+          "acronym": "MA",
+          "name": "Maranhão"
+        },
+        {
+          "__typename": "AffiliateState",
+          "acronym": "MT",
+          "name": "Mato Grosso"
+        },
+        {
+          "__typename": "AffiliateState",
+          "acronym": "MS",
+          "name": "Mato Grosso do Sul"
+        },
+        {
+          "__typename": "AffiliateState",
+          "acronym": "MG",
+          "name": "Minas Gerais"
+        },
+        {
+          "__typename": "AffiliateState",
+          "acronym": "PR",
+          "name": "Paraná"
+        },
+        {
+          "__typename": "AffiliateState",
+          "acronym": "PB",
+          "name": "Paraíba"
+        },
+        {
+          "__typename": "AffiliateState",
+          "acronym": "PA",
+          "name": "Pará"
+        },
+        {
+          "__typename": "AffiliateState",
+          "acronym": "PE",
+          "name": "Pernanbuco"
+        },
+        {
+          "__typename": "AffiliateState",
+          "acronym": "PI",
+          "name": "Piauí"
+        },
+        {
+          "__typename": "AffiliateState",
+          "acronym": "RN",
+          "name": "Rio Grande do Norte"
+        },
+        {
+          "__typename": "AffiliateState",
+          "acronym": "RS",
+          "name": "Rio Grande do Sul"
+        },
+        {
+          "__typename": "AffiliateState",
+          "acronym": "RJ",
+          "name": "Rio de Janeiro"
+        },
+        {
+          "__typename": "AffiliateState",
+          "acronym": "RO",
+          "name": "Rondônia"
+        },
+        {
+          "__typename": "AffiliateState",
+          "acronym": "RR",
+          "name": "Roraima"
+        },
+        {
+          "__typename": "AffiliateState",
+          "acronym": "SC",
+          "name": "Santa Catarina"
+        },
+        {
+          "__typename": "AffiliateState",
+          "acronym": "SE",
+          "name": "Sergipe"
+        },
+        {
+          "__typename": "AffiliateState",
+          "acronym": "SP",
+          "name": "São Paulo"
+        },
+        {
+          "__typename": "AffiliateState",
+          "acronym": "TO",
+          "name": "Tocantins"
+        }
+      ]
+    }
+  }
+}

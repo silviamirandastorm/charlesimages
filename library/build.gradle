@@ -1,0 +1,150 @@
+apply plugin: 'com.android.library'
+apply plugin: 'kotlin-android'
+apply plugin: 'kotlin-android-extensions'
+apply plugin: 'com.apollographql.apollo'
+apply plugin: "com.jfrog.artifactory"
+apply plugin: 'maven-publish'
+
+android {
+    compileSdkVersion 29
+
+    defaultConfig {
+        minSdkVersion 16
+        versionCode 98
+        versionName "1.49.0"
+
+        testInstrumentationRunner "android.test.runner.AndroidJUnitRunner"
+    }
+
+    buildTypes {
+        debug {
+            zipAlignEnabled false
+            minifyEnabled false
+            debuggable true
+        }
+
+        release {
+            zipAlignEnabled true
+            minifyEnabled true
+            debuggable false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+            consumerProguardFiles 'proguard-rules.pro'
+        }
+    }
+
+    signingConfigs {
+        release {
+            storeFile file(STORE_FILE_RELEASE)
+            keyAlias KEY_ALIAS_RELEASE
+            storePassword STORE_PASSWORD_RELEASE
+            keyPassword KEY_PASSWORD_RELEASE
+        }
+
+        debug {
+            storeFile file(STORE_FILE_DEBUG)
+            keyAlias KEY_ALIAS_DEBUG
+            storePassword STORE_PASSWORD_DEBUG
+            keyPassword KEY_PASSWORD_DEBUG
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+
+    kotlinOptions {
+        jvmTarget = JavaVersion.VERSION_1_8.toString()
+    }
+
+    apollo {
+        suppressRawTypesWarning = true
+        customTypeMapping = [
+                "TruncatedCoordinate"       : "java.lang.String",
+                "BroadcastChannelLogoScales": "java.lang.String",
+                "DateTime"                  : "java.lang.String",
+                "Date"                      : "java.lang.String",
+                "JSON"                      : "java.lang.String",
+                "ColorHexadecimal"          : "java.lang.String"
+        ]
+    }
+}
+
+dependencies {
+    implementation "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
+    implementation "com.squareup.okhttp3:logging-interceptor:$okHttp_version"
+    implementation "io.reactivex.rxjava2:rxandroid:$rxandroid_version"
+    implementation "com.apollographql.apollo:apollo-rx2-support:$apollo_version"
+    implementation "com.apollographql.apollo:apollo-http-cache:$apollo_version"
+    api "com.apollographql.apollo:apollo-runtime:$apollo_version"
+
+    testImplementation "junit:junit:$junit_version"
+    testImplementation "com.squareup.okhttp3:mockwebserver:$okHttp_version"
+    testImplementation "com.squareup.rx.idler:rx2-idler:$rx_idler_version"
+    testImplementation "io.mockk:mockk:$mockk_version"
+    testImplementation "org.objenesis:objenesis:$objenesis_version"
+}
+
+publishing {
+    publications {
+        "Aar"(MavenPublication) {
+            artifactId = "jarvis"
+            groupId = 'com.globo'
+            version = android.defaultConfig.versionName
+            artifact "${project.buildDir}/outputs/aar/${project.name}-release.aar"
+
+            pom.withXml {
+                def root = asNode()
+                def dependencies = root.appendNode('dependencies')
+
+                def kotlinDependency = dependencies.appendNode('dependency')
+                kotlinDependency.appendNode('groupId', 'org.jetbrains.kotlin')
+                kotlinDependency.appendNode('artifactId', 'kotlin-stdlib')
+                kotlinDependency.appendNode('version', "$kotlin_version")
+
+                def apolloRuntimeDependency = dependencies.appendNode('dependency')
+                apolloRuntimeDependency.appendNode('groupId', 'com.apollographql.apollo')
+                apolloRuntimeDependency.appendNode('artifactId', 'apollo-runtime')
+                apolloRuntimeDependency.appendNode('version', "$apollo_version")
+
+                def apolloRXDependency = dependencies.appendNode('dependency')
+                apolloRXDependency.appendNode('groupId', 'com.apollographql.apollo')
+                apolloRXDependency.appendNode('artifactId', 'apollo-rx2-support')
+                apolloRXDependency.appendNode('version', "$apollo_version")
+
+                def rxDependency = dependencies.appendNode('dependency')
+                rxDependency.appendNode('groupId', 'io.reactivex.rxjava2')
+                rxDependency.appendNode('artifactId', 'rxandroid')
+                rxDependency.appendNode('version', "$rxandroid_version")
+
+                def okHttpInterceptorDependency = dependencies.appendNode('dependency')
+                okHttpInterceptorDependency.appendNode('groupId', 'com.squareup.okhttp3')
+                okHttpInterceptorDependency.appendNode('artifactId', 'logging-interceptor')
+                okHttpInterceptorDependency.appendNode('version', "$okHttp_version")
+            }
+        }
+    }
+}
+
+artifactory {
+    group = 'com.globo'
+    version = android.defaultConfig.versionName
+    contextUrl = "https://globocom.jfrog.io/globocom/"
+
+    publish {
+        repository {
+            repoKey = version.toString().toLowerCase().contains('snapshot') ? 'jarvis-android-snapshot-local' : 'jarvis-android-release-local'
+            username = "${artifactory_user}"
+            password = "${artifactory_key}"
+        }
+
+        defaults {
+            publications('Aar')
+            publishConfigs('archives', 'published')
+            properties = ['build.status': "$it.project.status".toString()]
+            publishPom = true
+            publishIvy = false
+        }
+    }
+}
+

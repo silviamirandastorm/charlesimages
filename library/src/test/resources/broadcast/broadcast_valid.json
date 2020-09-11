@@ -1,0 +1,111 @@
+{
+  "data": {
+    "__typename": "Query",
+    "broadcast": {
+      "__typename": "Broadcast",
+      "mediaId": "6120663",
+      "geofencing": true,
+      "imageOnAir": "https://s2.glbimg.com/H_nH0Dh8Y2iJ45Ic1gtB1meFOlU=/0x216/https://s2.glbimg.com/lAsZfmJG5l-S4q45l1dMWcGNeqQ=/https://i.s3.glbimg.com/v1/AUTH_c3c606ff68e7478091d1ca496f9c5625/internal_photos/bs/2019/k/n/4WkNY1R2AGwqaQFD28VA/broadcast-globo.jpg",
+      "logo": null,
+      "salesPageIdentifiers": {
+        "__typename": "SalesPageIdentifiers",
+        "mobile": "globoplay"
+      },
+      "media": {
+        "__typename": "Video",
+        "serviceId": 4654,
+        "availableFor": "LOGGED_IN",
+        "headline": "Agora na Globo"
+      },
+      "channel": {
+        "__typename": "BroadcastChannel",
+        "id": "196",
+        "name": "TV Globo",
+        "logo": "https://s2.glbimg.com/g-wBhcqMpNDNrbrhm-2WV4eUpjI=/285x285/https://s2.glbimg.com/-2MzT8u-j8xWAAsNShQRAFGGFjE=/filters:fill(transparent,false)/https://i.s3.glbimg.com/v1/AUTH_c3c606ff68e7478091d1ca496f9c5625/internal_photos/bs/2020/s/X/wBtTb1QW2Ss5GiiIrCkQ/rede-globo.png",
+        "slug": "globo",
+        "requireUserTeam": false,
+        "trimmedLogo": "https://s2.glbimg.com/_RT76iR31Iv8KyASlcsKLoptxW8=/fit-in/168x84/https://s2.glbimg.com/81_lO3WKyl8MvUViJBtZJ5cnLyw=/trim/filters:fill(transparent,false)/https://i.s3.glbimg.com/v1/AUTH_c3c606ff68e7478091d1ca496f9c5625/internal_photos/bs/2020/s/X/wBtTb1QW2Ss5GiiIrCkQ/rede-globo.png",
+        "payTvInfoLink": null,
+        "payTvServiceId": null,
+        "payTvUsersMessage": null,
+        "payTvExternalLink": null,
+        "payTvExternalLinkLabel": null
+      },
+      "transmissionId": 186,
+      "withoutDVRMediaId": "4452349",
+      "promotionalMediaId": "",
+      "salesServiceId": 151,
+      "promotionalText": "Assista ao sinal da Globo gratuito",
+      "ignoreAdvertisements": false,
+      "geoblocked": false,
+      "epgCurrentSlots": [
+        {
+          "__typename": "EPGSlot",
+          "programId": null,
+          "name": "Sessão da Tarde - O Que Esperar Quando Você Está Esperando",
+          "metadata": null,
+          "startTime": 1594058267,
+          "endTime": 1594064327,
+          "durationInMinutes": 101,
+          "liveBroadcast": false,
+          "tags": null
+        },
+        {
+          "__typename": "EPGSlot",
+          "programId": null,
+          "name": "Vale a Pena Ver de Novo - Êta Mundo Bom!",
+          "metadata": null,
+          "startTime": 1594064355,
+          "endTime": 1594069095,
+          "durationInMinutes": 79,
+          "liveBroadcast": false,
+          "tags": null
+        },
+        {
+          "__typename": "EPGSlot",
+          "programId": "10003",
+          "name": "Malhação - Viva a Diferença",
+          "metadata": null,
+          "startTime": 1594069116,
+          "endTime": 1594070736,
+          "durationInMinutes": 27,
+          "liveBroadcast": false,
+          "tags": null
+        },
+        {
+          "__typename": "EPGSlot",
+          "programId": "9916",
+          "name": "Novo Mundo",
+          "metadata": null,
+          "startTime": 1594070767,
+          "endTime": 1594073167,
+          "durationInMinutes": 40,
+          "liveBroadcast": false,
+          "tags": null
+        },
+        {
+          "__typename": "EPGSlot",
+          "programId": "4388",
+          "name": "RJ2",
+          "metadata": null,
+          "startTime": 1594073168,
+          "endTime": 1594074968,
+          "durationInMinutes": 30,
+          "liveBroadcast": false,
+          "tags": null
+        },
+        {
+          "__typename": "EPGSlot",
+          "programId": "8943",
+          "name": "Totalmente Demais",
+          "metadata": null,
+          "startTime": 1594074988,
+          "endTime": 1594078168,
+          "durationInMinutes": 53,
+          "liveBroadcast": false,
+          "tags": null
+        }
+      ]
+    }
+  }
+}

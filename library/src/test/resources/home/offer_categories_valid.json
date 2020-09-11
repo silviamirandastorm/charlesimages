@@ -1,0 +1,68 @@
+{
+  "data": {
+    "genericOffer": {
+      "__typename": "Offer",
+      "paginatedItems": {
+        "__typename": "OfferItemsCollection",
+        "hasNextPage": true,
+        "nextPage": 2,
+        "resources": [
+          {
+            "__typename": "Category",
+            "background": "https://s2.glbimg.com/Q8kwvUtG7hxLGEXfv1w8yJ7FYMg=/0x196/https://s2.glbimg.com/Y091mdZrJxOMgqEOOCdOa-9rCoE=/https://i.s3.glbimg.com/v1/AUTH_c3c606ff68e7478091d1ca496f9c5625/internal_photos/bs/2019/z/k/USBanATM2nxbINjbtg2A/novelas.png",
+            "name": "Novelas",
+            "navigation": {
+              "__typename": "MenuPageNavigation",
+              "identifier": "novelas"
+            }
+          },
+          {
+            "__typename": "Category",
+            "background": "https://s2.glbimg.com/Op7yyP_Kj5EDD7QINmbOi2vZVXY=/0x196/https://s2.glbimg.com/jYcDTa7OT9XF4Fvof7BZ5ti-RT4=/https://i.s3.glbimg.com/v1/AUTH_c3c606ff68e7478091d1ca496f9c5625/internal_photos/bs/2019/L/q/dew88rQyq1QHu4lzeCzQ/series.png",
+            "name": "Séries",
+            "navigation": {
+              "__typename": "MenuPageNavigation",
+              "identifier": "series"
+            }
+          },
+          {
+            "__typename": "Category",
+            "background": "https://s2.glbimg.com/F3wimaaNnmzfv7xlCj3HxoY77x0=/0x196/https://s2.glbimg.com/C7wMOeApnhtZmV3mSIIs1yl0R6E=/https://i.s3.glbimg.com/v1/AUTH_c3c606ff68e7478091d1ca496f9c5625/internal_photos/bs/2019/d/Q/ASzn1XSrez2LV5P91RXg/cinema.png",
+            "name": "Cinema",
+            "navigation": {
+              "__typename": "MenuPageNavigation",
+              "identifier": "cinema"
+            }
+          },
+          {
+            "__typename": "Category",
+            "background": "https://s2.glbimg.com/LySkpgwpHPk2IzGtBRYjdiminGE=/0x196/https://s2.glbimg.com/X2GNjo-lJ6GTkC6Ort-tZrvIggY=/https://i.s3.glbimg.com/v1/AUTH_c3c606ff68e7478091d1ca496f9c5625/internal_photos/bs/2019/2/P/CWGreqR02fJYZZliWfpw/infantil.png",
+            "name": "Infantil",
+            "navigation": {
+              "__typename": "MenuPageNavigation",
+              "identifier": "infantil"
+            }
+          },
+          {
+            "__typename": "Category",
+            "background": "https://s2.glbimg.com/lc1OBrnL7dyMBwqNvDAmS6h8ZfQ=/0x196/https://s2.glbimg.com/xNuC-udFUOCdEvMZjKS2tMla1Nc=/https://i.s3.glbimg.com/v1/AUTH_c3c606ff68e7478091d1ca496f9c5625/internal_photos/bs/2019/A/E/AnBvaJSQqbo6sAi0MhKA/humor.png",
+            "name": "Humor",
+            "navigation": {
+              "__typename": "MenuPageNavigation",
+              "identifier": "humor"
+            }
+          },
+          {
+            "__typename": "Category",
+            "background": "https://s2.glbimg.com/8dw2gjsZW4TWJCCfPqNubEsnHOA=/0x196/https://s2.glbimg.com/M1dPe1RYpFfj4cQoYpgAXOUjpKE=/https://i.s3.glbimg.com/v1/AUTH_c3c606ff68e7478091d1ca496f9c5625/internal_photos/bs/2019/o/x/ez2iXBTOmtBzmvBFVYmQ/variedades.png",
+            "name": "Variedades",
+            "navigation": {
+              "__typename": "MenuPageNavigation",
+              "identifier": "variedades-teste"
+            }
+          }
+        ]
+      }
+    }
+  }
+}

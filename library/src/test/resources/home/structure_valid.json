@@ -1,0 +1,222 @@
+{
+  "data": {
+    "page": {
+      "__typename": "Page",
+      "identifier": "home-assinante",
+      "premiumHighlight": {
+        "__typename": "PageHighlight",
+        "callText": "Terceira temporada completa: acompanhe novos desafios de Shaun Murphy",
+        "fallbackCallText": null,
+        "componentType": "PREMIUMHIGHLIGHT",
+        "highlight": {
+          "__typename": "Highlight",
+          "contentId": "kmF21xZbHk",
+          "contentType": "TITLE",
+          "headlineText": "The Good Doctor",
+          "logo": {
+            "__typename": "HighlightLogo",
+            "mobile": "https://s2.glbimg.com/hKIUGjhGf2sLjtLgq2FEcXEGmSk=/280x0/https://s2.glbimg.com/fKuRG7b5CsUMqNbwIT-otzjYS8k=/fit-in/1208x364/filters:fill(transparent)/https://i.s3.glbimg.com/v1/AUTH_c3c606ff68e7478091d1ca496f9c5625/internal_photos/bs/2018/A/B/SQtHW5SpmVsMwlkGHMaw/01-video-logo.png",
+            "tablet": "https://s2.glbimg.com/KyTeFvXB5-hF2EBCG-B8hx6odjY=/0x91/https://s2.glbimg.com/txFf-xTQvUn_etvLoe90PDH6adg=/fit-in/0x364/filters:fill(transparent)/https://i.s3.glbimg.com/v1/AUTH_c3c606ff68e7478091d1ca496f9c5625/internal_photos/bs/2018/A/B/SQtHW5SpmVsMwlkGHMaw/01-video-logo.png",
+            "tv": "https://s2.glbimg.com/xHCRbBU91vBNLebOlH0f5D9nJ-w=/0x110/https://s2.glbimg.com/txFf-xTQvUn_etvLoe90PDH6adg=/fit-in/0x364/filters:fill(transparent)/https://i.s3.glbimg.com/v1/AUTH_c3c606ff68e7478091d1ca496f9c5625/internal_photos/bs/2018/A/B/SQtHW5SpmVsMwlkGHMaw/01-video-logo.png"
+          },
+          "highlightImage": {
+            "__typename": "HighlightImage",
+            "mobile": "https://s2.glbimg.com/yKFP2iB3xHW1_-1Hdl9LSv8QYuI=/360x520/https://s2.glbimg.com/FGs8RdI2VPYIgvtZyr3LnP7VJIQ=/https://i.s3.glbimg.com/v1/AUTH_c3c606ff68e7478091d1ca496f9c5625/internal_photos/bs/2018/K/S/3qBvfGTPiXm9q895Obcg/01-video-1440x2080-mobile-2.png",
+            "tablet": "https://s2.glbimg.com/lE3IFgdcvb2quC8Mt-VcOwT-GEA=/1024x576/https://s2.glbimg.com/OMG9JFAkaxbryOb-Dlq_v60RGzI=/https://i.s3.glbimg.com/v1/AUTH_c3c606ff68e7478091d1ca496f9c5625/internal_photos/bs/2018/A/j/1AifkuRRAcTLDyp6FdlQ/01-video-3840x2160-foco-lateral.png",
+            "tv": "https://s2.glbimg.com/b-RvH81IRyaRv9D9v4UNDnjRTVc=/1280x720/https://s2.glbimg.com/OMG9JFAkaxbryOb-Dlq_v60RGzI=/https://i.s3.glbimg.com/v1/AUTH_c3c606ff68e7478091d1ca496f9c5625/internal_photos/bs/2018/A/j/1AifkuRRAcTLDyp6FdlQ/01-video-3840x2160-foco-lateral.png"
+          },
+          "contentItem": {
+            "__typename": "Title",
+            "format": "SERIES",
+            "originProgramId": "10777",
+            "titleId": "kmF21xZbHk",
+            "headline": "The Good Doctor - O Bom Doutor",
+            "type": "SERIE"
+          }
+        },
+        "fallbackHighlight": null
+      },
+      "offerItems": [
+        {
+          "__typename": "PageOffer",
+          "offerId": "dad98dfd-d48b-4414-8114-1c38a07ab02d",
+          "title": "Continue Assistindo",
+          "componentType": "CONTINUEWATCHING",
+          "navigation": null
+        },
+        {
+          "__typename": "PageOffer",
+          "offerId": "d9907970-53e3-4a81-9b87-acd7bd53056a",
+          "title": "Assista Agora",
+          "componentType": "THUMB",
+          "navigation": {
+            "__typename": "CategoriesPageNavigation",
+            "identifier": "mais-canais"
+          }
+        },
+        {
+          "__typename": "PageOffer",
+          "offerId": "19304a21-4d25-4f34-a936-ad65fada2382",
+          "title": "Assista quando quiser",
+          "componentType": "CHANNELSLOGO",
+          "navigation": {
+            "__typename": "CategoriesPageNavigation",
+            "identifier": "mais-canais"
+          }
+        },
+        {
+          "__typename": "PageOffer",
+          "offerId": "453bfca9-78e0-497c-b691-c8e52a98b077",
+          "title": "Similares ao último título assistido",
+          "componentType": "POSTER",
+          "navigation": null
+        },
+        {
+          "__typename": "PageHighlight",
+          "highlightId": "533661e7-3f4d-4903-ab16-498f51e037b8",
+          "headline": "Destaque simulcast entre trilhos sportv",
+          "callText": null,
+          "componentType": "OFFERHIGHLIGHT",
+          "fallbackHighlightId": "229cf5ee-4108-4448-87f2-da1f9cd514b7",
+          "fallbackHeadline": "Fallback do simulcast",
+          "fallbackCallText": "Fallback do simulcast",
+          "highlight": {
+            "__typename": "Highlight",
+            "contentId": "7339108",
+            "contentType": "SIMULCAST"
+          },
+          "fallbackHighlight": {
+            "__typename": "Highlight",
+            "contentId": "ZJxdjvJkBs",
+            "contentType": "TITLE"
+          }
+        },
+        {
+          "__typename": "PageOffer",
+          "offerId": "2ca2c827-5fd3-4c89-a20f-b9ba6267df66",
+          "title": "Cinema com navegação",
+          "componentType": "POSTER",
+          "navigation": {
+            "__typename": "CategoriesPageNavigation",
+            "identifier": "cinema-internacionais"
+          }
+        },
+        {
+          "__typename": "PageOffer",
+          "offerId": "ac2afad9-ce8b-4713-aac4-1354e848a9b9",
+          "title": "Para Você",
+          "componentType": "POSTER",
+          "navigation": null
+        },
+        {
+          "__typename": "PageOffer",
+          "offerId": "0aae2a03-fd2d-4e2a-ad50-b26ee224a9b2",
+          "title": "Minha lista",
+          "componentType": "POSTER",
+          "navigation": {
+            "__typename": "URLNavigation",
+            "url": "/minha-lista/"
+          }
+        },
+        {
+          "__typename": "PageOffer",
+          "offerId": "e604d4df-de27-41fc-a1c4-79b189358574",
+          "title": "Quem Viu Também Viu",
+          "componentType": "POSTER",
+          "navigation": null
+        },
+        {
+          "__typename": "PageOffer",
+          "offerId": "9c64cdc3-4ab6-455e-80f8-4397f6affc35",
+          "title": "Mais Vistos",
+          "componentType": "THUMB",
+          "navigation": null
+        },
+        {
+          "__typename": "PageOffer",
+          "offerId": "ed078edc-574e-47ba-9968-083150d5924f",
+          "title": "Descubra",
+          "componentType": "POSTER",
+          "navigation": null
+        },
+        {
+          "__typename": "PageOffer",
+          "offerId": "038cacc9-6343-467b-a67b-36216b2916b2",
+          "title": "Cinema",
+          "componentType": "POSTER",
+          "navigation": {
+            "__typename": "URLNavigation",
+            "url": "/cinema/"
+          }
+        },
+        {
+          "__typename": "PageOffer",
+          "offerId": "3b4e6577-f95e-4082-a5c1-196fc0eb4f12",
+          "title": "Jornalismo",
+          "componentType": "POSTER",
+          "navigation": {
+            "__typename": "URLNavigation",
+            "url": "/programas/jornalismo/"
+          }
+        },
+        {
+          "__typename": "PageOffer",
+          "offerId": "9c64cdc3-4ab6-455e-80f8-4397f6affc35",
+          "title": "Vídeos mais vistos do último dia",
+          "componentType": "THUMB",
+          "navigation": null
+        },
+        {
+          "__typename": "PageHighlight",
+          "highlightId": "e967df2d-7ff3-488d-b03e-46ed6d102f03",
+          "headline": "Destaque de simulcast globo",
+          "callText": null,
+          "componentType": "OFFERHIGHLIGHT",
+          "fallbackHighlightId": "229cf5ee-4108-4448-87f2-da1f9cd514b7",
+          "fallbackHeadline": "Destaque simulcast fallback",
+          "fallbackCallText": "fallback do destaque simulcast",
+          "highlight": {
+            "__typename": "Highlight",
+            "contentId": "6120663",
+            "contentType": "SIMULCAST"
+          },
+          "fallbackHighlight": {
+            "__typename": "Highlight",
+            "contentId": "ZJxdjvJkBs",
+            "contentType": "TITLE"
+          }
+        },
+        {
+          "__typename": "PageHighlight",
+          "highlightId": "2dccbd5c-7083-456b-824e-936ca739577b",
+          "headline": "Destaque de simulcast off",
+          "callText": null,
+          "componentType": "OFFERHIGHLIGHT",
+          "fallbackHighlightId": "229cf5ee-4108-4448-87f2-da1f9cd514b7",
+          "fallbackHeadline": "Destaque de simulcast fallback",
+          "fallbackCallText": "Destaque de simulcast fallback",
+          "highlight": {
+            "__typename": "Highlight",
+            "contentId": "7339078",
+            "contentType": "SIMULCAST"
+          },
+          "fallbackHighlight": {
+            "__typename": "Highlight",
+            "contentId": "ZJxdjvJkBs",
+            "contentType": "TITLE"
+          }
+        },
+        {
+          "__typename": "PageOffer",
+          "offerId": "12e8748f-89ce-46c1-b380-48bf5002f9ef",
+          "title": "Categorias",
+          "componentType": "CATEGORYBACKGROUND",
+          "navigation": {
+            "__typename": "URLNavigation",
+            "url": "/categorias/"
+          }
+        }
+      ]
+    }
+  }
+}

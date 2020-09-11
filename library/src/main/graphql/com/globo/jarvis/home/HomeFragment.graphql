@@ -1,0 +1,185 @@
+fragment HomePageHighlightFragment on PageHighlight {
+    highlightId
+    headline
+    callText
+    componentType
+    fallbackHighlightId
+    fallbackHeadline
+    fallbackCallText
+    highlight {
+        contentId
+        contentType
+    }
+    fallbackHighlight {
+        contentId
+        contentType
+    }
+}
+
+fragment HomePageOfferFragment on PageOffer {
+    offerId
+    title
+    componentType
+    navigation {
+        ...HomeNavigationByUrl
+        ...HomeNavigationByPage
+    }
+}
+
+
+fragment HomeTitleHighlight on Title {
+    format
+    originProgramId
+    titleId
+    headline
+    type
+}
+
+fragment HomeVideoHighlight on Video {
+    id
+    availableFor
+    kind
+    contentRating
+    thumb
+    broadcast {
+        mediaId
+        withoutDVRMediaId
+        imageOnAir(scale: $broadcastImageOnAirScales)
+        channel{
+            trimmedLogo(scale: $broadcastChannelTrimmedLogoScales)
+        }
+    }
+    title {
+        originProgramId
+        titleId
+        headline
+        type
+    }
+}
+
+fragment HomeGenericTitleOffers on Offer {
+    id
+    contentType
+    items: paginatedItems(page: $page, perPage: $perPage) {
+        hasNextPage
+        nextPage
+        resources {
+            ...HomeTitleOffer
+        }
+    }
+}
+
+fragment HomeRecommendedTitleOffers on RecommendedOffer {
+    id
+    contentType
+    items(page: $page, perPage: $perPage) {
+        hasNextPage
+        nextPage
+        customTitle
+        abExperiment {
+            experiment
+            alternative
+            trackId
+        }
+        resources {
+            ...HomeTitleOffer
+        }
+    }
+}
+
+
+fragment HomeRecommendedVideoOffers on RecommendedOffer {
+    id
+    contentType
+    items(page: $page, perPage: $perPage) {
+        hasNextPage
+        nextPage
+        customTitle
+        abExperiment {
+            experiment
+            alternative
+            trackId
+        }
+        resources {
+            ...HomeVideoOffer
+        }
+    }
+}
+
+
+
+fragment HomeGenericVideoOffers on Offer {
+    id
+    contentType
+    items: paginatedItems(page: $page, perPage: $perPage) {
+        hasNextPage
+        nextPage
+        resources {
+            ...HomeVideoOffer
+        }
+    }
+}
+
+fragment HomeVideoOffer on Video {
+    id
+    availableFor
+    headline
+    duration
+    contentRating
+    formattedDuration
+    kind
+    thumb
+    liveThumbnail
+    broadcast {
+        mediaId
+        withoutDVRMediaId
+        imageOnAir(scale: $broadcastImageOnAirScales)
+        channel{
+            trimmedLogo(scale: $broadcastChannelTrimmedLogoScales)
+        }
+    }
+    title {
+        originProgramId
+        titleId
+        headline
+        type
+        logo {
+            mobile(scale: $mobileLogoScales)
+            tablet(scale: $tabletLogoScales)
+            tv(scale: $logoTVScales)
+        }
+    }
+}
+
+fragment HomeTitleOffer on Title {
+    format
+    originProgramId
+    titleId
+    url
+    headline
+    type
+    poster {
+        mobile(scale: $mobilePosterScales)
+        tablet(scale: $tabletPosterScales)
+        tv(scale: $tvPosterScales)
+    }
+}
+
+
+
+fragment HomeNavigationByUrl on URLNavigation{
+    url
+}
+
+fragment HomeNavigationByPage on CategoriesPageNavigation {
+    identifier
+}
+
+fragment HomePage on MenuPageNavigation {
+    identifier
+}
+
+fragment HomeSlug on MenuSlugNavigation {
+    slug
+}
+

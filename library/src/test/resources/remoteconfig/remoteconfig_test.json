@@ -1,0 +1,51 @@
+{
+  "data": {
+    "remoteConfigs": {
+      "__typename": "RemoteConfigCollection",
+      "resources": [
+        {
+          "__typename": "NumberConfig",
+          "key": "NUMBER_TEST",
+          "valueNumer": 123
+        },
+        {
+          "__typename": "ColorConfig",
+          "key": "COLOR_TEST",
+          "valueColor": "#fff"
+        },
+        {
+          "__typename": "DateConfig",
+          "key": "DATE_TEST",
+          "valueDate": "2020-07-08"
+        },
+        {
+          "__typename": "ImageConfig",
+          "key": "IMAGE_TEST",
+          "valueImage": "https://s2.glbimg.com/Cc-4wCDMB9rNqK14buahh1OYSs0=/https://i.s3.glbimg.com/v1/AUTH_c3c606ff68e7478091d1ca496f9c5625/internal_photos/bs/2020/2/T/AaowLHTUu0Oqe7YUonTA/2020-791-spiral-einstein-destaque-foco-direita.jpg"
+        },
+        {
+          "__typename": "StringConfig",
+          "key": "TEXT_TEST",
+          "valueString": "Text!"
+        },
+        {
+          "__typename": "JSONConfig",
+          "key": "JSON_TEST",
+          "valueJson": {
+            "key_json": "value"
+          }
+        },
+        {
+          "__typename": "BooleanConfig",
+          "key": "BOOL_TEST",
+          "valueBoolean": true
+        },
+        {
+          "__typename": "DatetimeConfig",
+          "key": "DATE_HOUR_TEST",
+          "valueDateTime": "2020-07-12T13:56:00.000Z"
+        }
+      ]
+    }
+  }
+}

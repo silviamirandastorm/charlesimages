@@ -1,0 +1,19 @@
+{
+  "data": {
+    "affiliate": {
+      "__typename": "Affiliate",
+      "affiliateStates": [
+        {
+          "__typename": "AffiliateState",
+          "acronym": "AC",
+          "regions": []
+        },
+        {
+          "__typename": "AffiliateState",
+          "acronym": "AL",
+          "regions": []
+        }
+      ]
+    }
+  }
+}

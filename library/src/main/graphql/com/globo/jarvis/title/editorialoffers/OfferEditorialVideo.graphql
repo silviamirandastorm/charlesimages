@@ -1,0 +1,54 @@
+query OfferEditorialVideo(
+    $id: ID!
+    $page: Int
+    $perPage: Int
+    $thumbSmall: Int!
+    $thumbLarge: Int!
+) {
+    genericOffer(id: $id) {
+        ...TitleVideoRecommendedOffers
+        ...TitleVideoOffers
+    }
+}
+
+fragment TitleVideoRecommendedOffers on RecommendedOffer {
+    id
+    contentType
+    items {
+        hasNextPage
+        nextPage
+        resources {
+            ...TitleVideoOffer
+        }
+    }
+}
+
+fragment TitleVideoOffers on Offer {
+    id
+    contentType
+    paginatedItems(page: $page, perPage: $perPage) {
+        hasNextPage
+        nextPage
+        resources {
+            ...TitleVideoOffer
+        }
+    }
+}
+
+fragment TitleVideoOffer on Video {
+    id
+    availableFor
+    headline
+    duration
+    watchedProgress
+    formattedDuration
+    thumbSmall: thumb(size: $thumbSmall)
+    thumbLarge: thumb(size: $thumbLarge)
+    title {
+        originProgramId
+        titleId
+    }
+    broadcast {
+        mediaId
+    }
+}

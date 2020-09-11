@@ -1,0 +1,28 @@
+query CategoryDetailById(
+    $id: ID!
+    $perPage: Int
+    $page: Int
+    $mobilePosterScales: MobilePosterScales
+    $tabletPosterScales: TabletPosterScales
+    $tvPosterScales: TVPosterScales
+) {
+    subset(id: $id) {
+        id
+        headline
+        titles(perPage: $perPage, page: $page) {
+            hasNextPage
+            nextPage
+            resources {
+                originProgramId
+                titleId
+                headline
+                type
+                poster {
+                    mobile(scale: $mobilePosterScales)
+                    tablet(scale: $tabletPosterScales)
+                    tv(scale: $tvPosterScales)
+                }
+            }
+        }
+    }
+}

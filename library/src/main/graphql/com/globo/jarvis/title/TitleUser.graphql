@@ -1,0 +1,57 @@
+query TitleUser($titleId: String!) {
+  title(titleId: $titleId) {
+    favorited
+    structure {
+      ...FilmStructureTitleUser
+      ...SeasonStructureTitleUser
+      ...EpisodeStructureTitleUser
+    }
+  }
+}
+fragment EpisodeStructureTitleUser on EpisodeListStructure {
+  continueWatching {
+    number
+    seasonNumber
+    video {
+      id
+      watchedProgress
+      duration
+      kind
+      thumb
+      contentRating
+      formattedRemainingTime
+      headline
+      description
+    }
+  }
+}
+fragment FilmStructureTitleUser on FilmPlaybackStructure {
+  continueWatching{
+    id
+    watchedProgress
+    duration
+    kind
+    thumb
+    contentRating
+    formattedRemainingTime
+    headline
+    description
+  }
+}
+fragment SeasonStructureTitleUser on SeasonedStructure {
+  continueWatching {
+    number
+    seasonNumber
+    video {
+      id
+      watchedProgress
+      duration
+      kind
+      thumb
+      contentRating
+      formattedRemainingTime
+      headline
+      description
+    }
+  }
+}

@@ -1,0 +1,36 @@
+query Episode(
+    $videoId: ID!
+    $mobilePosterScales: MobilePosterScales
+    $tabletPosterScales: TabletPosterScales
+) {
+    episode(videoId: $videoId) {
+        number
+        seasonNumber
+        video {
+            id
+            headline
+            description
+            formattedDuration
+            duration
+            fullyWatchedThreshold
+            accessibleOffline
+            contentRating
+            contentRatingCriteria
+            availableFor
+            thumb
+            liveThumbnail
+            kind
+            title {
+                titleId
+                originProgramId
+                headline
+                type
+                encrypted
+                poster {
+                    mobile(scale: $mobilePosterScales)
+                    tablet(scale: $tabletPosterScales)
+                }
+            }
+        }
+    }
+}

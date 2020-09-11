@@ -1,0 +1,14 @@
+query HomeOfferTitle(
+    $id: ID!
+    $page: Int
+    $perPage: Int
+    $mobilePosterScales: MobilePosterScales
+    $tabletPosterScales: TabletPosterScales
+    $tvPosterScales: TVPosterScales
+) {
+    genericOffer(id: $id) {
+        ...HomeGenericTitleOffers
+        ...HomeRecommendedTitleOffers
+    }
+}
+

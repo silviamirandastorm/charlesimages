@@ -1,0 +1,19 @@
+query SalesHighlightsOffer(
+    $id: ID!
+    $highlightLogoMobileScales: HighlightLogoMobileScales
+    $highlightLogoTabletScales: HighlightLogoTabletScales
+    $highlightOfferImageMobileScales: HighlightOfferImageMobileScales
+    $highlightOfferImageTabletScales: HighlightOfferImageTabletScales
+) {
+    highlight(id: $id) {
+        contentType
+        logo {
+            mobile(scale: $highlightLogoMobileScales)
+            tablet(scale: $highlightLogoTabletScales)
+        }
+        offerImage {
+            mobile(scale: $highlightOfferImageMobileScales)
+            tablet(scale: $highlightOfferImageTabletScales)
+        }
+    }
+}

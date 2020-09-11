@@ -1,0 +1,45 @@
+query Broadcasts(
+    $limit: Int
+    $broadcastChannelLogoScales: BroadcastChannelLogoScales
+    $broadcastChannelTrimmedLogoScales: BroadcastChannelTrimmedLogoScales
+    $broadcastImageOnAirScales: BroadcastImageOnAirScales
+    $coverWideScales: CoverWideScales
+    $coverLandscapeScales: CoverLandscapeScales
+    $coverPortraitScales: CoverPortraitScales
+) {
+    broadcasts {
+        ...BroadcastFragment
+    }
+}
+
+query Broadcast(
+    $mediaId: ID!
+    $limit: Int
+    $coordinates: CoordinatesData
+    $broadcastChannelLogoScales: BroadcastChannelLogoScales
+    $broadcastChannelTrimmedLogoScales: BroadcastChannelTrimmedLogoScales
+    $broadcastImageOnAirScales: BroadcastImageOnAirScales
+    $coverWideScales: CoverWideScales
+    $coverLandscapeScales: CoverLandscapeScales
+    $coverPortraitScales: CoverPortraitScales
+) {
+    broadcast(mediaId: $mediaId, coordinates: $coordinates) {
+        ...BroadcastFragment
+    }
+}
+
+query BroadcastCurrentSlots($mediaId: ID!, $transmissionId: ID!, $limit: Int) {
+    epgCurrentSlots(
+        mediaId: $mediaId
+        transmissionId: $transmissionId
+        limit: $limit
+    ) {
+        ...EPGSlotCoreFragment
+    }
+}
+
+query BroadcastMediaIds{
+    broadcasts {
+        mediaId
+    }
+}

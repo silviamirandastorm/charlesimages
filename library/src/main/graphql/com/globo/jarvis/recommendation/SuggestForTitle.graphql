@@ -1,0 +1,34 @@
+query SuggestForTitle(
+    $titleId: ID,
+    $format: TitleFormat,
+    $group: SuggestGroups
+) {
+    user {
+        suggest {
+            bestFit (
+                group: $group,
+                relatedInfoInput: { titleId: $titleId, format: $format}
+            ) {
+                abExperiment {
+                    experiment
+                    alternative
+                    trackId
+                }
+                resource {
+                    ... SuggestTitleOfferFragment
+                    ... SuggestTitleRecommendedOfferFragment
+                }
+            }
+        }
+    }
+}
+
+fragment SuggestTitleOfferFragment on Offer {
+    id
+    offerType: contentType
+}
+
+fragment SuggestTitleRecommendedOfferFragment on RecommendedOffer {
+    id
+    offerType: contentType
+}

@@ -1,0 +1,53 @@
+query EpisodesWithRelatedExcerptsByDate(
+    $titleId: String!,
+    $startDate: Date!,
+    $endDate: Date!,
+    $perPage: Int!
+) {
+    title(titleId: $titleId) {
+        structure {
+            ... EpisodesWithRelatedExcerptsList
+        }
+    }
+}
+
+
+fragment EpisodesWithRelatedExcerptsList on EpisodeListStructure {
+    episodes(
+        dateRange: { gte: $startDate, lte: $endDate }
+        perPage: $perPage
+    ) {
+        resources {
+            video {
+                id
+                headline
+                description
+                duration
+                formattedDuration
+                thumb
+                accessibleOffline
+                availableFor
+                title {
+                    titleId
+                    originProgramId
+                }
+                serviceId
+            }
+        }
+    }
+    videos(dateRange: { gte: $startDate, lte: $endDate }){
+        resources{
+            headline
+            duration
+            formattedDuration
+            kind
+            id
+            thumb
+            availableFor
+            title {
+                originProgramId
+                headline
+            }
+        }
+    }
+}

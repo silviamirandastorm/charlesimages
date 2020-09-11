@@ -1,0 +1,12 @@
+{
+  "data": {
+    "title": {
+      "__typename": "Title",
+      "favorited": false,
+      "structure": {
+        "__typename": "FilmPlaybackStructure",
+        "continueWatching": null
+      }
+    }
+  }
+}

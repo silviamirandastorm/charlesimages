@@ -1,0 +1,12 @@
+query AllDatesWithExcerpts($titleId: String!) {
+    title(titleId: $titleId) {
+        structure {
+            ...ExcerptsAllDatesList
+        }
+    }
+}
+fragment ExcerptsAllDatesList on EpisodeListStructure {
+    datesWithExcerpts {
+        resources
+    }
+}

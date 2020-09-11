@@ -1,0 +1,80 @@
+{
+  "data": {
+    "defaultSalesRecommendation": {
+      "__typename":"SalesRecommendation",
+      "salesUserError": null,
+      "recommendedProducts": [
+        {
+          "__typename":"RecommendedSalesProduct",
+          "productError": null,
+          "userConditions":{
+            "__typename":"SalesUserConditions",
+            "action":"BUY",
+            "eligibleTrialPeriod": 7
+          },
+          "product": {
+            "__typename":"SalesProduct",
+            "productId": "Pro-0038",
+            "name": "Globoplay + Canais Ao Vivo",
+            "offerText": "Continue pagando o valor do seu plano atual por 3 meses.",
+            "benefits": [
+              "Todo catálogo Globoplay + BBB ao vivo",
+              "Até 5 acessos simultâneos",
+              "Adicione até  4 dependentes sem custo",
+              "Assista offline"
+            ],
+            "androidSku": "androidSku",
+            "paymentInfo": {
+              "__typename":"SalesPaymentInfo",
+              "callText": "Cobrança única renovada a cada 12 meses.",
+              "currency": "R$",
+              "price": "514.80",
+              "frequency":{
+                "__typename":"SalesFrequency",
+                "id":"ANNUAL",
+                "periodicityLabel":"Anual",
+                "timeUnitLabel":"ano"
+              },
+              "installmentInfo": {
+                "__typename":"SalesInstallmentInfo",
+                "installmentValue": "42.90",
+                "numberOfInstallments": 12
+              }
+            },
+            "faq": {
+              "__typename":"SalesFaq",
+              "links": {
+                "__typename":"Links",
+                "mobile": "https://globoplay.globo.com/faq/"
+              },
+              "text": "Saiba mais"
+            },
+            "channels": [
+              {
+                "__typename":"BroadcastChannel",
+                "name": "TV Globo",
+                "trimmedLogo": "https://s2.glbimg.com/n9swMvNkdkEcW98ahrTa_Oorwu4=/fit-in/84x42/https://s2.glbimg.com/gYVgRoEjdh0NUYIUtm1IJ7aid_E=/fit-in/48x24/https://s2.glbimg.com/kL_UPRW5kuYPAJ4-MVU4GI2a-Qc=/trim/https://i.s3.glbimg.com/v1/AUTH_c3c606ff68e7478091d1ca496f9c5625/internal_photos/bs/2019/p/r/AzV1BMTgScfblhcB7iHw/globo-png.png"
+              },
+              {
+                "__typename":"BroadcastChannel",
+                "name": "SportTv",
+                "trimmedLogo": "https://s2.glbimg.com/IN1wJdoaPXUefNVBIFM_qzCKUbo=/fit-in/84x42/https://s2.glbimg.com/XYHjDTXCzgv81O3kmoah6EHXvgU=/fit-in/48x24/https://s2.glbimg.com/YlpcJ25X1zQJh2JO3F3AUoZ4G60=/trim/https://i.s3.glbimg.com/v1/AUTH_c3c606ff68e7478091d1ca496f9c5625/internal_photos/bs/2020/e/X/bqOqIqSNyy3bBb7acyXA/sportv.png"
+              },
+              {
+                "__typename":"BroadcastChannel",
+                "name": "SportTv 2",
+                "trimmedLogo": "https://s2.glbimg.com/a9DLDdq3s_BKAID_rYmmPE9P6tI=/fit-in/84x42/https://s2.glbimg.com/aSej71Fh1JQl-h0gooZtT5Huojc=/fit-in/48x24/https://s2.glbimg.com/2vWqsnLXKCnXWwEJapUkEaqyKcw=/trim/https://i.s3.glbimg.com/v1/AUTH_c3c606ff68e7478091d1ca496f9c5625/internal_photos/bs/2020/q/X/APSAlSTvSFHcJfdodXaQ/sportv-2.png"
+              }
+            ],
+            "legalText": {
+              "__typename":"SalesLegalText",
+              "legalContent": "legalContent",
+              "contractUrl": "contractUrl",
+              "contractsUrlText": "contractsUrlText"
+            }
+          }
+        }
+      ]
+    }
+  }
+}

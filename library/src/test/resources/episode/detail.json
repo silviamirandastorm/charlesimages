@@ -1,0 +1,41 @@
+{
+  "data":{
+    "episode":{
+      "__typename":"Episode",
+      "number":4,
+      "seasonNumber":1,
+      "video":{
+        "__typename":"Video",
+        "id":"7634176",
+        "headline":"Laços de Família",
+        "description":"Elena e Stefan vão à festa dos fundadores da cidade. Damon conta uma história sobre a família Salvatore, deixando Elena com dúvidas que Stefan evita responder.",
+        "formattedDuration":"42 min",
+        "duration":2537468,
+        "accessibleOffline":true,
+        "contentRating":"14",
+        "contentRatingCriteria":[
+          "conteúdo sexual",
+          "drogas lícitas",
+          "violência"
+        ],
+        "availableFor":"SUBSCRIBER",
+        "thumb":"https://s01.video.glbimg.com/x216/7634176.jpg",
+        "liveThumbnail":null,
+        "kind":"episode",
+        "title":{
+          "__typename":"Title",
+          "titleId":"1b7jV1jcLh",
+          "originProgramId":"11458",
+          "headline":"The Vampire Diaries",
+          "type":"SERIE",
+          "encrypted":true,
+          "poster":{
+            "__typename":"Poster",
+            "mobile":"https://s2.glbimg.com/4AgYqlASBCJLRLbd5Plk2d1oLGY=/100x152/https://s2.glbimg.com/-SyMmkW5WvQoPx1MfGTHwVOrUP0=/i.s3.glbimg.com/v1/AUTH_c3c606ff68e7478091d1ca496f9c5625/internal_photos/bs/2019/G/c/LtVkiwT3SP3EaJGClg3g/2019-368-midia-kit-series-warner-maio-the-vampire-diaries-poster.jpg",
+            "tablet":"https://s2.glbimg.com/rtX3W9TuB3u8sXdtDmR5sdVLlr0=/144x212/https://s2.glbimg.com/-SyMmkW5WvQoPx1MfGTHwVOrUP0=/i.s3.glbimg.com/v1/AUTH_c3c606ff68e7478091d1ca496f9c5625/internal_photos/bs/2019/G/c/LtVkiwT3SP3EaJGClg3g/2019-368-midia-kit-series-warner-maio-the-vampire-diaries-poster.jpg"
+          }
+        }
+      }
+    }
+  }
+}

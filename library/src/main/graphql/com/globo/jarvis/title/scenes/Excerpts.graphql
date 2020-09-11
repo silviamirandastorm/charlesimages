@@ -1,0 +1,17 @@
+query Excerpts($videoId: ID!,  $perPage: Int!, $page: Int!, $thumbSmall: Int!, $thumbLarge: Int!) {
+    video(id: $videoId) {
+        relatedExcerpts(perPage: $perPage, page: $page) {
+            resources {
+                id
+                headline
+                title{
+                    headline
+                }
+                formattedDuration
+                thumbSmall:thumb(size:$thumbSmall)
+                thumbLarge:thumb(size:$thumbLarge)
+                kind
+            }
+        }
+    }
+}

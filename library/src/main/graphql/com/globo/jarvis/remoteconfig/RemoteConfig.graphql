@@ -1,0 +1,47 @@
+query RemoteConfig($group: RemoteConfigGroups!, $scope: String) {
+    remoteConfigs(group: $group, scope: $scope) {
+        resources {
+            ...StringConfiguration
+            ...BooleanConfiguration
+            ...NumberConfiguration
+            ...DateConfiguration
+            ...DateTimeConfiguration
+            ...JsonConfiguration
+            ...ColorConfiguration
+            ...ImageConfiguration
+        }
+    }
+}
+
+fragment StringConfiguration on StringConfig {
+    key
+    valueString: value
+}
+fragment BooleanConfiguration on BooleanConfig {
+    key
+    valueBoolean: value
+}
+fragment NumberConfiguration on NumberConfig {
+    key
+    valueNumer: value
+}
+fragment DateConfiguration on DateConfig {
+    key
+    valueDate: value
+}
+fragment DateTimeConfiguration on DatetimeConfig {
+    key
+    valueDateTime: value
+}
+fragment JsonConfiguration on JSONConfig {
+    key
+    valueJson: value
+}
+fragment ColorConfiguration on ColorConfig {
+    key
+    valueColor: value
+}
+fragment ImageConfiguration on ImageConfig {
+    key
+    valueImage: value
+}

@@ -1,0 +1,26 @@
+{
+  "data": {
+    "titles": {
+      "__typename": "TitleCollection",
+      "resources": [
+        {
+          "__typename": null,
+          "originProgramId": null,
+          "titleId": null,
+          "headline": null,
+          "description": null,
+          "format": null,
+          "type": null,
+          "logo": {
+            "__typename": "Logo",
+            "tv": null
+          },
+          "cover": {
+            "__typename": "Cover",
+            "landscape": null
+          }
+        }
+      ]
+    }
+  }
+}

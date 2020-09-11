@@ -1,0 +1,52 @@
+query SuggestTitlesByOffer(
+    $offerId: ID!
+    $titleId: ID!
+    $page: Int
+    $perPage: Int
+    $mobilePosterScales: MobilePosterScales
+    $tabletPosterScales: TabletPosterScales
+    $tvPosterScales: TVPosterScales
+) {
+    genericOffer(id: $offerId) {
+        ...TitlesFromOffer
+        ...TitlesFromRecommendedOffer
+    }
+}
+
+fragment TitlesFromOffer on Offer {
+    contentType
+    id
+    offerType: contentType
+    paginatedItems(perPage: $perPage) {
+        resources {
+            ...RecommendedTitle
+        }
+    }
+}
+
+fragment TitlesFromRecommendedOffer on RecommendedOffer {
+    contentType
+    id
+    offerType: contentType
+    items(page: $page, perPage: $perPage, context: { titleId: $titleId }) {
+        abExperiment {
+            experiment
+            alternative
+            trackId
+        }
+        resources {
+            ...RecommendedTitle
+        }
+    }
+}
+
+fragment RecommendedTitle on Title {
+    type
+    titleId
+    headline
+    poster {
+        mobile(scale: $mobilePosterScales)
+        tablet(scale: $tabletPosterScales)
+        tv(scale: $tvPosterScales)
+    }
+}

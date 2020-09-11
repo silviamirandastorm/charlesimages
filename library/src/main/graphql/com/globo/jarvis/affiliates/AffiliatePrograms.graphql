@@ -1,0 +1,33 @@
+query AffiliatePrograms(
+  $regionSlug: String!
+  $page: Int!
+  $perPage: Int!
+  $mobilePosterScales: MobilePosterScales
+  $tabletPosterScales: TabletPosterScales
+  $tvPosterScales: TVPosterScales
+  $tvCoverLandscapeScales: CoverLandscapeScales
+) {
+  affiliate {
+    affiliateRegion(regionSlug: $regionSlug) {
+      titles(page: $page, perPage: $perPage) {
+        hasNextPage
+        nextPage
+        resources {
+          titleId
+          headline
+          description
+          contentRating
+          contentRatingCriteria
+          cover {
+            landscape(scale: $tvCoverLandscapeScales)
+          }
+          poster {
+            mobile(scale: $mobilePosterScales)
+            tablet(scale: $tabletPosterScales)
+            tv(scale: $tvPosterScales)
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,32 @@
+query CategoryDetailsStructure(
+    $id: ID!
+    $filter: PageMetadataFilter
+    $highlightOfferImageMobileScales: HighlightOfferImageMobileScales
+    $highlightImageTabletScales: HighlightImageTabletScales
+) {
+    page: page(id: $id, filter: $filter) {
+        name
+        premiumHighlight {
+            callText
+            componentType
+            highlight {
+                contentType
+                contentId
+                contentType
+                headlineText
+                offerImage{
+                    mobile(scale: $highlightOfferImageMobileScales)
+                }
+                highlightImage {
+                    tablet(scale: $highlightImageTabletScales)
+                }
+                contentItem {
+                    ...CategoriesDetailsTitleHighlight
+                }
+            }
+        }
+        offerItems {
+            ...CategoriesDetailsPageOfferFragment
+        }
+    }
+}

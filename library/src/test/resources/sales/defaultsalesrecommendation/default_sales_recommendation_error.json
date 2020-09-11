@@ -1,0 +1,21 @@
+{
+  "data": {
+    "defaultSalesRecommendation": {
+      "__typename":"SalesRecommendation",
+      "salesUserError": {
+        "__typename":"SalesUserError",
+        "type": "INDEBT",
+        "message": "Identificamos que você possui um débito pendente. Para assinar o Plano Globoplay + Canais é necessário a regulaziração do mesmo.",
+        "faq": {
+          "__typename":"SalesFaq",
+          "links": {
+            "__typename":"Links",
+            "mobile": "https://globoplay.globo.com/faq/"
+          },
+          "text": "Saiba mais"
+        }
+      },
+      "recommendedProducts": null
+    }
+  }
+}

@@ -1,0 +1,160 @@
+{
+  "data": {
+    "genericOffer": {
+      "__typename": "RecommendedOffer",
+      "contentType": "TITLE",
+      "id": "d90e1053-63b2-4edd-8f22-d7b2f9f504dd",
+      "offerType": "TITLE",
+      "items": {
+        "__typename": "RecommendedOfferItems",
+        "abExperiment": null,
+        "resources": [
+          {
+            "__typename": "Title",
+            "type": "MOVIE",
+            "titleId": "HY9Pw8PBqP",
+            "headline": "Regressão",
+            "poster": {
+              "__typename": "Poster",
+              "mobile": "https://s2.glbimg.com/9OTeBgBmE0Ya694Sxl77qtXkoeU=/100x152/https://s2.glbimg.com/StQpCg2V9JYjscI9EilCeQlk9rg=/i.s3.glbimg.com/v1/AUTH_c3c606ff68e7478091d1ca496f9c5625/internal_photos/bs/2020/o/A/d6XnJpSbaHly8AFHYTSQ/2020-794-filme-cdc-regressao-poster.jpg",
+              "tablet": "https://s2.glbimg.com/NrnWA6qMa1Z_CKlxao-fcpqy-xc=/144x212/https://s2.glbimg.com/StQpCg2V9JYjscI9EilCeQlk9rg=/i.s3.glbimg.com/v1/AUTH_c3c606ff68e7478091d1ca496f9c5625/internal_photos/bs/2020/o/A/d6XnJpSbaHly8AFHYTSQ/2020-794-filme-cdc-regressao-poster.jpg",
+              "tv": "https://s2.glbimg.com/DXkexx7R1g-uzlJapZzjvd41sA8=/146x216/https://s2.glbimg.com/StQpCg2V9JYjscI9EilCeQlk9rg=/i.s3.glbimg.com/v1/AUTH_c3c606ff68e7478091d1ca496f9c5625/internal_photos/bs/2020/o/A/d6XnJpSbaHly8AFHYTSQ/2020-794-filme-cdc-regressao-poster.jpg"
+            }
+          },
+          {
+            "__typename": "Title",
+            "type": "MOVIE",
+            "titleId": "vSRpZcRkbK",
+            "headline": "Tocados Pelo Fogo",
+            "poster": {
+              "__typename": "Poster",
+              "mobile": "https://s2.glbimg.com/hhLoTruc6-vOSS2QMJ4jhCUpyfU=/100x152/https://s2.glbimg.com/ifDrW1H8tcZnI-7sINgn5FLY54I=/i.s3.glbimg.com/v1/AUTH_c3c606ff68e7478091d1ca496f9c5625/internal_photos/bs/2020/z/H/Hxy76ORBKEsCkVynNtLg/2020-794-midia-kit-filmes-tocados-pelo-fogo-poster.jpg",
+              "tablet": "https://s2.glbimg.com/zS3OUF88pxQ_IQfNrqxzALcvifg=/144x212/https://s2.glbimg.com/ifDrW1H8tcZnI-7sINgn5FLY54I=/i.s3.glbimg.com/v1/AUTH_c3c606ff68e7478091d1ca496f9c5625/internal_photos/bs/2020/z/H/Hxy76ORBKEsCkVynNtLg/2020-794-midia-kit-filmes-tocados-pelo-fogo-poster.jpg",
+              "tv": "https://s2.glbimg.com/ATuLjF-nM0G5SoPaHfQiIuKANkU=/146x216/https://s2.glbimg.com/ifDrW1H8tcZnI-7sINgn5FLY54I=/i.s3.glbimg.com/v1/AUTH_c3c606ff68e7478091d1ca496f9c5625/internal_photos/bs/2020/z/H/Hxy76ORBKEsCkVynNtLg/2020-794-midia-kit-filmes-tocados-pelo-fogo-poster.jpg"
+            }
+          },
+          {
+            "__typename": "Title",
+            "type": "MOVIE",
+            "titleId": "tTXnnZc2Km",
+            "headline": "Passe Livre",
+            "poster": {
+              "__typename": "Poster",
+              "mobile": "https://s2.glbimg.com/u8hXHW85tFG87YrlItn9Qggefgc=/100x152/https://s2.glbimg.com/CfdyBjKSdVLd-nO9tgfEQVuH9Y8=/i.s3.glbimg.com/v1/AUTH_c3c606ff68e7478091d1ca496f9c5625/internal_photos/bs/2020/M/A/IUCoTfRhSDf9rpc0oQrQ/2019-491-warner-jul-part-2-passe-livre-poster.jpg",
+              "tablet": "https://s2.glbimg.com/4TCtLg7vG4EUwmhFHT8SnXNrMcg=/144x212/https://s2.glbimg.com/CfdyBjKSdVLd-nO9tgfEQVuH9Y8=/i.s3.glbimg.com/v1/AUTH_c3c606ff68e7478091d1ca496f9c5625/internal_photos/bs/2020/M/A/IUCoTfRhSDf9rpc0oQrQ/2019-491-warner-jul-part-2-passe-livre-poster.jpg",
+              "tv": "https://s2.glbimg.com/9WBLAL9QDjdICwrNAxgjI3RYcrI=/146x216/https://s2.glbimg.com/CfdyBjKSdVLd-nO9tgfEQVuH9Y8=/i.s3.glbimg.com/v1/AUTH_c3c606ff68e7478091d1ca496f9c5625/internal_photos/bs/2020/M/A/IUCoTfRhSDf9rpc0oQrQ/2019-491-warner-jul-part-2-passe-livre-poster.jpg"
+            }
+          },
+          {
+            "__typename": "Title",
+            "type": "MOVIE",
+            "titleId": "bPYRNXpYLS",
+            "headline": "Obrigado Por Ligar",
+            "poster": {
+              "__typename": "Poster",
+              "mobile": "https://s2.glbimg.com/Y-G0tg-I77_juALOq1FAf8_H7bQ=/100x152/https://s2.glbimg.com/CcnTr3q7KuPSQ4O2m_e_F9mjy-o=/i.s3.glbimg.com/v1/AUTH_c3c606ff68e7478091d1ca496f9c5625/internal_photos/bs/2020/Q/z/E8wnsdRwWrKkBpSpQIYw/2020-862-obg-por-ligar-poster.jpg",
+              "tablet": "https://s2.glbimg.com/ct104KtC9I3fgSleHCclg8TK6bk=/144x212/https://s2.glbimg.com/CcnTr3q7KuPSQ4O2m_e_F9mjy-o=/i.s3.glbimg.com/v1/AUTH_c3c606ff68e7478091d1ca496f9c5625/internal_photos/bs/2020/Q/z/E8wnsdRwWrKkBpSpQIYw/2020-862-obg-por-ligar-poster.jpg",
+              "tv": "https://s2.glbimg.com/xMAsa1oJJ5NtVWauivSPUEG2tl8=/146x216/https://s2.glbimg.com/CcnTr3q7KuPSQ4O2m_e_F9mjy-o=/i.s3.glbimg.com/v1/AUTH_c3c606ff68e7478091d1ca496f9c5625/internal_photos/bs/2020/Q/z/E8wnsdRwWrKkBpSpQIYw/2020-862-obg-por-ligar-poster.jpg"
+            }
+          },
+          {
+            "__typename": "Title",
+            "type": "MOVIE",
+            "titleId": "FHQndZhmY9",
+            "headline": "Cinco Anos De Noivado",
+            "poster": {
+              "__typename": "Poster",
+              "mobile": "https://s2.glbimg.com/77AeAvLCKYnHklrSU2COE0chxB8=/100x152/https://s2.glbimg.com/pLk0zVRf-k7fAqBaXey4qvTkssk=/i.s3.glbimg.com/v1/AUTH_c3c606ff68e7478091d1ca496f9c5625/internal_photos/bs/2020/2/z/tZmmCXRWmVqyJEu5rvQQ/2020-847-5-anos-de-noivado-poster.jpg",
+              "tablet": "https://s2.glbimg.com/GeuNzBGxsczqD5Ew-fNLaFLwi3c=/144x212/https://s2.glbimg.com/pLk0zVRf-k7fAqBaXey4qvTkssk=/i.s3.glbimg.com/v1/AUTH_c3c606ff68e7478091d1ca496f9c5625/internal_photos/bs/2020/2/z/tZmmCXRWmVqyJEu5rvQQ/2020-847-5-anos-de-noivado-poster.jpg",
+              "tv": "https://s2.glbimg.com/dAb0PibtJhgtbIIO5beCRCWEssM=/146x216/https://s2.glbimg.com/pLk0zVRf-k7fAqBaXey4qvTkssk=/i.s3.glbimg.com/v1/AUTH_c3c606ff68e7478091d1ca496f9c5625/internal_photos/bs/2020/2/z/tZmmCXRWmVqyJEu5rvQQ/2020-847-5-anos-de-noivado-poster.jpg"
+            }
+          },
+          {
+            "__typename": "Title",
+            "type": "TV_PROGRAM",
+            "titleId": "9bmFZjzF52",
+            "headline": "Mulheres Fantásticas",
+            "poster": {
+              "__typename": "Poster",
+              "mobile": "https://s2.glbimg.com/ZFMvZAh3t1OORyiXVwTWkVbYh54=/100x152/https://s2.glbimg.com/BmdddZ2dOnDcS64lbcYcK5ji-c4=/i.s3.glbimg.com/v1/AUTH_c3c606ff68e7478091d1ca496f9c5625/internal_photos/bs/2020/2/q/cqia6ARBaWp8exkc59oQ/2020-921-mulheres-fantasticas-poster.jpg",
+              "tablet": "https://s2.glbimg.com/GNoVZYCL5Jb2hGUhRU7eFoTfIo4=/144x212/https://s2.glbimg.com/BmdddZ2dOnDcS64lbcYcK5ji-c4=/i.s3.glbimg.com/v1/AUTH_c3c606ff68e7478091d1ca496f9c5625/internal_photos/bs/2020/2/q/cqia6ARBaWp8exkc59oQ/2020-921-mulheres-fantasticas-poster.jpg",
+              "tv": "https://s2.glbimg.com/8sZPapSeXqixYceoT8O3tSRCICc=/146x216/https://s2.glbimg.com/BmdddZ2dOnDcS64lbcYcK5ji-c4=/i.s3.glbimg.com/v1/AUTH_c3c606ff68e7478091d1ca496f9c5625/internal_photos/bs/2020/2/q/cqia6ARBaWp8exkc59oQ/2020-921-mulheres-fantasticas-poster.jpg"
+            }
+          },
+          {
+            "__typename": "Title",
+            "type": "MOVIE",
+            "titleId": "NHkMYfnyMZ",
+            "headline": "Para Sama",
+            "poster": {
+              "__typename": "Poster",
+              "mobile": "https://s2.glbimg.com/d_0XIjQOG4IqJx-ByjdyPgjrGPQ=/100x152/https://s2.glbimg.com/29Ena0rYo-Ba3-g27hhFHIpRPTI=/i.s3.glbimg.com/v1/AUTH_c3c606ff68e7478091d1ca496f9c5625/internal_photos/bs/2020/Q/B/oq6AyeTKulkaawBVn9Bg/2020-908-para-sama-poster.jpg",
+              "tablet": "https://s2.glbimg.com/jpI9Gqp5V8XcDQisZSDXgYLuHRo=/144x212/https://s2.glbimg.com/29Ena0rYo-Ba3-g27hhFHIpRPTI=/i.s3.glbimg.com/v1/AUTH_c3c606ff68e7478091d1ca496f9c5625/internal_photos/bs/2020/Q/B/oq6AyeTKulkaawBVn9Bg/2020-908-para-sama-poster.jpg",
+              "tv": "https://s2.glbimg.com/ljH1VBvgTal4Co1Sh4RkYnN_gTE=/146x216/https://s2.glbimg.com/29Ena0rYo-Ba3-g27hhFHIpRPTI=/i.s3.glbimg.com/v1/AUTH_c3c606ff68e7478091d1ca496f9c5625/internal_photos/bs/2020/Q/B/oq6AyeTKulkaawBVn9Bg/2020-908-para-sama-poster.jpg"
+            }
+          },
+          {
+            "__typename": "Title",
+            "type": "MOVIE",
+            "titleId": "6GrGJTKmGY",
+            "headline": "Resistência",
+            "poster": {
+              "__typename": "Poster",
+              "mobile": "https://s2.glbimg.com/S6G2QVwfbs8BLNugxhoT9Mop10o=/100x152/https://s2.glbimg.com/DN8ePXML2aoFxNFcjEnfQvHIAwY=/i.s3.glbimg.com/v1/AUTH_c3c606ff68e7478091d1ca496f9c5625/internal_photos/bs/2020/9/P/pSZpGZTDashlDhmH02xg/2020-862-resistencia-poster.jpg",
+              "tablet": "https://s2.glbimg.com/vhcbqpTOS3gcVRa0gc5P-2XxpWA=/144x212/https://s2.glbimg.com/DN8ePXML2aoFxNFcjEnfQvHIAwY=/i.s3.glbimg.com/v1/AUTH_c3c606ff68e7478091d1ca496f9c5625/internal_photos/bs/2020/9/P/pSZpGZTDashlDhmH02xg/2020-862-resistencia-poster.jpg",
+              "tv": "https://s2.glbimg.com/ywqf4fICLux3omchVq4KBbrxzI4=/146x216/https://s2.glbimg.com/DN8ePXML2aoFxNFcjEnfQvHIAwY=/i.s3.glbimg.com/v1/AUTH_c3c606ff68e7478091d1ca496f9c5625/internal_photos/bs/2020/9/P/pSZpGZTDashlDhmH02xg/2020-862-resistencia-poster.jpg"
+            }
+          },
+          {
+            "__typename": "Title",
+            "type": "MOVIE",
+            "titleId": "Gh51DNR9F7",
+            "headline": "Os Flintstones e as Estrelas do WWE",
+            "poster": {
+              "__typename": "Poster",
+              "mobile": "https://s2.glbimg.com/why65rplqHq7rGPoQ0V6Q7W4QSc=/100x152/https://s2.glbimg.com/JAjGitNt3ovSPF2YT-96XMycBVA=/i.s3.glbimg.com/v1/AUTH_c3c606ff68e7478091d1ca496f9c5625/internal_photos/bs/2020/j/F/yqNQA5TsyNS8JkBpddZw/2020-870-flintstones-poster.jpg",
+              "tablet": "https://s2.glbimg.com/b9ER3SR0oAZJ6T3LHFC7hf-_RyI=/144x212/https://s2.glbimg.com/JAjGitNt3ovSPF2YT-96XMycBVA=/i.s3.glbimg.com/v1/AUTH_c3c606ff68e7478091d1ca496f9c5625/internal_photos/bs/2020/j/F/yqNQA5TsyNS8JkBpddZw/2020-870-flintstones-poster.jpg",
+              "tv": "https://s2.glbimg.com/z-lAFQWhe4iBYax52BOudNK_ZeA=/146x216/https://s2.glbimg.com/JAjGitNt3ovSPF2YT-96XMycBVA=/i.s3.glbimg.com/v1/AUTH_c3c606ff68e7478091d1ca496f9c5625/internal_photos/bs/2020/j/F/yqNQA5TsyNS8JkBpddZw/2020-870-flintstones-poster.jpg"
+            }
+          },
+          {
+            "__typename": "Title",
+            "type": "MOVIE",
+            "titleId": "Sn8BXKfhKt",
+            "headline": "A Assassina",
+            "poster": {
+              "__typename": "Poster",
+              "mobile": "https://s2.glbimg.com/lT0ZKKlnvnCkaAp1x6iEdQk5UXw=/100x152/https://s2.glbimg.com/gXbt9V6u_jK_QX9eYvIiwfGUhw0=/i.s3.glbimg.com/v1/AUTH_c3c606ff68e7478091d1ca496f9c5625/internal_photos/bs/2020/b/d/UZSRDTSfCSAxo5dm7COg/2019-695-imovision-p1-a-assassina-poster.jpg",
+              "tablet": "https://s2.glbimg.com/y-S4YiysoCyCmbQ1DN1NIYo5NbA=/144x212/https://s2.glbimg.com/gXbt9V6u_jK_QX9eYvIiwfGUhw0=/i.s3.glbimg.com/v1/AUTH_c3c606ff68e7478091d1ca496f9c5625/internal_photos/bs/2020/b/d/UZSRDTSfCSAxo5dm7COg/2019-695-imovision-p1-a-assassina-poster.jpg",
+              "tv": "https://s2.glbimg.com/rOxOqa-rixMW6uKUi7jO0ll9JaQ=/146x216/https://s2.glbimg.com/gXbt9V6u_jK_QX9eYvIiwfGUhw0=/i.s3.glbimg.com/v1/AUTH_c3c606ff68e7478091d1ca496f9c5625/internal_photos/bs/2020/b/d/UZSRDTSfCSAxo5dm7COg/2019-695-imovision-p1-a-assassina-poster.jpg"
+            }
+          },
+          {
+            "__typename": "Title",
+            "type": "MOVIE",
+            "titleId": "Y8BNgMBp8H",
+            "headline": "Pais e Filhas",
+            "poster": {
+              "__typename": "Poster",
+              "mobile": "https://s2.glbimg.com/W5W8JY5v2XV_sUGJHVDugGPBgE8=/100x152/https://s2.glbimg.com/BlRnZ__AhGd_mvbb2tXybD8jwbU=/i.s3.glbimg.com/v1/AUTH_c3c606ff68e7478091d1ca496f9c5625/internal_photos/bs/2020/3/Y/utW9vBSliLOh9nTvDiBw/2020-915-pais-e-filhas-poster.jpg",
+              "tablet": "https://s2.glbimg.com/koTCncxYmDOy8BRtHUl_NZRGCpA=/144x212/https://s2.glbimg.com/BlRnZ__AhGd_mvbb2tXybD8jwbU=/i.s3.glbimg.com/v1/AUTH_c3c606ff68e7478091d1ca496f9c5625/internal_photos/bs/2020/3/Y/utW9vBSliLOh9nTvDiBw/2020-915-pais-e-filhas-poster.jpg",
+              "tv": "https://s2.glbimg.com/rHSTf6vwwCoMHVv2P8csgHWUmRk=/146x216/https://s2.glbimg.com/BlRnZ__AhGd_mvbb2tXybD8jwbU=/i.s3.glbimg.com/v1/AUTH_c3c606ff68e7478091d1ca496f9c5625/internal_photos/bs/2020/3/Y/utW9vBSliLOh9nTvDiBw/2020-915-pais-e-filhas-poster.jpg"
+            }
+          },
+          {
+            "__typename": "Title",
+            "type": "MOVIE",
+            "titleId": "rkpXR6Grf6",
+            "headline": "Mal Necessário: Super-Vilões da DC Comics",
+            "poster": {
+              "__typename": "Poster",
+              "mobile": "https://s2.glbimg.com/I5vnuOc8A-2yGdci2Yhc0a12NV8=/100x152/https://s2.glbimg.com/uqLQGBbINuKqWaUtLBzNhPC_TdY=/i.s3.glbimg.com/v1/AUTH_c3c606ff68e7478091d1ca496f9c5625/internal_photos/bs/2020/Z/n/QnGX7RQnKxT0b67Z9dLA/2020-870-mal-necessario-poster.jpg",
+              "tablet": "https://s2.glbimg.com/MlFuNBUM9wRWcpGGoGgzrl4bHSE=/144x212/https://s2.glbimg.com/uqLQGBbINuKqWaUtLBzNhPC_TdY=/i.s3.glbimg.com/v1/AUTH_c3c606ff68e7478091d1ca496f9c5625/internal_photos/bs/2020/Z/n/QnGX7RQnKxT0b67Z9dLA/2020-870-mal-necessario-poster.jpg",
+              "tv": "https://s2.glbimg.com/A98QrKs2GsTGR-rs7TsUDQ-7S20=/146x216/https://s2.glbimg.com/uqLQGBbINuKqWaUtLBzNhPC_TdY=/i.s3.glbimg.com/v1/AUTH_c3c606ff68e7478091d1ca496f9c5625/internal_photos/bs/2020/Z/n/QnGX7RQnKxT0b67Z9dLA/2020-870-mal-necessario-poster.jpg"
+            }
+          }
+        ]
+      }
+    }
+  }
+}

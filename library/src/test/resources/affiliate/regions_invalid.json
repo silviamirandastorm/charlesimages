@@ -1,0 +1,640 @@
+"data": {
+"affiliate": {
+"__typename": "Affiliate",
+"affiliateStates": [
+{
+"__typename": "AffiliateState",
+"regions": [
+{
+"__typename": "AffiliateRegion",
+"name": "Acre",
+"slug": "acre",
+"affiliateName": "Rede Amazônica"
+}
+]
+},
+{
+"__typename": "AffiliateState",
+"regions": [
+{
+"__typename": "AffiliateRegion",
+"name": "Alagoas",
+"slug": "alagoas",
+"affiliateName": "TV Gazeta"
+}
+]
+},
+{
+"__typename": "AffiliateState",
+"regions": [
+{
+"__typename": "AffiliateRegion",
+"name": "Amapá",
+"slug": "amapa",
+"affiliateName": " Rede Amazônica"
+}
+]
+},
+{
+"__typename": "AffiliateState",
+"regions": [
+{
+"__typename": "AffiliateRegion",
+"name": "Amazonas",
+"slug": "amazonas",
+"affiliateName": "Rede Amazônica "
+}
+]
+},
+{
+"__typename": "AffiliateState",
+"regions": [
+{
+"__typename": "AffiliateRegion",
+"name": "Feira de Santana",
+"slug": "feira-de-santana",
+"affiliateName": "Rede Bahia"
+},
+{
+"__typename": "AffiliateRegion",
+"name": "Itabuna",
+"slug": "itabuna",
+"affiliateName": "Rede Bahia "
+},
+{
+"__typename": "AffiliateRegion",
+"name": "Salvador",
+"slug": "salvador",
+"affiliateName": "Rede Bahia "
+},
+{
+"__typename": "AffiliateRegion",
+"name": "Vitória da Conquista",
+"slug": "vitoria-da-conquista",
+"affiliateName": "Rede Bahia"
+}
+]
+},
+{
+"__typename": "AffiliateState",
+"regions": [
+{
+"__typename": "AffiliateRegion",
+"name": "Fortaleza",
+"slug": "fortaleza",
+"affiliateName": "TV Verdes Mares"
+},
+{
+"__typename": "AffiliateRegion",
+"name": "Juazeiro do Norte",
+"slug": "juazeiro-do-norte",
+"affiliateName": "TV Verdes Mares"
+}
+]
+},
+{
+"__typename": "AffiliateState",
+"regions": [
+{
+"__typename": "AffiliateRegion",
+"name": "Distrito Federal",
+"slug": "distrito-federal",
+"affiliateName": "Globo Brasília"
+},
+{
+"__typename": "AffiliateRegion",
+"name": "Grande Vitória",
+"slug": "grande-vitoria",
+"affiliateName": "Rede Gazeta ES"
+}
+]
+},
+{
+"__typename": "AffiliateState",
+"regions": []
+},
+{
+"__typename": "AffiliateState",
+"regions": [
+{
+"__typename": "AffiliateRegion",
+"name": "Goiás",
+"slug": "goias",
+"affiliateName": "TV Anhanguera"
+}
+]
+},
+{
+"__typename": "AffiliateState",
+"regions": [
+{
+"__typename": "AffiliateRegion",
+"name": "Maranhão",
+"slug": "maranhao",
+"affiliateName": "TV Mirante"
+}
+]
+},
+{
+"__typename": "AffiliateState",
+"regions": [
+{
+"__typename": "AffiliateRegion",
+"name": "Cuiabá",
+"slug": "cuiaba",
+"affiliateName": "TV Centro América"
+},
+{
+"__typename": "AffiliateRegion",
+"name": "Rondonópolis",
+"slug": "rondonopolis",
+"affiliateName": "TV Centro América"
+},
+{
+"__typename": "AffiliateRegion",
+"name": "Sinop",
+"slug": "sinop",
+"affiliateName": "TV Centro América"
+},
+{
+"__typename": "AffiliateRegion",
+"name": "Tangará da Serra",
+"slug": "tangara-da-serra",
+"affiliateName": "TV Centro América"
+}
+]
+},
+{
+"__typename": "AffiliateState",
+"regions": [
+{
+"__typename": "AffiliateRegion",
+"name": "Campo Grande",
+"slug": "campo-grande",
+"affiliateName": "TV Morena"
+},
+{
+"__typename": "AffiliateRegion",
+"name": "Corumbá",
+"slug": "corumba",
+"affiliateName": "TV Morena"
+},
+{
+"__typename": "AffiliateRegion",
+"name": "Ponta Porã",
+"slug": "ponta-pora",
+"affiliateName": "TV Morena"
+}
+]
+},
+{
+"__typename": "AffiliateState",
+"regions": [
+{
+"__typename": "AffiliateRegion",
+"name": "Belo Horizonte e região",
+"slug": "belo-horizonte-e-regiao",
+"affiliateName": "Globo Minas"
+},
+{
+"__typename": "AffiliateRegion",
+"name": "Centro Oeste",
+"slug": "centro-oeste",
+"affiliateName": "TV Integração"
+},
+{
+"__typename": "AffiliateRegion",
+"name": "Grande Minas",
+"slug": "grande-minas",
+"affiliateName": "Inter TV MG"
+},
+{
+"__typename": "AffiliateRegion",
+"name": "Sul de Minas",
+"slug": "sul-de-minas",
+"affiliateName": "EPTV Sul de Minas"
+},
+{
+"__typename": "AffiliateRegion",
+"name": "Uberaba",
+"slug": "uberaba",
+"affiliateName": "TV Integração"
+},
+{
+"__typename": "AffiliateRegion",
+"name": "Uberlândia e Ituiutaba",
+"slug": "uberlandia-e-ituiutaba",
+"affiliateName": "TV Integração"
+},
+{
+"__typename": "AffiliateRegion",
+"name": "Vales de Minas Gerais",
+"slug": "vales-de-minas-gerais",
+"affiliateName": "Inter TV MG"
+},
+{
+"__typename": "AffiliateRegion",
+"name": "Zona da Mata",
+"slug": "zona-da-mata",
+"affiliateName": "TV Integração"
+}
+]
+},
+{
+"__typename": "AffiliateState",
+"regions": [
+{
+"__typename": "AffiliateRegion",
+"name": "Cascavel",
+"slug": "cascavel",
+"affiliateName": "RPC"
+},
+{
+"__typename": "AffiliateRegion",
+"name": "Curitiba",
+"slug": "curitiba",
+"affiliateName": "RPC"
+},
+{
+"__typename": "AffiliateRegion",
+"name": "Foz do Iguaçu",
+"slug": "foz-do-iguacu",
+"affiliateName": "RPC"
+},
+{
+"__typename": "AffiliateRegion",
+"name": "Guarapuava",
+"slug": "guarapuava",
+"affiliateName": "RPC"
+},
+{
+"__typename": "AffiliateRegion",
+"name": "Londrina",
+"slug": "londrina",
+"affiliateName": "RPC"
+},
+{
+"__typename": "AffiliateRegion",
+"name": "Maringá",
+"slug": "maringa",
+"affiliateName": "RPC"
+},
+{
+"__typename": "AffiliateRegion",
+"name": "Paranavaí",
+"slug": "paranavai",
+"affiliateName": "RPC"
+},
+{
+"__typename": "AffiliateRegion",
+"name": "Ponta Grossa",
+"slug": "ponta-grossa",
+"affiliateName": "RPC"
+}
+]
+},
+{
+"__typename": "AffiliateState",
+"regions": [
+{
+"__typename": "AffiliateRegion",
+"name": "Campina Grande",
+"slug": "campina-grande",
+"affiliateName": "Rede Paraíba"
+},
+{
+"__typename": "AffiliateRegion",
+"name": "João Pessoa",
+"slug": "joao-pessoa",
+"affiliateName": "Rede Paraíba"
+}
+]
+},
+{
+"__typename": "AffiliateState",
+"regions": [
+{
+"__typename": "AffiliateRegion",
+"name": "Belém e região",
+"slug": "belem-e-regiao",
+"affiliateName": "TV Liberal"
+},
+{
+"__typename": "AffiliateRegion",
+"name": "Santarém e região",
+"slug": "santarem-e-regiao",
+"affiliateName": "TV Tapajós"
+}
+]
+},
+{
+"__typename": "AffiliateState",
+"regions": [
+{
+"__typename": "AffiliateRegion",
+"name": "Caruaru e região",
+"slug": "caruaru-e-regiao",
+"affiliateName": "TV Asa Branca"
+},
+{
+"__typename": "AffiliateRegion",
+"name": "Petrolina e região",
+"slug": "petrolina-e-regiao",
+"affiliateName": "TV Grande Rio"
+},
+{
+"__typename": "AffiliateRegion",
+"name": "Recife e região",
+"slug": "recife-e-regiao",
+"affiliateName": "Globo Nordeste"
+}
+]
+},
+{
+"__typename": "AffiliateState",
+"regions": [
+{
+"__typename": "AffiliateRegion",
+"name": "Piauí",
+"slug": "piaui",
+"affiliateName": "Rede Clube"
+}
+]
+},
+{
+"__typename": "AffiliateState",
+"regions": [
+{
+"__typename": "AffiliateRegion",
+"name": "Rio Grande do Norte",
+"slug": "rio-grande-do-norte",
+"affiliateName": "Inter TV RN"
+}
+]
+},
+{
+"__typename": "AffiliateState",
+"regions": [
+{
+"__typename": "AffiliateRegion",
+"name": "Bagé",
+"slug": "bage",
+"affiliateName": "RBS TV"
+},
+{
+"__typename": "AffiliateRegion",
+"name": "Caxias do Sul",
+"slug": "caxias-do-sul",
+"affiliateName": "RBS TV"
+},
+{
+"__typename": "AffiliateRegion",
+"name": "Cruz Alta",
+"slug": "cruz-alta",
+"affiliateName": "RBS TV"
+},
+{
+"__typename": "AffiliateRegion",
+"name": "Erechim",
+"slug": "erechim",
+"affiliateName": "RBS TV"
+},
+{
+"__typename": "AffiliateRegion",
+"name": "Passo Fundo",
+"slug": "passo-fundo",
+"affiliateName": "RBS TV"
+},
+{
+"__typename": "AffiliateRegion",
+"name": "Pelotas",
+"slug": "pelotas",
+"affiliateName": "RBS TV"
+},
+{
+"__typename": "AffiliateRegion",
+"name": "Porto Alegre",
+"slug": "porto-alegre",
+"affiliateName": "RBS TV"
+},
+{
+"__typename": "AffiliateRegion",
+"name": "Rio Grande",
+"slug": "rio-grande",
+"affiliateName": "RBS TV"
+},
+{
+"__typename": "AffiliateRegion",
+"name": "Santa Cruz",
+"slug": "santa-cruz",
+"affiliateName": "RBS TV"
+},
+{
+"__typename": "AffiliateRegion",
+"name": "Santa Maria",
+"slug": "santa-maria",
+"affiliateName": "RBS TV"
+},
+{
+"__typename": "AffiliateRegion",
+"name": "Santa Rosa",
+"slug": "santa-rosa",
+"affiliateName": "RBS TV"
+},
+{
+"__typename": "AffiliateRegion",
+"name": "Uruguaiana",
+"slug": "uruguaiana",
+"affiliateName": "RBS TV"
+}
+]
+},
+{
+"__typename": "AffiliateState",
+"regions": [
+{
+"__typename": "AffiliateRegion",
+"name": "Norte Fluminense",
+"slug": "norte-fluminense",
+"affiliateName": "Inter TV RJ"
+},
+{
+"__typename": "AffiliateRegion",
+"name": "Região dos Lagos",
+"slug": "regiao-dos-lagos",
+"affiliateName": "Inter TV RJ"
+},
+{
+"__typename": "AffiliateRegion",
+"name": "Rio de Janeiro e região",
+"slug": "rio-de-janeiro-e-regiao",
+"affiliateName": "Globo Rio"
+},
+{
+"__typename": "AffiliateRegion",
+"name": "Sul e Costa Verde",
+"slug": "sul-e-costa-verde",
+"affiliateName": "TV Rio Sul"
+}
+]
+},
+{
+"__typename": "AffiliateState",
+"regions": [
+{
+"__typename": "AffiliateRegion",
+"name": "Rondônia",
+"slug": "rondonia",
+"affiliateName": "Rede Amazônica"
+}
+]
+},
+{
+"__typename": "AffiliateState",
+"regions": [
+{
+"__typename": "AffiliateRegion",
+"name": "Roraima",
+"slug": "roraima",
+"affiliateName": "Rede Amazônica"
+}
+]
+},
+{
+"__typename": "AffiliateState",
+"regions": [
+{
+"__typename": "AffiliateRegion",
+"name": "Blumenau",
+"slug": "blumenau",
+"affiliateName": "NSC TV"
+},
+{
+"__typename": "AffiliateRegion",
+"name": "Chapecó",
+"slug": "chapeco",
+"affiliateName": "NSC TV"
+},
+{
+"__typename": "AffiliateRegion",
+"name": "Criciúma",
+"slug": "criciuma",
+"affiliateName": "NSC TV"
+},
+{
+"__typename": "AffiliateRegion",
+"name": "Florianópolis",
+"slug": "florianopolis",
+"affiliateName": "NSC TV"
+},
+{
+"__typename": "AffiliateRegion",
+"name": "Joinville",
+"slug": "joinville",
+"affiliateName": "NSC TV"
+}
+]
+},
+{
+"__typename": "AffiliateState",
+"regions": [
+{
+"__typename": "AffiliateRegion",
+"name": "Sergipe",
+"slug": "sergipe",
+"affiliateName": "TV Sergipe"
+}
+]
+},
+{
+"__typename": "AffiliateState",
+"regions": [
+{
+"__typename": "AffiliateRegion",
+"name": "Bauru e Marília",
+"slug": "bauru-e-marilia",
+"affiliateName": "TV Tem"
+},
+{
+"__typename": "AffiliateRegion",
+"name": "Campinas e região",
+"slug": "campinas-e-regiao",
+"affiliateName": "EPTV"
+},
+{
+"__typename": "AffiliateRegion",
+"name": "Itapetininga e região",
+"slug": "itapetininga-e-regiao",
+"affiliateName": "TV Tem"
+},
+{
+"__typename": "AffiliateRegion",
+"name": "Presidente Prudente e região",
+"slug": "presidente-prudente-e-regiao",
+"affiliateName": "TV Fronteira"
+},
+{
+"__typename": "AffiliateRegion",
+"name": "Ribeirão e Franca",
+"slug": "ribeirao-e-franca",
+"affiliateName": "EPTV"
+},
+{
+"__typename": "AffiliateRegion",
+"name": "Rio Preto e Araçatuba",
+"slug": "rio-preto-e-aracatuba",
+"affiliateName": "TV Tem"
+},
+{
+"__typename": "AffiliateRegion",
+"name": "Santos e região",
+"slug": "santos-e-regiao",
+"affiliateName": "TV Tribuna"
+},
+{
+"__typename": "AffiliateRegion",
+"name": "Sorocaba e Jundiaí",
+"slug": "sorocaba-e-jundiai",
+"affiliateName": "TV Tem"
+},
+{
+"__typename": "AffiliateRegion",
+"name": "Suzano",
+"slug": "mogi-das-cruzes-e-suzano",
+"affiliateName": "TV Diário"
+},
+{
+"__typename": "AffiliateRegion",
+"name": "São Carlos e Araraquara",
+"slug": "sao-carlos-e-araraquara",
+"affiliateName": "EPTV"
+},
+{
+"__typename": "AffiliateRegion",
+"name": "São Paulo e região",
+"slug": "sao-paulo-e-regiao",
+"affiliateName": "Globo São Paulo"
+},
+{
+"__typename": "AffiliateRegion",
+"name": "Vale do Paraíba e região",
+"slug": "vale-do-paraiba-e-regiao",
+"affiliateName": "Vanguarda"
+}
+]
+},
+{
+"__typename": "AffiliateState",
+"regions": [
+{
+"__typename": "AffiliateRegion",
+"name": "Tocantins",
+"slug": "tocantins",
+"affiliateName": "TV Anhanguera"
+}
+]
+}
+]
+}
+}
+}

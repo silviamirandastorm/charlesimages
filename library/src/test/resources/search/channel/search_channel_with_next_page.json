@@ -1,0 +1,25 @@
+{
+  "data": {
+    "search": {
+      "__typename": "Search",
+      "broadcastChannelSearch": {
+        "__typename": "BroadcastChannelSearchResult",
+        "collection": {
+          "__typename": "BroadcastChannelCollection",
+          "nextPage": 2,
+          "hasNextPage": true,
+          "total": 20,
+          "resources": [
+            {
+              "__typename": "BroadcastChannel",
+              "id": "196",
+              "name": "TV Globo",
+              "pageIdentifier": "tvglobo",
+              "trimmedLogo": "https://s2.glbimg.com/eDR6TSRvsi8skz4ezGzLA4b48H4=/fit-in/48x24/https://s2.glbimg.com/9Wy1I7Dz4-R6xhNVpPqTLzd0mME=/trim/filters:fill(transparent,false)/https://i.s3.glbimg.com/v1/AUTH_c3c606ff68e7478091d1ca496f9c5625/internal_photos/bs/2020/V/q/33CD65RVK44W5BSLbx1g/rede-globo.png"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

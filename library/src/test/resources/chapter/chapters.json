@@ -1,0 +1,180 @@
+{
+  "data": {
+    "title": {
+      "__typename": "Title",
+      "format": "SOAP_OPERA",
+      "epgActive": true,
+      "originProgramId": "12300",
+      "structure": {
+        "__typename": "EpisodeListStructure",
+        "episodes": {
+          "__typename": "EpisodeCollection",
+          "hasNextPage": true,
+          "nextPage": 2,
+          "resources": [
+            {
+              "__typename": "Episode",
+              "video": {
+                "__typename": "Video",
+                "id": "8817031",
+                "headline": "Capítulo de 29/08/2020",
+                "description": "Pereirinha tenta entrar na festa de casamento de Amália e Rafael. Griselda dança valsa com Guaracy. Albertinho e Jackelaine se beijam. Teodora garante a Mônica que Quinzé não participará da vida de seu filho. Wallace convida Dagmar para jantar no Brasileiríssimo. Zuleika pede demissão da Fashion Moto. Patrícia confronta Tereza Cristina. Paulo repreende Danielle quando ela tenta falar com Esther.",
+                "thumb": "https://s04.video.glbimg.com/x216/8817031.jpg",
+                "duration": 3047480,
+                "formattedDuration": "50 min",
+                "availableFor": "SUBSCRIBER",
+                "accessibleOffline": true,
+                "exhibitedAt": "2020-08-29T03:00:00Z",
+                "serviceId": 6004
+              }
+            },
+            {
+              "__typename": "Episode",
+              "video": {
+                "__typename": "Video",
+                "id": "8814515",
+                "headline": "Capítulo de 28/08/2020",
+                "description": "Ferdinand se apavora ao constatar que a porta da sauna está trancada. Crô e Marilda vão para o casamento de Amália. Beatriz procura emprego. Teodora anuncia na igreja que está grávida de Quinzé. O advogado de Celina a repreende por não acatar a decisão do Juiz. Tereza Cristina destranca o baú onde estão os ratos, e Ferdinand se desespera.",
+                "thumb": "https://s04.video.glbimg.com/x216/8814515.jpg",
+                "duration": 2631773,
+                "formattedDuration": "43 min",
+                "availableFor": "SUBSCRIBER",
+                "accessibleOffline": true,
+                "exhibitedAt": "2020-08-28T03:00:00Z",
+                "serviceId": 6004
+              }
+            },
+            {
+              "__typename": "Episode",
+              "video": {
+                "__typename": "Video",
+                "id": "8811343",
+                "headline": "Capítulo de 27/08/2020",
+                "description": "Quinzé revela o segredo de Fabrícia para Griselda e Gigante. Solange é convidada para participar de programas de TV. Guaracy conta para Esther que passou a noite com Griselda. Paulo impede o assédio da imprensa a Esther e Vitória. Ellen, Vanessa e Patrícia seguem o plano de Antenor e forjam um vídeo sobre Alexandre. Passam-se duas semanas.",
+                "thumb": "https://s04.video.glbimg.com/x216/8811343.jpg",
+                "duration": 2777961,
+                "formattedDuration": "46 min",
+                "availableFor": "SUBSCRIBER",
+                "accessibleOffline": true,
+                "exhibitedAt": "2020-08-27T03:00:00Z",
+                "serviceId": 6004
+              }
+            },
+            {
+              "__typename": "Episode",
+              "video": {
+                "__typename": "Video",
+                "id": "8807950",
+                "headline": "Capítulo de 26/08/2020",
+                "description": "Tereza Cristina confidencia a Pereirinha que guarda dinheiro em casa para o caso de precisar fugir. Quinzé flagra Griselda e Guaracy se beijando. Paulo lembra de quando cuidou de Vitória. Celeste descobre que Solange não dormiu em casa e avisa a Baltazar. Daniel pede Solange em casamento. Danielle recebe uma intimação para apresentar sua defesa no Conselho Regional de Medicina. Teodora passal mal",
+                "thumb": "https://s03.video.glbimg.com/x216/8807950.jpg",
+                "duration": 2069806,
+                "formattedDuration": "34 min",
+                "availableFor": "SUBSCRIBER",
+                "accessibleOffline": true,
+                "exhibitedAt": "2020-08-27T01:42:00Z",
+                "serviceId": 6004
+              }
+            },
+            {
+              "__typename": "Episode",
+              "video": {
+                "__typename": "Video",
+                "id": "8804897",
+                "headline": "Capítulo de 25/08/2020",
+                "description": "Crô explica a Celeste o que aconteceu com Baltazar. Quinzé pergunta se Teodora ainda o ama. Tereza Cristina leva Pereirinha para jantar no Brasileiríssimo. O delegado Paredes afirma a Joana que conseguirá derrubar o álibi de Tereza Cristina. Paulo pensa em Esther. Esther se entristece com Guaracy. Celina cobra uma atitude de Beatriz. Wallace leva Dagmar para casa.",
+                "thumb": "https://s02.video.glbimg.com/x216/8804897.jpg",
+                "duration": 3224968,
+                "formattedDuration": "53 min",
+                "availableFor": "SUBSCRIBER",
+                "accessibleOffline": true,
+                "exhibitedAt": "2020-08-25T03:00:00Z",
+                "serviceId": 6004
+              }
+            },
+            {
+              "__typename": "Episode",
+              "video": {
+                "__typename": "Video",
+                "id": "8801778",
+                "headline": "Capítulo de 24/08/2020",
+                "description": "Márcia conta para Esther que Guaracy esteve à sua procura. Pereirinha não acredita no amor que Enzo diz sentir por Danielle. Marilda avisa a Griselda sobre o plano de Tereza Cristina para atrapalhar o casamento de Amália. Patrícia se surpreende com o caráter duvidoso de Alexandre, e Antenor tem uma ideia para desmascará-lo. Vilma avisa a Daniel que o vídeo de Solange já está na internet.",
+                "thumb": "https://s03.video.glbimg.com/x216/8801778.jpg",
+                "duration": 2963790,
+                "formattedDuration": "49 min",
+                "availableFor": "SUBSCRIBER",
+                "accessibleOffline": true,
+                "exhibitedAt": "2020-08-24T03:00:00Z",
+                "serviceId": 6004
+              }
+            },
+            {
+              "__typename": "Episode",
+              "video": {
+                "__typename": "Video",
+                "id": "8798169",
+                "headline": "Capítulo de 22/08/2020",
+                "description": "Quinzé conta para Griselda que viu a mulher que o dopou. Vilma posta o vídeo de Solange na internet. Beatriz pede uma indenização por danos morais a Danielle. Tereza Cristina cobra de Ferdinand a encomenda que fez para acabar com a festa de casamento de Amália. Guaracy decide ir até a Fio Carioca. Mônica avisa a Danielle que, por causa do escândalo, dificilmente conseguirá a guarda de Pedro Jorge.",
+                "thumb": "https://s02.video.glbimg.com/x216/8798169.jpg",
+                "duration": 2588323,
+                "formattedDuration": "43 min",
+                "availableFor": "SUBSCRIBER",
+                "accessibleOffline": true,
+                "exhibitedAt": "2020-08-22T03:00:00Z",
+                "serviceId": 6004
+              }
+            },
+            {
+              "__typename": "Episode",
+              "video": {
+                "__typename": "Video",
+                "id": "8796231",
+                "headline": "Capítulo de 21/08/2020",
+                "description": "Tereza Cristina revela o segredo do cofre para Pereirinha. Teodora pede para reatar o casamento com Quinzé. Dagmar enfrenta Zuleika. Baltazar se enfurece ao ver Daniel filmando Solange. Renê observa a casa de Griselda. Daniel e Vilma vibram com o resultado do vídeo que editaram sobre Solange. Renê oferece o buffet do Brasileiríssimo como presente de casamento a Amália, mas Griselda não aceita.",
+                "thumb": "https://s04.video.glbimg.com/x216/8796231.jpg",
+                "duration": 2880384,
+                "formattedDuration": "48 min",
+                "availableFor": "SUBSCRIBER",
+                "accessibleOffline": true,
+                "exhibitedAt": "2020-08-21T03:00:00Z",
+                "serviceId": 6004
+              }
+            },
+            {
+              "__typename": "Episode",
+              "video": {
+                "__typename": "Video",
+                "id": "8793319",
+                "headline": "Capítulo de 20/08/2020",
+                "description": "Beto Junior chega ao prédio de Esther, e Beatriz avisa que está no apartamento da rival. Zuleika fala para Dagmar que é noiva de Wallace. Juan Guilherme diz a Letícia que mandará Chiara de volta para a Itália se ela estiver curada. Esther pede para Paulo deixá-la conversar com Beto Junior na Fio Carioca. Beatriz implora para ver Vitória. Daniel grava Solange cantando.",
+                "thumb": "https://s04.video.glbimg.com/x216/8793319.jpg",
+                "duration": 2663772,
+                "formattedDuration": "44 min",
+                "availableFor": "SUBSCRIBER",
+                "accessibleOffline": true,
+                "exhibitedAt": "2020-08-20T03:00:00Z",
+                "serviceId": 6004
+              }
+            },
+            {
+              "__typename": "Episode",
+              "video": {
+                "__typename": "Video",
+                "id": "8790142",
+                "headline": "Capítulo de 19/08/2020",
+                "description": "Paulo e Esther se desculpam um com o outro pelo beijo. Joana revela para o delegado Paredes que Íris e Alice serviram de álibi para Tereza Cristina em troca de dinheiro. Esther se encanta ao ver Paulo falando com Vitória. Celina conta para Beatriz que Esther voltará para casa, e a arquiteta decide esperá-la em seu prédio. Beatriz invade o apartamento de Esther, e as duas se enfrentam.",
+                "thumb": "https://s03.video.glbimg.com/x216/8790142.jpg",
+                "duration": 2132098,
+                "formattedDuration": "35 min",
+                "availableFor": "SUBSCRIBER",
+                "accessibleOffline": true,
+                "exhibitedAt": "2020-08-19T03:00:00Z",
+                "serviceId": 6004
+              }
+            }
+          ]
+        }
+      }
+    }
+  }
+}

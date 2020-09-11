@@ -1,0 +1,31 @@
+query ScenesStructure(
+    $titleId: String!
+    $seasonId: ID!
+    $perPage: Int!
+    $page: Int!
+) {
+    title(titleId: $titleId) {
+        structure {
+            ...SeasonedScenesStructure
+        }
+    }
+}
+fragment SeasonedScenesStructure on SeasonedStructure {
+    seasonById(id: $seasonId) {
+        getEpisodesWithExcerpts(perPage: $perPage, page: $page) {
+            hasNextPage
+            nextPage
+            resources {
+                number
+                excerpts {
+                    total
+                }
+                video {
+                    id
+                    headline
+                    thumb
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,22 @@
+query DefaultSalesRecommendation(
+    $serviceId: ID,
+    $platform: SalesPlatform!,
+    $trimmedLogoScale: BroadcastChannelTrimmedLogoScales!
+) {
+    defaultSalesRecommendation(serviceId: $serviceId, platform: $platform) {
+        salesUserError: error {
+            ...SalesUserError
+        }
+        recommendedProducts {
+            productError: error {
+                ...SalesProductError
+            }
+            userConditions {
+                ...SalesUserCondition
+            }
+            product {
+                ...SalesProduct
+            }
+        }
+    }
+}

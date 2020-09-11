@@ -1,0 +1,76 @@
+query SuggestPlayNextByOffer(
+    $offerId: ID!,
+    $titleId: ID!,
+    $mobileCoverScales: CoverLandscapeScales,
+    $tabletCoverScales: CoverLandscapeScales,
+    $tvCoverScales: CoverWideScales,
+    $page: Int,
+    $perPage: Int
+) {
+    genericOffer(id: $offerId) {
+        ... SuggestPlayNextTitlesFromOffer
+        ... SuggestPlayNextTitlesFromRecommendedOffer
+    }
+}
+
+fragment SuggestPlayNextTitlesFromOffer on Offer {
+    contentType
+    id
+    paginatedItems(page: $page, perPage: $perPage) {
+        resources {
+            ... SuggestPlayNextTitle
+        }
+    }
+}
+
+fragment SuggestPlayNextTitlesFromRecommendedOffer on RecommendedOffer {
+    contentType
+    id
+    items(page: $page, perPage: $perPage, context: { titleId: $titleId }) {
+        customTitle
+        abExperiment {
+            experiment
+            alternative
+            trackId
+            convertUrl
+        }
+        resources {
+            ... SuggestPlayNextTitle
+        }
+    }
+}
+
+fragment SuggestPlayNextTitle on Title {
+    headline
+    originVideoId
+    description
+    titleId
+    type
+    format
+    url
+    structure {
+        ... SeasonedStructureFragment
+        ... EpisodeListStructureFragment
+    }
+    cover {
+        mobile: landscape(scale: $mobileCoverScales)
+        tablet: landscape(scale: $tabletCoverScales)
+        tv: wide(scale: $tvCoverScales)
+    }
+}
+
+fragment SeasonedStructureFragment on SeasonedStructure {
+    defaultEpisode {
+        video {
+            id
+        }
+    }
+}
+
+fragment EpisodeListStructureFragment on EpisodeListStructure {
+    defaultEpisode {
+        video {
+            id
+        }
+    }
+}

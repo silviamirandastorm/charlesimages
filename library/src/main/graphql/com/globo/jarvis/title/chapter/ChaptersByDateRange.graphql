@@ -1,0 +1,39 @@
+query ChaptersByDateRange(
+    $titleId: String!
+    $page: Int!
+    $perPage: Int!
+    $startDate: Date!
+    $endDate: Date!
+) {
+    title(titleId: $titleId) {
+        structure {
+            ...ChaptersByDateRangeList
+        }
+    }
+}
+
+fragment ChaptersByDateRangeList on EpisodeListStructure {
+    episodes(
+        page: $page
+        perPage: $perPage
+        dateRange: { gte: $startDate, lte: $endDate }
+    ) {
+        hasNextPage
+        nextPage
+        resources {
+            number
+            video {
+                id
+                headline
+                description
+                thumb
+                duration
+                formattedDuration
+                availableFor
+                accessibleOffline
+                exhibitedAt
+                serviceId
+            }
+        }
+    }
+}

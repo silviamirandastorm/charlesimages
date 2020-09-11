@@ -1,0 +1,18 @@
+{
+  "data": {
+    "page": {
+      "__typename": "Page",
+      "offerItems": [
+        {
+          "__typename": "PageHighlight",
+          "callText": "Não quer mais? Você cancela quando quiser: online e com um clique",
+          "headline": "Sem compromisso",
+          "leftAligned": false,
+          "buttonText": null,
+          "componentType": "OFFERHIGHLIGHT",
+          "highlightId": "2337c65d-8795-4d56-8fd7-ef9dab954fb3"
+        }
+      ]
+    }
+  }
+}

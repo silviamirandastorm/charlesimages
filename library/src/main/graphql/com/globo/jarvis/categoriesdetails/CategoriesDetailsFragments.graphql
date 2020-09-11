@@ -1,0 +1,27 @@
+fragment CategoriesDetailsTitleHighlight on Title {
+    format
+    originProgramId
+    titleId
+    headline
+    type
+}
+
+
+fragment CategoriesDetailsPageOfferFragment on PageOffer {
+    offerId
+    title
+    componentType
+    navigation {
+        ...CategoriesDetailsNavigationByUrl
+        ...CategoriesDetailsNavigationByPage
+    }
+}
+
+
+fragment CategoriesDetailsNavigationByUrl on URLNavigation{
+    url
+}
+
+fragment CategoriesDetailsNavigationByPage on CategoriesPageNavigation {
+    identifier
+}

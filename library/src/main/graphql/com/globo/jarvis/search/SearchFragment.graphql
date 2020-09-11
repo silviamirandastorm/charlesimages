@@ -1,0 +1,99 @@
+###################### Search Fragment ######################
+fragment VideoSearchResultFragment on VideoSearchResult {
+    abExperiment {
+        ...ABExperimentSearchFragment
+    }
+
+    collection {
+        nextPage
+        hasNextPage
+        total
+        resources {
+            ...VideoSearchFragment
+        }
+    }
+}
+
+fragment TitleSearchResultFragment on TitleSearchResult {
+    abExperiment {
+        ...ABExperimentSearchFragment
+    }
+
+    collection {
+        nextPage
+        hasNextPage
+        total
+        resources {
+            ...TitleSearchFragment
+        }
+    }
+}
+
+fragment ChannelSearchResultFragment on BroadcastChannelSearchResult {
+    collection {
+        nextPage
+        hasNextPage
+        total
+        resources {
+            ...BroadcasSearchFragment
+        }
+    }
+}
+
+###################### Video Fragment ######################
+fragment VideoSearchFragment on Video {
+    id
+    headline
+    duration
+    formattedDuration
+    kind
+    availableFor
+    thumb
+    liveThumbnail
+    exhibitedAt
+    broadcast {
+        mediaId
+        withoutDVRMediaId
+        imageOnAir(scale: $broadcastImageOnAirScales)
+        channel {
+            trimmedLogo(scale: $broadcastChannelTrimmedLogoScales)
+        }
+    }
+    title {
+        url
+        originProgramId
+        headline
+    }
+}
+
+###################### Broadcast Fragment ######################
+fragment BroadcasSearchFragment on BroadcastChannel {
+    id
+    name
+    pageIdentifier
+    trimmedLogo(scale: $broadcastChannelTrimmedLogoScales)
+}
+
+
+###################### Title Fragment ######################
+fragment TitleSearchFragment on Title {
+    format
+    originProgramId
+    titleId
+    headline
+    type
+    url
+    poster {
+        mobile(scale: $mobilePosterScales)
+        tablet(scale: $tabletPosterScales)
+        tv(scale: $tvPosterScales)
+    }
+}
+
+
+fragment ABExperimentSearchFragment on ABExperiment {
+    experiment
+    trackId
+    convertUrl
+    alternative
+}

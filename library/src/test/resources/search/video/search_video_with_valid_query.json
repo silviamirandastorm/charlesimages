@@ -1,0 +1,453 @@
+{
+  "data": {
+    "search": {
+      "__typename": "Search",
+      "videoSearch": {
+        "__typename": "VideoSearchResult",
+        "abExperiment": null,
+        "collection": {
+          "__typename": "VideoCollection",
+          "nextPage": 2,
+          "hasNextPage": true,
+          "page": 1,
+          "perPage": 24,
+          "total": 106,
+          "resources": [
+            {
+              "__typename": "Video",
+              "id": "8282600",
+              "headline": "Exposição imersiva encanta fãs do Batman em São Paulo",
+              "duration": 201225,
+              "formattedDuration": "3 min",
+              "kind": "excerpt",
+              "availableFor": "ANONYMOUS",
+              "thumb": "https://s01.video.glbimg.com/x216/8282600.jpg",
+              "liveThumbnail": null,
+              "exhibitedAt": "2020-01-31T08:09:00Z",
+              "broadcast": null,
+              "title": {
+                "__typename": "Title",
+                "originProgramId": "8478",
+                "headline": "Hora 1"
+              }
+            },
+            {
+              "__typename": "Video",
+              "id": "7980455",
+              "headline": "'Batman' faz teste do bafômetro em Florianópolis",
+              "duration": 240874,
+              "formattedDuration": "4 min",
+              "kind": "excerpt",
+              "availableFor": "ANONYMOUS",
+              "thumb": "https://s04.video.glbimg.com/x216/7980455.jpg",
+              "liveThumbnail": null,
+              "exhibitedAt": "2019-10-07T09:15:00Z",
+              "broadcast": null,
+              "title": {
+                "__typename": "Title",
+                "originProgramId": "6960",
+                "headline": "Bom Dia Santa Catarina"
+              }
+            },
+            {
+              "__typename": "Video",
+              "id": "8034451",
+              "headline": "Homem se fantasia de Batman para visitar pessoas com câncer em hospital",
+              "duration": 338572,
+              "formattedDuration": "5 min",
+              "kind": "excerpt",
+              "availableFor": "ANONYMOUS",
+              "thumb": "https://s04.video.glbimg.com/x216/8034451.jpg",
+              "liveThumbnail": null,
+              "exhibitedAt": "2019-10-25T16:47:00Z",
+              "broadcast": null,
+              "title": {
+                "__typename": "Title",
+                "originProgramId": "7574",
+                "headline": "JA 1ª Edição - TO"
+              }
+            },
+            {
+              "__typename": "Video",
+              "id": "8035679",
+              "headline": "Homem se fantasia de Batman para levar alegria em hospitais de Palmas",
+              "duration": 28495,
+              "formattedDuration": "28 seg",
+              "kind": "excerpt",
+              "availableFor": "ANONYMOUS",
+              "thumb": "https://s04.video.glbimg.com/x216/8035679.jpg",
+              "liveThumbnail": null,
+              "exhibitedAt": "2019-10-25T22:55:00Z",
+              "broadcast": null,
+              "title": {
+                "__typename": "Title",
+                "originProgramId": "7575",
+                "headline": "JA 2ª Edição – TO"
+              }
+            },
+            {
+              "__typename": "Video",
+              "id": "7934304",
+              "headline": "Laluña Machado fala sobre a história do Batman",
+              "duration": 368687,
+              "formattedDuration": "6 min",
+              "kind": "excerpt",
+              "availableFor": "ANONYMOUS",
+              "thumb": "https://s01.video.glbimg.com/x216/7934304.jpg",
+              "liveThumbnail": null,
+              "exhibitedAt": "2019-09-18T04:35:00Z",
+              "broadcast": null,
+              "title": {
+                "__typename": "Title",
+                "originProgramId": "10086",
+                "headline": "Conversa com Bial"
+              }
+            },
+            {
+              "__typename": "Video",
+              "id": "7945626",
+              "headline": "Na Capa do Batman",
+              "duration": 1482781,
+              "formattedDuration": "24 min",
+              "kind": "episode",
+              "availableFor": "SUBSCRIBER",
+              "thumb": "https://s03.video.glbimg.com/x216/7945626.jpg",
+              "liveThumbnail": null,
+              "exhibitedAt": "2019-10-01T04:01:00Z",
+              "broadcast": null,
+              "title": {
+                "__typename": "Title",
+                "originProgramId": "11201",
+                "headline": "Mais X Favela"
+              }
+            },
+            {
+              "__typename": "Video",
+              "id": "8001037",
+              "headline": "PM que buscou filha na escola vestido de Batman fala sobre estar presente",
+              "duration": 381949,
+              "formattedDuration": "6 min",
+              "kind": "excerpt",
+              "availableFor": "ANONYMOUS",
+              "thumb": "https://s02.video.glbimg.com/x216/8001037.jpg",
+              "liveThumbnail": null,
+              "exhibitedAt": "2019-10-14T16:36:00Z",
+              "broadcast": null,
+              "title": {
+                "__typename": "Title",
+                "originProgramId": "5369",
+                "headline": "JA 1ª Edição"
+              }
+            },
+            {
+              "__typename": "Video",
+              "id": "8127591",
+              "headline": "Filmagens de 'Batman' atrasam por dificuldades de Robert Pattinson",
+              "duration": 164955,
+              "formattedDuration": "2 min",
+              "kind": "excerpt",
+              "availableFor": "ANONYMOUS",
+              "thumb": "https://s04.video.glbimg.com/x216/8127591.jpg",
+              "liveThumbnail": null,
+              "exhibitedAt": "2019-11-29T18:03:48Z",
+              "broadcast": null,
+              "title": {
+                "__typename": "Title",
+                "originProgramId": "11780",
+                "headline": "Se Joga"
+              }
+            },
+            {
+              "__typename": "Video",
+              "id": "7974694",
+              "headline": "Me Conta A Tua História: JA revela quem é o novo Batman de Florianópolis",
+              "duration": 384351,
+              "formattedDuration": "6 min",
+              "kind": "excerpt",
+              "availableFor": "ANONYMOUS",
+              "thumb": "https://s03.video.glbimg.com/x216/7974694.jpg",
+              "liveThumbnail": null,
+              "exhibitedAt": "2019-10-04T14:16:00Z",
+              "broadcast": null,
+              "title": {
+                "__typename": "Title",
+                "originProgramId": "6961",
+                "headline": "Jornal do Almoço - SC"
+              }
+            },
+            {
+              "__typename": "Video",
+              "id": "7848081",
+              "headline": "Bandido da quadrilha do Batman é preso em Curitiba",
+              "duration": 97259,
+              "formattedDuration": "1 min",
+              "kind": "excerpt",
+              "availableFor": "ANONYMOUS",
+              "thumb": "https://s02.video.glbimg.com/x216/7848081.jpg",
+              "liveThumbnail": null,
+              "exhibitedAt": "2019-08-16T15:43:00Z",
+              "broadcast": null,
+              "title": {
+                "__typename": "Title",
+                "originProgramId": "5128",
+                "headline": "Meio Dia Paraná - Curitiba"
+              }
+            },
+            {
+              "__typename": "Video",
+              "id": "7898769",
+              "headline": "Batman comemora 80 anos",
+              "duration": 717915,
+              "formattedDuration": "11 min",
+              "kind": "excerpt",
+              "availableFor": "ANONYMOUS",
+              "thumb": "https://s02.video.glbimg.com/x216/7898769.jpg",
+              "liveThumbnail": null,
+              "exhibitedAt": "2019-09-05T12:14:21Z",
+              "broadcast": null,
+              "title": {
+                "__typename": "Title",
+                "originProgramId": "2533",
+                "headline": "Mais Você"
+              }
+            },
+            {
+              "__typename": "Video",
+              "id": "7888933",
+              "headline": "Batman completa 80 anos e exposição em São Paulo comemora aniversário",
+              "duration": 336063,
+              "formattedDuration": "5 min",
+              "kind": "excerpt",
+              "availableFor": "ANONYMOUS",
+              "thumb": "https://s02.video.glbimg.com/x216/7888933.jpg",
+              "liveThumbnail": null,
+              "exhibitedAt": "2019-09-02T00:43:00Z",
+              "broadcast": null,
+              "title": {
+                "__typename": "Title",
+                "originProgramId": "814",
+                "headline": "Fantástico"
+              }
+            },
+            {
+              "__typename": "Video",
+              "id": "8092186",
+              "headline": "Sábado Curioso: conheça os mistérios do Beco do Batman em São Paulo",
+              "duration": 1154079,
+              "formattedDuration": "19 min",
+              "kind": "excerpt",
+              "availableFor": "ANONYMOUS",
+              "thumb": "https://s03.video.glbimg.com/x216/8092186.jpg",
+              "liveThumbnail": null,
+              "exhibitedAt": "2019-11-16T13:26:23Z",
+              "broadcast": null,
+              "title": {
+                "__typename": "Title",
+                "originProgramId": "8884",
+                "headline": "É de Casa"
+              }
+            },
+            {
+              "__typename": "Video",
+              "id": "7799504",
+              "headline": "Batman x Frozen",
+              "duration": 150071,
+              "formattedDuration": "2 min",
+              "kind": "excerpt",
+              "availableFor": "ANONYMOUS",
+              "thumb": "https://s01.video.glbimg.com/x216/7799504.jpg",
+              "liveThumbnail": null,
+              "exhibitedAt": "2019-07-28T01:30:00Z",
+              "broadcast": null,
+              "title": {
+                "__typename": "Title",
+                "originProgramId": "8768",
+                "headline": "Zorra"
+              }
+            },
+            {
+              "__typename": "Video",
+              "id": "7934309",
+              "headline": "Bial promove um pinga-fogo sobre Batman",
+              "duration": 132958,
+              "formattedDuration": "2 min",
+              "kind": "excerpt",
+              "availableFor": "ANONYMOUS",
+              "thumb": "https://s02.video.glbimg.com/x216/7934309.jpg",
+              "liveThumbnail": null,
+              "exhibitedAt": "2019-09-18T05:02:14Z",
+              "broadcast": null,
+              "title": {
+                "__typename": "Title",
+                "originProgramId": "10086",
+                "headline": "Conversa com Bial"
+              }
+            },
+            {
+              "__typename": "Video",
+              "id": "7798111",
+              "headline": "Centro Cultural de Mogi recebe exposição inspirada no personagem Batman",
+              "duration": 232065,
+              "formattedDuration": "3 min",
+              "kind": "excerpt",
+              "availableFor": "ANONYMOUS",
+              "thumb": "https://s04.video.glbimg.com/x216/7798111.jpg",
+              "liveThumbnail": null,
+              "exhibitedAt": "2019-07-27T15:00:00Z",
+              "broadcast": null,
+              "title": {
+                "__typename": "Title",
+                "originProgramId": "7223",
+                "headline": "Diário TV 1ª Edição"
+              }
+            },
+            {
+              "__typename": "Video",
+              "id": "7934310",
+              "headline": "O 'Conversa' apresenta um aperitivo da exposição “Batman 80”",
+              "duration": 373865,
+              "formattedDuration": "6 min",
+              "kind": "excerpt",
+              "availableFor": "ANONYMOUS",
+              "thumb": "https://s03.video.glbimg.com/x216/7934310.jpg",
+              "liveThumbnail": null,
+              "exhibitedAt": "2019-09-18T05:00:01Z",
+              "broadcast": null,
+              "title": {
+                "__typename": "Title",
+                "originProgramId": "10086",
+                "headline": "Conversa com Bial"
+              }
+            },
+            {
+              "__typename": "Video",
+              "id": "7934300",
+              "headline": "Ivan Freitas da Costa fala sobre a exposição “Batman 80”",
+              "duration": 159475,
+              "formattedDuration": "2 min",
+              "kind": "excerpt",
+              "availableFor": "ANONYMOUS",
+              "thumb": "https://s01.video.glbimg.com/x216/7934300.jpg",
+              "liveThumbnail": null,
+              "exhibitedAt": "2019-09-18T04:38:17Z",
+              "broadcast": null,
+              "title": {
+                "__typename": "Title",
+                "originProgramId": "10086",
+                "headline": "Conversa com Bial"
+              }
+            },
+            {
+              "__typename": "Video",
+              "id": "8000221",
+              "headline": "PM surpreende filha na escola vestido de Batman e bomba na web",
+              "duration": 344811,
+              "formattedDuration": "5 min",
+              "kind": "excerpt",
+              "availableFor": "ANONYMOUS",
+              "thumb": "https://s02.video.glbimg.com/x216/8000221.jpg",
+              "liveThumbnail": null,
+              "exhibitedAt": "2019-10-14T10:32:00Z",
+              "broadcast": null,
+              "title": {
+                "__typename": "Title",
+                "originProgramId": "5368",
+                "headline": "Bom Dia GO"
+              }
+            },
+            {
+              "__typename": "Video",
+              "id": "8003943",
+              "headline": "PM do DF busca filha com colégio fantasiado de Batman e vira celebridade na internet",
+              "duration": 198265,
+              "formattedDuration": "3 min",
+              "kind": "excerpt",
+              "availableFor": "ANONYMOUS",
+              "thumb": "https://s04.video.glbimg.com/x216/8003943.jpg",
+              "liveThumbnail": null,
+              "exhibitedAt": "2019-10-15T15:28:00Z",
+              "broadcast": null,
+              "title": {
+                "__typename": "Title",
+                "originProgramId": "3268",
+                "headline": "DF1"
+              }
+            },
+            {
+              "__typename": "Video",
+              "id": "7993777",
+              "headline": "Fãs do Batman comemoram os 80 anos do 'morcego' mais famoso do mundo",
+              "duration": 232966,
+              "formattedDuration": "3 min",
+              "kind": "excerpt",
+              "availableFor": "ANONYMOUS",
+              "thumb": "https://s02.video.glbimg.com/x216/7993777.jpg",
+              "liveThumbnail": null,
+              "exhibitedAt": "2019-10-11T09:00:00Z",
+              "broadcast": null,
+              "title": {
+                "__typename": "Title",
+                "originProgramId": "5181",
+                "headline": "Jornal da Manhã"
+              }
+            },
+            {
+              "__typename": "Video",
+              "id": "7959001",
+              "headline": "Humorista Fernando Caruso participa de evento sobre os 80 anos do Batman",
+              "duration": 188221,
+              "formattedDuration": "3 min",
+              "kind": "excerpt",
+              "availableFor": "ANONYMOUS",
+              "thumb": "https://s02.video.glbimg.com/x216/7959001.jpg",
+              "liveThumbnail": null,
+              "exhibitedAt": "2019-09-28T16:32:00Z",
+              "broadcast": null,
+              "title": {
+                "__typename": "Title",
+                "originProgramId": "5369",
+                "headline": "JA 1ª Edição"
+              }
+            },
+            {
+              "__typename": "Video",
+              "id": "7934297",
+              "headline": "Fernando Caruso entrega ser mais fã do Homem-Aranha que do Batman",
+              "duration": 204824,
+              "formattedDuration": "3 min",
+              "kind": "excerpt",
+              "availableFor": "ANONYMOUS",
+              "thumb": "https://s02.video.glbimg.com/x216/7934297.jpg",
+              "liveThumbnail": null,
+              "exhibitedAt": "2019-09-18T04:25:22Z",
+              "broadcast": null,
+              "title": {
+                "__typename": "Title",
+                "originProgramId": "10086",
+                "headline": "Conversa com Bial"
+              }
+            },
+            {
+              "__typename": "Video",
+              "id": "7934299",
+              "headline": "Fernando assiste a uma entrevista do pai e do tio caracterizados como Batman e Robin",
+              "duration": 147517,
+              "formattedDuration": "2 min",
+              "kind": "excerpt",
+              "availableFor": "ANONYMOUS",
+              "thumb": "https://s04.video.glbimg.com/x216/7934299.jpg",
+              "liveThumbnail": null,
+              "exhibitedAt": "2019-09-18T04:27:45Z",
+              "broadcast": null,
+              "title": {
+                "__typename": "Title",
+                "originProgramId": "10086",
+                "headline": "Conversa com Bial"
+              }
+            }
+          ]
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "data": {
+    "genericOffer": {
+      "__typename": "Offer",
+      "contentType": "TITLE",
+      "items": {
+        "__typename": "OfferItemsCollection",
+        "resources": [
+          {
+            "__typename": "Title",
+            "headline": "Eu Sou A Fúria",
+            "poster": {
+              "__typename": "Poster",
+              "mobile": "https://s2.glbimg.com/_dylPCruu6vQuCPVyr07dsN99Lg=/100x152/https://s2.glbimg.com/FarSzxEeTcPxuP1BpQcSVnOrBSw=/i.s3.glbimg.com/v1/AUTH_c3c606ff68e7478091d1ca496f9c5625/internal_photos/bs/2019/o/U/Qx21RoQyaJ0HJtsbxHGQ/2019-media-kit-filmes-eu-sou-a-furia-poster.jpg",
+              "tablet": "https://s2.glbimg.com/2m6KhyYfc3jUwL80Jx7BrtGjeL4=/144x212/https://s2.glbimg.com/FarSzxEeTcPxuP1BpQcSVnOrBSw=/i.s3.glbimg.com/v1/AUTH_c3c606ff68e7478091d1ca496f9c5625/internal_photos/bs/2019/o/U/Qx21RoQyaJ0HJtsbxHGQ/2019-media-kit-filmes-eu-sou-a-furia-poster.jpg"
+            }
+          },
+          {
+            "__typename": "Title",
+            "headline": "A Batalha De Riddick",
+            "poster": {
+              "__typename": "Poster",
+              "mobile": "https://s2.glbimg.com/ZJ0Mhj5O1a2ynRah4-vGKN07FKY=/100x152/https://s2.glbimg.com/7LWlL2QIioFjaquXYdX8IibvCmc=/i.s3.glbimg.com/v1/AUTH_c3c606ff68e7478091d1ca496f9c5625/internal_photos/bs/2019/9/d/Gw17xBR3WDWCOSK23tvQ/2019-390-midia-kit-filmes-universal-maio-a-batalha-de-riddick-poster.jpg",
+              "tablet": "https://s2.glbimg.com/nTSWdzYrPz1VSCv6DjY719XEesk=/144x212/https://s2.glbimg.com/7LWlL2QIioFjaquXYdX8IibvCmc=/i.s3.glbimg.com/v1/AUTH_c3c606ff68e7478091d1ca496f9c5625/internal_photos/bs/2019/9/d/Gw17xBR3WDWCOSK23tvQ/2019-390-midia-kit-filmes-universal-maio-a-batalha-de-riddick-poster.jpg"
+            }
+          },
+          {
+            "__typename": "Title",
+            "headline": "Soldado Universal - Juízo Final",
+            "poster": {
+              "__typename": "Poster",
+              "mobile": "https://s2.glbimg.com/FmXK2HDwapge7As9Na1zM0Vj7cs=/100x152/https://s2.glbimg.com/H6RhqEyFkOJVWNb2LzeIf_f5GSk=/i.s3.glbimg.com/v1/AUTH_c3c606ff68e7478091d1ca496f9c5625/internal_photos/bs/2019/X/G/FXzosOQfGh5qOA0mzV4Q/2019-media-kit-filmes-soldado-universal-poster.jpg",
+              "tablet": "https://s2.glbimg.com/VHkOK646VVa0CscqssUwfo7NdYY=/144x212/https://s2.glbimg.com/H6RhqEyFkOJVWNb2LzeIf_f5GSk=/i.s3.glbimg.com/v1/AUTH_c3c606ff68e7478091d1ca496f9c5625/internal_photos/bs/2019/X/G/FXzosOQfGh5qOA0mzV4Q/2019-media-kit-filmes-soldado-universal-poster.jpg"
+            }
+          },
+          {
+            "__typename": "Title",
+            "headline": "Perigo Extremo",
+            "poster": {
+              "__typename": "Poster",
+              "mobile": "https://s2.glbimg.com/mTVrhjKO2pRfSeFR9bumX3vxOMU=/100x152/https://s2.glbimg.com/xV3FQS0IQhA5PP_nPNTf3-zRr4Q=/i.s3.glbimg.com/v1/AUTH_c3c606ff68e7478091d1ca496f9c5625/internal_photos/bs/2019/A/S/8v7S8oRma1ZXdmtp38yw/2019-367-midia-kit-filmes-california-abril-parte-1-perigo-extremo-poster.jpg",
+              "tablet": "https://s2.glbimg.com/5rXSjC_n9mYwyjlb4c8BNRDeflo=/144x212/https://s2.glbimg.com/xV3FQS0IQhA5PP_nPNTf3-zRr4Q=/i.s3.glbimg.com/v1/AUTH_c3c606ff68e7478091d1ca496f9c5625/internal_photos/bs/2019/A/S/8v7S8oRma1ZXdmtp38yw/2019-367-midia-kit-filmes-california-abril-parte-1-perigo-extremo-poster.jpg"
+            }
+          },
+          {
+            "__typename": "Title",
+            "headline": "Tudo Por Justiça",
+            "poster": {
+              "__typename": "Poster",
+              "mobile": "https://s2.glbimg.com/jJzn7yiP2jFuGzrAtrfBl5bR4eM=/100x152/https://s2.glbimg.com/6HgiGFUFOA88xaSYJufsh4FQf3U=/i.s3.glbimg.com/v1/AUTH_c3c606ff68e7478091d1ca496f9c5625/internal_photos/bs/2019/L/G/XOWG32RSuja96hBQaE4Q/2019-media-kit-filmes-tudo-por-justica-poster.jpg",
+              "tablet": "https://s2.glbimg.com/oLSqacmfiuElqUDtri2Rq36gow0=/144x212/https://s2.glbimg.com/6HgiGFUFOA88xaSYJufsh4FQf3U=/i.s3.glbimg.com/v1/AUTH_c3c606ff68e7478091d1ca496f9c5625/internal_photos/bs/2019/L/G/XOWG32RSuja96hBQaE4Q/2019-media-kit-filmes-tudo-por-justica-poster.jpg"
+            }
+          },
+          {
+            "__typename": "Title",
+            "headline": "Acerto De Contas",
+            "poster": {
+              "__typename": "Poster",
+              "mobile": "https://s2.glbimg.com/UBifqgVWG6GJgsAQMM6u2HTqqgk=/100x152/https://s2.glbimg.com/YADnGGkL8cdnJ-3JKMnP_xIsNU8=/i.s3.glbimg.com/v1/AUTH_c3c606ff68e7478091d1ca496f9c5625/internal_photos/bs/2019/d/e/WgBNycRSiX47YN53Zpqw/2019-394-mi-udia-kit-filmes-california-maio-parte-2-acerto-de-contas-poster-b.jpg",
+              "tablet": "https://s2.glbimg.com/4QLZEiwzbjrocpoGpo1hZ_hkur8=/144x212/https://s2.glbimg.com/YADnGGkL8cdnJ-3JKMnP_xIsNU8=/i.s3.glbimg.com/v1/AUTH_c3c606ff68e7478091d1ca496f9c5625/internal_photos/bs/2019/d/e/WgBNycRSiX47YN53Zpqw/2019-394-mi-udia-kit-filmes-california-maio-parte-2-acerto-de-contas-poster-b.jpg"
+            }
+          }
+        ]
+      }
+    }
+  }
+}

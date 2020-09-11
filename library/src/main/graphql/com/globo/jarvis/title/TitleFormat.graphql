@@ -1,0 +1,5 @@
+query TitleFormat($titleId: String!) {
+    title(titleId: $titleId) {
+        format
+    }
+}

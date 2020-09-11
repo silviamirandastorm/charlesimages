@@ -1,0 +1,30 @@
+query Chapters($titleId: String!, $page: Int!, $perPage: Int!) {
+    title(titleId: $titleId) {
+        format
+        epgActive
+        structure {
+            ...ChaptersList
+        }
+    }
+}
+
+fragment ChaptersList on EpisodeListStructure {
+    episodes(page: $page, perPage: $perPage) {
+        hasNextPage
+        nextPage
+        resources {
+            video {
+                id
+                headline
+                description
+                thumb
+                duration
+                formattedDuration
+                availableFor
+                accessibleOffline
+                exhibitedAt
+                serviceId
+            }
+        }
+    }
+}

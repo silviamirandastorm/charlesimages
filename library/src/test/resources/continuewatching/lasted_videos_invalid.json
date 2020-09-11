@@ -1,0 +1,11 @@
+{
+  "data": {
+    "user": {
+      "__typename": "User",
+      "myLastWatchedVideos": {
+        "__typename": "VideoCollection",
+        "resources": []
+      }
+    }
+  }
+}

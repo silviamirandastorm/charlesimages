@@ -1,0 +1,28 @@
+query SalesGenericOffer(
+    $id: ID!
+    $page: Int
+    $perPage: Int
+    $mobilePosterScales: MobilePosterScales
+    $tabletPosterScales: TabletPosterScales
+) {
+    genericOffer(id: $id) {
+        ... SalesGenericTitleOffers
+    }
+}
+
+fragment SalesGenericTitleOffers on Offer{
+    contentType
+    items: paginatedItems(page: $page, perPage: $perPage) {
+        resources {
+            ... SalesTitleOffer
+        }
+    }
+}
+
+fragment SalesTitleOffer on Title{
+    headline
+    poster {
+        mobile(scale: $mobilePosterScales)
+        tablet(scale: $tabletPosterScales)
+    }
+}

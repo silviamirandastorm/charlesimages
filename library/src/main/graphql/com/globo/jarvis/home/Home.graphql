@@ -1,0 +1,65 @@
+query Home(
+    $id: ID!
+    $filter: PageMetadataFilter
+    $highlightImageMobileScales: HighlightImageMobileScales
+    $highlightLogoMobileScales: HighlightLogoMobileScales
+    $highlightLogoTabletScales: HighlightLogoTabletScales
+    $highlightImageTabletScales: HighlightImageTabletScales
+    $highlightLogoTVScales: HighlightLogoTVScales
+    $highlightImageTvScales: HighlightImageTVScales
+    $broadcastChannelTrimmedLogoScales: BroadcastChannelTrimmedLogoScales
+    $broadcastImageOnAirScales: BroadcastImageOnAirScales
+) {
+    page: page(id: $id, filter: $filter) {
+        identifier
+        premiumHighlight {
+            callText
+            fallbackCallText
+            componentType
+            highlight {
+                contentId
+                contentType
+                headlineText
+                logo {
+                    mobile(scale: $highlightLogoMobileScales)
+                    tablet(scale: $highlightLogoTabletScales)
+                    tv(scale: $highlightLogoTVScales)
+                }
+                highlightImage {
+                    mobile(scale: $highlightImageMobileScales)
+                    tablet(scale: $highlightImageTabletScales)
+                    tv(scale: $highlightImageTvScales)
+                }
+                contentItem {
+                    ...HomeTitleHighlight
+                    ...HomeVideoHighlight
+                }
+            }
+            fallbackHighlight {
+                contentId
+                contentType
+                headlineText
+                headlineImage
+                logo {
+                    mobile(scale: $highlightLogoMobileScales)
+                    tablet(scale: $highlightLogoTabletScales)
+                    tv(scale: $highlightLogoTVScales)
+                }
+                highlightImage {
+                    mobile(scale: $highlightImageMobileScales)
+                    tablet(scale: $highlightImageTabletScales)
+                    tv(scale: $highlightImageTvScales)
+                }
+                contentItem {
+                    ...HomeTitleHighlight
+                    ...HomeVideoHighlight
+                }
+            }
+        }
+        offerItems {
+            ...HomePageOfferFragment
+            ...HomePageHighlightFragment
+        }
+    }
+}
+

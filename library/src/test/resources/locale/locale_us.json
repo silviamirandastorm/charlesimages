@@ -1,0 +1,9 @@
+{
+  "data": {
+    "locale": {
+      "__typename": "Locale",
+      "tenant": "globo-play",
+      "countryCode": "US"
+    }
+  }
+}
